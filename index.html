@@ -74,6 +74,12 @@ const DEMO_ORDERS = {
     startDate: '2025-12-01',
     totalDays: 14,
     status: 'active'
+  } ,
+  'BX025Q-29LA-XYZ': {
+    appName: 'Look and Eat',
+    startDate: '2025-12-19',
+    totalDays: 14,
+    status: 'active'
   }
 };
 
@@ -235,7 +241,7 @@ function AppTestingTracker(){
       setError('Order ID not found. Please check and try again.');
     }
   }
-
+  
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50">
       <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-8 px-4 shadow-lg">
