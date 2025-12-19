@@ -71,7 +71,7 @@ const DEMO_ORDERS = {
   },
   'BX025Q-WAT003-XYZ': {
     appName: 'Shopping Cart App',
-    startDate: '2025-12-12',
+    startDate: '2025-12-01',
     totalDays: 14,
     status: 'active'
   }
@@ -86,20 +86,22 @@ const formatDate = (date) => {
   return `${day} ${month} ${year}`;
 };
 
+// Calculate days completed excluding start day and today
 const getDaysCompleted = (startDate, totalDays) => {
   const start = new Date(startDate); start.setHours(0,0,0,0);
   const today = new Date(); today.setHours(0,0,0,0);
-  const diff = Math.floor((today-start)/(1000*60*60*24)) + 1;
+  const diff = Math.floor((today - start)/(1000*60*60*24)) - 1; // exclude start and today
   return Math.min(Math.max(diff,0), totalDays);
 };
 
+// Determine status
 const getStatus = (orderData) => {
   if(orderData.status==='stopped') return 'Stopped';
   const start = new Date(orderData.startDate); start.setHours(0,0,0,0);
   const today = new Date(); today.setHours(0,0,0,0);
-  const daysSinceStart = Math.floor((today-start)/(1000*60*60*24)) + 1;
+  const daysSinceStart = Math.floor((today - start)/(1000*60*60*24)) - 1; // exclude start and today
   return daysSinceStart >= 15 ? 'Completed' : 'Active';
-}
+};
 
 const ProgressBar = ({ completed, total }) => {
   const percent = (completed/total)*100;
@@ -129,19 +131,20 @@ const MilestoneItem = ({ done, label, date }) => (
 const OrderCard = ({ orderData, prefix, orderId, suffix }) => {
   const [showTestingDays,setShowTestingDays]=useState(false);
   const daysCompleted = getDaysCompleted(orderData.startDate, orderData.totalDays);
-  const daysRemaining = Math.max(0, orderData.totalDays-daysCompleted);
+  const daysRemaining = Math.max(0, orderData.totalDays - daysCompleted);
 
-  // Dynamic milestone flags
-  const today = new Date();
+  const today = new Date(); today.setHours(0,0,0,0);
   const startDate = new Date(orderData.startDate); startDate.setHours(0,0,0,0);
 
-  const feedbackSubmitted = today >= new Date(startDate.getTime()+9*24*60*60*1000);
-  const appliedForProduction = today >= new Date(startDate.getTime()+14*24*60*60*1000);
-  const productionApproved = today >= new Date(startDate.getTime()+17*24*60*60*1000);
+  // Milestones using new day counting
+  const diffDays = Math.floor((today - startDate)/(1000*60*60*24)) - 1;
+  const feedbackSubmitted = diffDays >= 10;
+  const appliedForProduction = diffDays >= 15;
+  const productionApproved = diffDays >= 18;
 
-  const feedbackDate = new Date(startDate.getTime()+9*24*60*60*1000);
-  const appliedDate = new Date(startDate.getTime()+14*24*60*60*1000);
-  const approvedDate = new Date(startDate.getTime()+17*24*60*60*1000);
+  const feedbackDate = new Date(startDate.getTime() + 10*24*60*60*1000);
+  const appliedDate = new Date(startDate.getTime() + 15*24*60*60*1000);
+  const approvedDate = new Date(startDate.getTime() + 18*24*60*60*1000);
 
   const status = getStatus(orderData);
 
