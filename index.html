@@ -12,7 +12,7 @@
 <body>
 <div id="root"></div>
 <script type="text/babel">
-const { useState, useEffect, useMemo } = React;
+const { useState, useEffect } = React;
 
 // Icons
 const Search = ({ size = 24 }) => (
@@ -61,52 +61,45 @@ const DEMO_ORDERS = {
     appName: 'Fitness Pro App',
     startDate: '2025-12-10',
     totalDays: 14,
-    status: 'active',
-    feedbackSubmitted: false,
-    appliedForProduction: false,
-    productionApproved: false
+    status: 'active'
   },
   'BX025Q-WAT002-XYZ': {
     appName: 'Food Delivery Plus',
     startDate: '2025-12-05',
     totalDays: 15,
-    status: 'active',
-    feedbackSubmitted: true,
-    appliedForProduction: true,
-    appliedDate: '2025-12-19',
-    productionApproved: false
+    status: 'active'
   },
   'BX025Q-WAT003-XYZ': {
     appName: 'Shopping Cart App',
-    startDate: '2025-12-01',
+    startDate: '2025-12-12',
     totalDays: 14,
-    status: 'completed',
-    feedbackSubmitted: true,
-    appliedForProduction: true,
-    appliedDate: '2025-12-14',
-    productionApproved: true,
-    approvedDate: '2025-12-15'
+    status: 'active'
   }
 };
 
-const formatDate = (dateString) => {
-  const date = new Date(dateString);
-  const day = date.getDate().toString().padStart(2,'0');
-  const month = date.toLocaleDateString('en-GB', { month: 'long' });
-  const year = date.getFullYear();
+// Helpers
+const formatDate = (date) => {
+  const d = new Date(date);
+  const day = String(d.getDate()).padStart(2,'0');
+  const month = d.toLocaleDateString('en-GB',{month:'long'});
+  const year = d.getFullYear();
   return `${day} ${month} ${year}`;
 };
 
-// Compute days completed
 const getDaysCompleted = (startDate, totalDays) => {
-  const start = new Date(startDate);
-  start.setHours(0,0,0,0);
-  const today = new Date();
-  today.setHours(0,0,0,0);
-  const diff = Math.floor((today - start)/ (1000*60*60*24)) + 1;
-  if(diff < 1) return 0;
-  return Math.min(diff, totalDays);
+  const start = new Date(startDate); start.setHours(0,0,0,0);
+  const today = new Date(); today.setHours(0,0,0,0);
+  const diff = Math.floor((today-start)/(1000*60*60*24)) + 1;
+  return Math.min(Math.max(diff,0), totalDays);
 };
+
+const getStatus = (orderData) => {
+  if(orderData.status==='stopped') return 'Stopped';
+  const start = new Date(orderData.startDate); start.setHours(0,0,0,0);
+  const today = new Date(); today.setHours(0,0,0,0);
+  const daysSinceStart = Math.floor((today-start)/(1000*60*60*24)) + 1;
+  return daysSinceStart >= 15 ? 'Completed' : 'Active';
+}
 
 const ProgressBar = ({ completed, total }) => {
   const percent = (completed/total)*100;
@@ -134,18 +127,23 @@ const MilestoneItem = ({ done, label, date }) => (
 );
 
 const OrderCard = ({ orderData, prefix, orderId, suffix }) => {
-  const [showTestingDays, setShowTestingDays] = useState(false);
-
-  // Compute days
+  const [showTestingDays,setShowTestingDays]=useState(false);
   const daysCompleted = getDaysCompleted(orderData.startDate, orderData.totalDays);
-  const daysRemaining = Math.max(0, orderData.totalDays - daysCompleted);
+  const daysRemaining = Math.max(0, orderData.totalDays-daysCompleted);
 
-  // Automatic milestones based on days
-  const autoFeedback = !orderData.feedbackSubmitted && daysCompleted >=10;
-  const autoApplied = !orderData.appliedForProduction && daysCompleted >=15;
-  const autoApproved = !orderData.productionApproved && daysCompleted >=18;
+  // Dynamic milestone flags
+  const today = new Date();
+  const startDate = new Date(orderData.startDate); startDate.setHours(0,0,0,0);
 
-  const displayStatus = orderData.status === 'stopped' ? 'Stopped' : (daysCompleted >= orderData.totalDays ? 'Completed' : 'Active');
+  const feedbackSubmitted = today >= new Date(startDate.getTime()+9*24*60*60*1000);
+  const appliedForProduction = today >= new Date(startDate.getTime()+14*24*60*60*1000);
+  const productionApproved = today >= new Date(startDate.getTime()+17*24*60*60*1000);
+
+  const feedbackDate = new Date(startDate.getTime()+9*24*60*60*1000);
+  const appliedDate = new Date(startDate.getTime()+14*24*60*60*1000);
+  const approvedDate = new Date(startDate.getTime()+17*24*60*60*1000);
+
+  const status = getStatus(orderData);
 
   return (
     <div className="space-y-6">
@@ -170,7 +168,7 @@ const OrderCard = ({ orderData, prefix, orderId, suffix }) => {
       <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-lg shadow-lg p-6 text-white">
         <div className="flex justify-between mb-4 items-center">
           <h3 className="text-xl font-bold">Testing Progress</h3>
-          <span className={`px-4 py-1 rounded-full text-sm font-semibold ${displayStatus==='Completed'?'bg-green-400':displayStatus==='Active'?'bg-yellow-400 text-gray-800':'bg-red-400'}`}>{displayStatus}</span>
+          <span className={`px-4 py-1 rounded-full text-sm font-semibold ${status==='Completed'?'bg-green-400':status==='Active'?'bg-yellow-400 text-gray-800':'bg-red-400'}`}>{status}</span>
         </div>
         <ProgressBar completed={daysCompleted} total={orderData.totalDays}/>
         <div className="bg-white/20 rounded-lg p-4 text-center backdrop-blur">
@@ -184,14 +182,14 @@ const OrderCard = ({ orderData, prefix, orderId, suffix }) => {
         <h3 className="text-xl font-bold text-gray-800 mb-6">Testing Milestones</h3>
         <div className="space-y-3">
           <div className="border border-gray-200 rounded-lg overflow-hidden">
-            <button onClick={()=>setShowTestingDays(!showTestingDays)} className="w-full flex justify-between p-4 bg-gray-50 hover:bg-gray-100 transition" aria-expanded={showTestingDays}>
+            <button onClick={()=>setShowTestingDays(!showTestingDays)} className="w-full flex justify-between p-4 bg-gray-50 hover:bg-gray-100 transition">
               <span className="font-semibold text-gray-800">TESTING PROCESS</span>
               {showTestingDays?<ChevronUp size={20} className="text-gray-600"/>:<ChevronDown size={20} className="text-gray-600"/>}
             </button>
             {showTestingDays && (
               <div className="p-4 space-y-2 bg-white">
                 {Array.from({length:orderData.totalDays},(_,i)=>i+1).map(day=>{
-                  const isComplete = day <= daysCompleted;
+                  const isComplete = day<=daysCompleted;
                   return <div key={day} className={`flex items-center gap-3 p-2 rounded ${isComplete?'bg-green-50':'bg-gray-50'}`}>
                     {isComplete?<CheckCircle size={18} className="text-green-600 flex-shrink-0"/>:<div className="w-[18px] h-[18px] border-2 border-gray-300 rounded-full flex-shrink-0"></div>}
                     <span className={`text-sm ${isComplete?'text-gray-800':'text-gray-500'}`}>day {day} testing {isComplete?'done':'pending'}</span>
@@ -201,29 +199,29 @@ const OrderCard = ({ orderData, prefix, orderId, suffix }) => {
             )}
           </div>
 
-          <MilestoneItem done={orderData.feedbackSubmitted || autoFeedback} label="Play Store feedback done"/>
-          <MilestoneItem done={orderData.appliedForProduction || autoApplied} label="Applied for Production" date={orderData.appliedDate || (autoApplied ? new Date() : null)}/>
-          <MilestoneItem done={orderData.productionApproved || autoApproved} label="Production Approved" date={orderData.approvedDate || (autoApproved ? new Date() : null)}/>
+          <MilestoneItem done={feedbackSubmitted} label="Feedback Submitted" date={feedbackDate}/>
+          <MilestoneItem done={appliedForProduction} label="Applied for Production" date={appliedDate}/>
+          <MilestoneItem done={productionApproved} label="Production Approved" date={approvedDate}/>
         </div>
       </div>
     </div>
   )
 }
 
-function AppTestingTracker() {
-  const [prefix,setPrefix] = useState('BX025Q');
-  const [orderId,setOrderId] = useState('');
-  const [suffix] = useState('XYZ');
-  const [orderData,setOrderData] = useState(null);
-  const [error,setError] = useState('');
-  const [currentTime,setCurrentTime] = useState(new Date());
+function AppTestingTracker(){
+  const [prefix,setPrefix]=useState('BX025Q');
+  const [orderId,setOrderId]=useState('');
+  const [suffix]=useState('XYZ');
+  const [orderData,setOrderData]=useState(null);
+  const [error,setError]=useState('');
+  const [currentTime,setCurrentTime]=useState(new Date());
 
   useEffect(()=>{
     const timer = setInterval(()=>setCurrentTime(new Date()),60000);
     return ()=>clearInterval(timer);
   },[]);
 
-  const handleSearch = () => {
+  const handleSearch=()=>{
     setError('');
     if(!orderId.trim()) return setError('Please enter a valid order ID.');
     const fullId = `${prefix}-${orderId}-${suffix}`.toUpperCase();
@@ -286,4 +284,4 @@ function AppTestingTracker() {
 ReactDOM.render(<AppTestingTracker/>, document.getElementById('root'));
 </script>
 </body>
-  </html>
+</html>
