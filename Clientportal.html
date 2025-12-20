@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>We App Testers - Client Portal</title>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect } = React;
+
+// Icons
+const Search = ({ size = 24 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="11" cy="11" r="8"></circle>
+    <path d="m21 21-4.35-4.35"></path>
+  </svg>
+);
+
+const CheckCircle = ({ size = 24, className = "" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+  </svg>
+);
+
+const AlertCircle = ({ size = 24, className = "" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <circle cx="12" cy="12" r="10"></circle>
+    <line x1="12" y1="8" x2="12" y2="12"></line>
+    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+  </svg>
+);
+
+const ChevronDown = ({ size = 24, className = "" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <polyline points="6 9 12 15 18 9"></polyline>
+  </svg>
+);
+
+const ChevronUp = ({ size = 24, className = "" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <polyline points="18 15 12 9 6 15"></polyline>
+  </svg>
+);
+
+const MessageCircle = ({ size = 24 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+  </svg>
+);
+
+// Demo Orders
+const DEMO_ORDERS = {
+  'BX025Q-08LB-XYZ': {
+    appName: 'Fitness Pro App',
+    startDate: '2025-12-10',
+    totalDays: 14,
+    status: 'active'
+  },
+  'BX025Q-WAT002-XYZ': {
+    appName: 'Food Delivery Plus',
+    startDate: '2025-12-05',
+    totalDays: 15,
+    status: 'active'
+  },
+  'BX025Q-WAT003-XYZ': {
+    appName: 'Shopping Cart App',
+    startDate: '2025-12-01',
+    totalDays: 14,
+    status: 'active'
+  } ,
+  'BX025Q-29LA-XYZ': {
+    appName: 'Look and Eat',
+    startDate: '2025-12-19',
+    totalDays: 14,
+    status: 'active'
+  }
+};
+
+// Helpers
+const formatDate = (date) => {
+  const d = new Date(date);
+  const day = String(d.getDate()).padStart(2,'0');
+  const month = d.toLocaleDateString('en-GB',{month:'long'});
+  const year = d.getFullYear();
+  return `${day} ${month} ${year}`;
+};
+
+// Calculate days completed excluding start day and today
+const getDaysCompleted = (startDate, totalDays) => {
+  const start = new Date(startDate); start.setHours(0,0,0,0);
+  const today = new Date(); today.setHours(0,0,0,0);
+  const diff = Math.floor((today - start)/(1000*60*60*24)) - 1; // exclude start and today
+  return Math.min(Math.max(diff,0), totalDays);
+};
+
+// Determine status
+const getStatus = (orderData) => {
+  if(orderData.status==='stopped') return 'Stopped';
+  const start = new Date(orderData.startDate); start.setHours(0,0,0,0);
+  const today = new Date(); today.setHours(0,0,0,0);
+  const daysSinceStart = Math.floor((today - start)/(1000*60*60*24)) - 1; // exclude start and today
+  return daysSinceStart >= 15 ? 'Completed' : 'Active';
+};
+
+const ProgressBar = ({ completed, total }) => {
+  const percent = (completed/total)*100;
+  return (
+    <div className="mb-4">
+      <div className="flex justify-between text-sm font-semibold mb-1">
+        <span>Testing Progress</span>
+        <span>{completed}/{total} Days</span>
+      </div>
+      <div className="w-full bg-white/30 h-3 rounded-full">
+        <div className="bg-white h-3 rounded-full transition-all duration-500" style={{width:`${percent}%`}}></div>
+      </div>
+    </div>
+  );
+};
+
+const MilestoneItem = ({ done, label, date }) => (
+  <div className={`flex items-center gap-3 p-3 rounded-lg border ${done?'bg-green-50 border-green-200':'bg-gray-50 border-gray-200'}`}>
+    {done?<CheckCircle size={20} className="text-green-600 flex-shrink-0"/>:<div className="w-5 h-5 border-2 border-gray-300 rounded-full flex-shrink-0"></div>}
+    <div className="flex-1">
+      <span className={`text-sm font-medium ${done?'text-gray-800':'text-gray-500'}`}>{label}</span>
+      {done && date && <p className="text-xs text-gray-500 mt-0.5">{formatDate(date)}</p>}
+    </div>
+  </div>
+);
+
+const OrderCard = ({ orderData, prefix, orderId, suffix }) => {
+  const [showTestingDays,setShowTestingDays]=useState(false);
+  const daysCompleted = getDaysCompleted(orderData.startDate, orderData.totalDays);
+  const daysRemaining = Math.max(0, orderData.totalDays - daysCompleted);
+
+  const today = new Date(); today.setHours(0,0,0,0);
+  const startDate = new Date(orderData.startDate); startDate.setHours(0,0,0,0);
+
+  // Milestones using new day counting
+  const diffDays = Math.floor((today - startDate)/(1000*60*60*24)) - 1;
+  const feedbackSubmitted = diffDays >= 10;
+  const appliedForProduction = diffDays >= 15;
+  const productionApproved = diffDays >= 18;
+
+  const feedbackDate = new Date(startDate.getTime() + 10*24*60*60*1000);
+  const appliedDate = new Date(startDate.getTime() + 15*24*60*60*1000);
+  const approvedDate = new Date(startDate.getTime() + 18*24*60*60*1000);
+
+  const status = getStatus(orderData);
+
+  return (
+    <div className="space-y-6">
+      <div className="bg-white rounded-lg shadow-lg p-6">
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">{orderData.appName}</h2>
+        <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4">
+          <div>
+            <p className="text-sm text-gray-600">Order ID</p>
+            <p className="text-lg font-semibold text-gray-800">{prefix}-{orderId}-{suffix}</p>
+          </div>
+          <div>
+            <p className="text-sm text-gray-600">Start Date</p>
+            <p className="text-lg font-semibold text-gray-800">{formatDate(orderData.startDate)}</p>
+          </div>
+          <div>
+            <p className="text-sm text-gray-600">Total Testing Days</p>
+            <p className="text-lg font-semibold text-gray-800">{orderData.totalDays} Days</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-lg shadow-lg p-6 text-white">
+        <div className="flex justify-between mb-4 items-center">
+          <h3 className="text-xl font-bold">Testing Progress</h3>
+          <span className={`px-4 py-1 rounded-full text-sm font-semibold ${status==='Completed'?'bg-green-400':status==='Active'?'bg-yellow-400 text-gray-800':'bg-red-400'}`}>{status}</span>
+        </div>
+        <ProgressBar completed={daysCompleted} total={orderData.totalDays}/>
+        <div className="bg-white/20 rounded-lg p-4 text-center backdrop-blur">
+          <CheckCircle size={32} className="mb-2 mx-auto"/>
+          <p className="text-sm mb-1">Days Remaining</p>
+          <p className="text-3xl font-bold">{daysRemaining}</p>
+        </div>
+      </div>
+
+      <div className="bg-white rounded-lg shadow-lg p-6">
+        <h3 className="text-xl font-bold text-gray-800 mb-6">Testing Milestones</h3>
+        <div className="space-y-3">
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button onClick={()=>setShowTestingDays(!showTestingDays)} className="w-full flex justify-between p-4 bg-gray-50 hover:bg-gray-100 transition">
+              <span className="font-semibold text-gray-800">TESTING PROCESS</span>
+              {showTestingDays?<ChevronUp size={20} className="text-gray-600"/>:<ChevronDown size={20} className="text-gray-600"/>}
+            </button>
+            {showTestingDays && (
+              <div className="p-4 space-y-2 bg-white">
+                {Array.from({length:orderData.totalDays},(_,i)=>i+1).map(day=>{
+                  const isComplete = day<=daysCompleted;
+                  return <div key={day} className={`flex items-center gap-3 p-2 rounded ${isComplete?'bg-green-50':'bg-gray-50'}`}>
+                    {isComplete?<CheckCircle size={18} className="text-green-600 flex-shrink-0"/>:<div className="w-[18px] h-[18px] border-2 border-gray-300 rounded-full flex-shrink-0"></div>}
+                    <span className={`text-sm ${isComplete?'text-gray-800':'text-gray-500'}`}>day {day} testing {isComplete?'done':'pending'}</span>
+                  </div>
+                })}
+              </div>
+            )}
+          </div>
+
+          <MilestoneItem done={feedbackSubmitted} label="Feedback Submitted" date={feedbackDate}/>
+          <MilestoneItem done={appliedForProduction} label="Applied for Production" date={appliedDate}/>
+          <MilestoneItem done={productionApproved} label="Production Approved" date={approvedDate}/>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function AppTestingTracker(){
+  const [prefix,setPrefix]=useState('BX025Q');
+  const [orderId,setOrderId]=useState('');
+  const [suffix]=useState('XYZ');
+  const [orderData,setOrderData]=useState(null);
+  const [error,setError]=useState('');
+  const [currentTime,setCurrentTime]=useState(new Date());
+
+  useEffect(()=>{
+    const timer = setInterval(()=>setCurrentTime(new Date()),60000);
+    return ()=>clearInterval(timer);
+  },[]);
+
+  const handleSearch=()=>{
+    setError('');
+    if(!orderId.trim()) return setError('Please enter a valid order ID.');
+    const fullId = `${prefix}-${orderId}-${suffix}`.toUpperCase();
+    const data = DEMO_ORDERS[fullId];
+    if(data) setOrderData(data);
+    else {
+      setOrderData(null);
+      setError('Order ID not found. Please Contact Us');
+    }
+  }
+  
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50">
+      <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-8 px-4 shadow-lg">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-3xl font-bold mb-2">We App Testers</h1>
+          <p className="text-green-100">Track Your App Testing Progress</p>
+ <p className="text-red-100"> We store only last 20-30 days data </p>
+        </div>
+      </div>
+
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
+          <label className="block text-gray-700 font-semibold mb-2">Enter Your Order ID</label>
+          <div className="flex gap-2 mb-3 flex-wrap sm:flex-col">
+            <input type="text" value={prefix} onChange={e=>setPrefix(e.target.value.toUpperCase())} placeholder="BX025Q" className="w-32 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-green-500 focus:outline-none text-center font-semibold"/>
+            <span className="flex items-center text-2xl text-gray-400 font-bold">-</span>
+            <input type="text" value={orderId} onChange={e=>setOrderId(e.target.value.toUpperCase())} onKeyPress={e=>e.key==='Enter' && handleSearch()} placeholder="08LB" className="flex-1 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-green-500 focus:outline-none text-center font-semibold"/>
+            <span className="flex items-center text-2xl text-gray-400 font-bold">-</span>
+            <input type="text" value={suffix} disabled className="w-24 px-4 py-3 border-2 border-gray-200 rounded-lg bg-gray-100 text-center font-semibold text-gray-600 cursor-not-allowed"/>
+          </div>
+          <button onClick={handleSearch} className="w-full bg-gradient-to-r from-green-600 to-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-green-700 hover:to-blue-700 transition flex items-center justify-center gap-2"><Search size={20}/> Track Order</button>
+
+          {error && (
+            <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-lg flex items-start gap-2 text-red-700">
+              <AlertCircle size={20} className="mt-0.5 flex-shrink-0"/>
+              <span>{error}</span>
+            </div>
+          )}
+
+          <div className="mt-4 text-sm text-gray-600">
+            <p className="font-semibold mb-1">Demo Order IDs (enter middle part only):</p>
+            <p>08LB • WAT002 • WAT003</p>
+          </div>
+        </div>
+
+        {orderData && <OrderCard orderData={orderData} prefix={prefix} orderId={orderId} suffix={suffix}/>}
+
+        <div className="mt-6 text-right text-gray-500 text-sm">
+          Current Time: {currentTime.toLocaleString()}
+        </div>
+      </div>
+
+      <a href="https://wa.me/919122061839" target="_blank" rel="noopener noreferrer" className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all hover:scale-110 z-50" aria-label="Contact on WhatsApp">
+        <MessageCircle size={28}/>
+      </a>
+    </div>
+  )
+}
+
+ReactDOM.render(<AppTestingTracker/>, document.getElementById('root'));
+</script>
+</body>
+  </html>
