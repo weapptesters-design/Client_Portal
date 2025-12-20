@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>We App Testers – Client Portal</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0F9D58, #34A853);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .card {
+      background: #ffffff;
+      color: #333;
+      padding: 30px;
+      border-radius: 14px;
+      max-width: 420px;
+      width: 90%;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+      width: 90px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 15px;
+      margin-bottom: 25px;
+      color: #555;
+    }
+
+    a.button {
+      display: inline-block;
+      background: #0F9D58;
+      color: #fff;
+      padding: 14px 22px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    a.button:hover {
+      background: #0b7f45;
+    }
+
+    .note {
+      font-size: 12px;
+      margin-top: 15px;
+      color: #777;
+    }
+
+    /* WhatsApp Floating Button */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 55px;
+      height: 55px;
+      background-color: #25D366;
+      border-radius: 50%;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+    }
+
+    .whatsapp-float img {
+      width: 28px;
+      height: 28px;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://i.postimg.cc/htyBJcdk/logo.png" alt="We App Testers">
+
+    <h1>Track Your App Testing Order</h1>
+    <p>
+      Please visit our secure Client Portal to check your app testing status,
+      daily activity, and progress updates.
+    </p>
+
+    <a
+      class="button"
+      href="https://weapptesters-design.github.io/Client_Portal"
+      target="_blank"
+    >
+      Open Client Portal
+    </a>
+
+    <div class="note">
+      We App Testers • Google Play Closed Testing Service • WhatsApp +91 9122061839
+    </div>
+  </div>
+
+  <!-- WhatsApp Floating Icon -->
+  <a
+    href="https://wa.me/919122061839"
+    class="whatsapp-float"
+    target="_blank"
+    aria-label="Chat on WhatsApp"
+  >
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+      alt="WhatsApp"
+    />
+  </a>
+
+</body>
+</html>
