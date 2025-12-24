@@ -57,9 +57,9 @@ const MessageCircle = ({ size = 24 }) => (
 
 // Demo Orders
 const DEMO_ORDERS = {
-  'BX025Q-08LB-XYZ': {
-    appName: 'Fitness Pro App',
-    startDate: '2025-12-10',
+   'BX025Q-30LB-XYZ': {
+    appName: 'Adventures Game',
+    startDate: '2025-12-19',
     totalDays: 14,
     status: 'active'
   },
@@ -77,7 +77,7 @@ const DEMO_ORDERS = {
   } ,
   'BX025Q-29LA-XYZ': {
     appName: 'Look and Eat',
-    startDate: '2025-11-19',
+    startDate: '2025-12-19',
     totalDays: 14,
     status: 'active'
   },
@@ -392,7 +392,7 @@ function AppTestingTracker(){
           <div className="flex gap-2 mb-3 flex-wrap sm:flex-col">
             <input type="text" value={prefix} onChange={e=>setPrefix(e.target.value.toUpperCase())} placeholder="BX025Q" className="w-32 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-green-500 focus:outline-none text-center font-semibold"/>
             <span className="flex items-center text-2xl text-gray-400 font-bold">-</span>
-            <input type="text" value={orderId} onChange={e=>setOrderId(e.target.value.toUpperCase())} onKeyPress={e=>e.key==='Enter' && handleSearch()} placeholder="08LB" className="flex-1 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-green-500 focus:outline-none text-center font-semibold"/>
+            <input type="text" value={orderId} onChange={e=>setOrderId(e.target.value.toUpperCase())} onKeyPress={e=>e.key==='Enter' && handleSearch()} placeholder="30LB" className="flex-1 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-green-500 focus:outline-none text-center font-semibold"/>
             <span className="flex items-center text-2xl text-gray-400 font-bold">-</span>
             <input type="text" value={suffix} disabled className="w-24 px-4 py-3 border-2 border-gray-200 rounded-lg bg-gray-100 text-center font-semibold text-gray-600 cursor-not-allowed"/>
           </div>
