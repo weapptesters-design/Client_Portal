@@ -57,7 +57,7 @@ const MessageCircle = ({ size = 24 }) => (
 
 // Demo Orders
 const DEMO_ORDERS = {
-  'BX025Q-30LB-XYZ': {
+  'BX026Q-30LB-XYZ': {
     appName: 'Adventures Game',
     startDate: '2025-12-19',
     totalDays: 14,
@@ -218,7 +218,7 @@ const OrderCard = ({ orderData, prefix, orderId, suffix }) => {
 }
 
 function AppTestingTracker(){
-  const [prefix,setPrefix]=useState('BX025Q');
+  const [prefix,setPrefix]=useState('BX026Q');
   const [orderId,setOrderId]=useState('');
   const [suffix]=useState('XYZ');
   const [orderData,setOrderData]=useState(null);
@@ -256,7 +256,7 @@ function AppTestingTracker(){
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
           <label className="block text-gray-700 font-semibold mb-2">Enter Your Order ID</label>
           <div className="flex gap-2 mb-3 flex-wrap sm:flex-col">
-            <input type="text" value={prefix} onChange={e=>setPrefix(e.target.value.toUpperCase())} placeholder="BX025Q" className="w-32 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-green-500 focus:outline-none text-center font-semibold"/>
+            <input type="text" value={prefix} onChange={e=>setPrefix(e.target.value.toUpperCase())} placeholder="BX026Q" className="w-32 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-green-500 focus:outline-none text-center font-semibold"/>
             <span className="flex items-center text-2xl text-gray-400 font-bold">-</span>
             <input type="text" value={orderId} onChange={e=>setOrderId(e.target.value.toUpperCase())} onKeyPress={e=>e.key==='Enter' && handleSearch()} placeholder="30LB" className="flex-1 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-green-500 focus:outline-none text-center font-semibold"/>
             <span className="flex items-center text-2xl text-gray-400 font-bold">-</span>
