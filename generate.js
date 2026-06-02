@@ -98,3 +98,7 @@ fs.writeFileSync('report.json', JSON.stringify(report, null, 2));
 console.log('✅ Smart tracking completed');
 console.log(`🆕 New: ${newApps.length}`);
 console.log(`✏️ Changed: ${changedApps.length}`);
+
+console.log(headers);
+console.log(rows[1]);
+console.log(rows[1].split(','));
