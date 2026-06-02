@@ -1,31 +1,31 @@
 window.ORDERS = {
   "BX026Q-01FA-XYZ": {
-    "app": "Test",
+    "appName": "Test",
     "startDate": "2026-06-01",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-02FA-XYZ": {
-    "app": "test2",
+    "appName": "test2",
     "startDate": "2026-06-01",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-04FA-XYZ": {
-    "app": "test3",
+    "appName": "test3",
     "startDate": "2026-06-01",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-03FA-XYZ": {
-    "app": "test4444",
+    "appName": "test4444",
     "startDate": "2026-06-01",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-10FA-XYZ": {
-    "app name": "tws 3",
-    "startDate": "2026-01-02",
+    "appName": "tws 3",
+    "startDate": "2026-01-01",
     "totalDays": 14,
     "status": "active"
   },
@@ -36,25 +36,25 @@ window.ORDERS = {
     "status": "active"
   },
   "BX026Q-12FA-XYZ": {
-    "app": "test12fa",
+    "appName": "test12fa",
     "startDate": "2026-03-01",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-13FA-XYZ": {
-    "app": "test13fa",
+    "appName": "test13fa",
     "startDate": "2026-04-01",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-14FA-XYZ": {
-    "app": "test14fa",
+    "appName": "test14fa",
     "startDate": "2026-02-01",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-15FA-XYZ": {
-    "app": "yest15fa",
+    "appName": "yest15fa",
     "startDate": "2026-02-01",
     "totalDays": 14,
     "status": "active"

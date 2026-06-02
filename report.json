@@ -1,14 +1,157 @@
 {
-  "newCount": 1,
-  "changedCount": 0,
-  "newApps": [
+  "newCount": 0,
+  "changedCount": 10,
+  "newApps": [],
+  "changedApps": [
+    {
+      "id": "BX026Q-01FA-XYZ",
+      "oldRecord": {
+        "app": "Test",
+        "startDate": "2026-06-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Test",
+        "startDate": "2026-06-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-02FA-XYZ",
+      "oldRecord": {
+        "app": "test2",
+        "startDate": "2026-06-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "test2",
+        "startDate": "2026-06-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-04FA-XYZ",
+      "oldRecord": {
+        "app": "test3",
+        "startDate": "2026-06-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "test3",
+        "startDate": "2026-06-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-03FA-XYZ",
+      "oldRecord": {
+        "app": "test4444",
+        "startDate": "2026-06-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "test4444",
+        "startDate": "2026-06-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-10FA-XYZ",
+      "oldRecord": {
+        "app": "tws 3",
+        "startDate": "2026-01-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "tws 3",
+        "startDate": "2026-01-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-11FA-XYZ",
+      "oldRecord": {
+        "app": "test11fa",
+        "startDate": "2026-04-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "test11fa",
+        "startDate": "2026-04-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-12FA-XYZ",
+      "oldRecord": {
+        "app": "test12fa",
+        "startDate": "2026-03-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "test12fa",
+        "startDate": "2026-03-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-13FA-XYZ",
+      "oldRecord": {
+        "app": "test13fa",
+        "startDate": "2026-04-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "test13fa",
+        "startDate": "2026-04-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-14FA-XYZ",
+      "oldRecord": {
+        "app": "test14fa",
+        "startDate": "2026-02-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "test14fa",
+        "startDate": "2026-02-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
     {
       "id": "BX026Q-15FA-XYZ",
-      "app": "yest15fa",
-      "startDate": "2026-02-01",
-      "totalDays": 14,
-      "status": "active"
+      "oldRecord": {
+        "app": "yest15fa",
+        "startDate": "2026-02-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "yest15fa",
+        "startDate": "2026-02-01",
+        "totalDays": 14,
+        "status": "active"
+      }
     }
-  ],
-  "changedApps": []
+  ]
 }
