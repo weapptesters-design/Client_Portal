@@ -1,22 +1,14 @@
 {
-  "newCount": 0,
-  "changedCount": 1,
-  "newApps": [],
-  "changedApps": [
+  "newCount": 1,
+  "changedCount": 0,
+  "newApps": [
     {
-      "id": "BX026Q-10FA-XYZ",
-      "oldRecord": {
-        "app": "tws 3",
-        "startDate": "2026-07-01",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "app": "tws 3",
-        "startDate": "2026-01-01",
-        "totalDays": 14,
-        "status": "active"
-      }
+      "id": "BX026Q-14FA-XYZ",
+      "app": "test14fa",
+      "startDate": "2026-02-01",
+      "totalDays": 14,
+      "status": "active"
     }
-  ]
+  ],
+  "changedApps": []
 }
