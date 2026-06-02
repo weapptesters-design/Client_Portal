@@ -24,7 +24,7 @@ window.ORDERS = {
     "status": "active"
   },
   "BX026Q-10FA-XYZ": {
-    "app": "tws 3",
+    "app name": "tws 3",
     "startDate": "2026-01-01",
     "totalDays": 14,
     "status": "active"
