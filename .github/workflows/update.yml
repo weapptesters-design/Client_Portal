@@ -1,0 +1,33 @@
+name: Update Orders
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Download CSV
+        run: |
+          curl -L "https://docs.google.com/spreadsheets/d/1q4GA6nKhfwEqMb0uVlDT8QxgovqucAG1C_d3BDaYeG4/export?format=csv" -o orders.csv
+
+      - name: Generate orders.js
+        run: node generate.js
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add .
+          git commit -m "Auto update orders" || exit 0
+          git push
