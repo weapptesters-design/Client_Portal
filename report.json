@@ -1,7 +1,15 @@
 {
-  "newCount": 0,
+  "newCount": 1,
   "changedCount": 8,
-  "newApps": [],
+  "newApps": [
+    {
+      "id": "BX026Q-12EA-XYZ",
+      "app": "Abcd",
+      "startDate": "2026-06-01",
+      "totalDays": 14,
+      "status": "active"
+    }
+  ],
   "changedApps": [
     {
       "id": "BX026Q-01EA-XYZ",
