@@ -56,8 +56,19 @@ jobs:
           ✅ No updates today
           All apps are up to date."
           else
-            NEW_LIST=$(echo "$REPORT" | jq -r '.newApps[]? | "\(.id | split(\"-\")[1]) | \(.app) | \(.startDate)"')
-            CHANGED_LIST=$(echo "$REPORT" | jq -r '.changedApps[]? | "\(.id | split(\"-\")[1]) | \(.newRecord.app)"')
+            NEW_LIST=$(node -e "
+          const r = require('./report.json');
+          r.newApps.forEach(a => {
+            console.log('🆕 ' + a.id.split('-')[1] + ' - ' + a.app + ' - ' + a.startDate);
+          });
+          ")
+
+          CHANGED_LIST=$(node -e "
+          const r = require('./report.json');
+          r.changedApps.forEach(a => {
+            console.log('✏️ ' + a.id.split('-')[1] + ' - ' + a.newRecord.app);
+          });
+          ")
 
             FORMATTED_NEW=$(echo "$NEW_LIST" | sed 's/^/🆕 /')
             FORMATTED_CHANGED=$(echo "$CHANGED_LIST" | sed 's/^/✏️ /')
