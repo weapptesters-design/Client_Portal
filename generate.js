@@ -51,12 +51,11 @@ for (let i = 1; i < rows.length; i++) {
       : 'INVALID_DATE';
 
   const newRecord = {
-    app,
-    startDate,
-    totalDays: parseInt(total) || 14,
-    status
-  };
-
+  appName: app,
+  startDate,
+  totalDays: parseInt(total) || 14,
+  status
+};
   currentData[id] = newRecord;
 
   const oldRecord = previousData[id];
