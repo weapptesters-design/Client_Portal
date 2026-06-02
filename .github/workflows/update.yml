@@ -32,7 +32,6 @@ jobs:
           git commit -m "Auto update orders" || exit 0
           git push
 
-      # 📢 TELEGRAM SMART NOTIFICATION
       - name: Telegram Smart Notification
         run: |
           REPORT=$(cat report.json)
@@ -40,16 +39,17 @@ jobs:
           NEW=$(echo $REPORT | jq '.newCount')
           CHANGED=$(echo $REPORT | jq '.changedCount')
 
-          NEW_LIST=$(echo $REPORT | jq -r '.newApps[]? | "🆕 \(.id) - \(.app)\n   Start: \(.startDate)"')
-          CHANGED_LIST=$(echo $REPORT | jq -r '.changedApps[]? | "✏️ \(.id)\n   OLD: \(.oldRecord.startDate)\n   NEW: \(.newRecord.startDate)"')
+          DATE=$(date '+%d-%b-%Y')
 
-          MESSAGE="🚀 Smart Orders Report%0A%0A🆕 New Apps: $NEW%0A✏️ Changed Apps: $CHANGED%0A%0A$NEW_LIST%0A%0A$CHANGED_LIST"
+          NEW_LIST=$(echo $REPORT | jq -r '.newApps[]? | "🆕 \(.id | split(\"-\")[1]) - \(.app)\n   📅 \(.startDate)\n"')
+          CHANGED_LIST=$(echo $REPORT | jq -r '.changedApps[]? | "✏️ \(.id | split(\"-\")[1]) - \(.newRecord.app)\n"')
+
+          MESSAGE="🚀 Smart Orders Report\n📅 Date: $DATE\n\n🆕 New Apps: $NEW\n✏️ Changed Apps: $CHANGED\n\n──────────────\n\n🆕 New Apps List\n$NEW_LIST\n\n──────────────\n\n✏️ Changed Apps List\n$CHANGED_LIST"
 
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
           -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
           -d text="$MESSAGE"
 
-      # ❌ ERROR NOTIFICATION
       - name: Telegram Failure Notification
         if: failure()
         run: |
