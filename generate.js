@@ -27,8 +27,8 @@ let newApps = [];
 let changedApps = [];
 
 for (let i = 1; i < rows.length; i++) {
-  const row = rows[i].split(',');
-
+  const row = rows[i].split(/,(?=(?:[^"]*"[^"]*")*[^"]*$)/);
+  
   const prefix = get(row, 'prefix');
   const code = get(row, 'app code');
   const suffix = get(row, 'suffix');
