@@ -58,48 +58,68 @@ jobs:
           if [ "$NEW" -eq 0 ] && [ "$CHANGED" -eq 0 ]; then
             TEXT="🚀 Smart Orders Report
           📅 Date: $DATE
-
           ✅ No updates today
+ 
           All apps are up to date."
           else
+
             NEW_LIST=$(node -e "
+
           const r = require('./report.json');
+
           r.newApps.forEach(a => {
-            console.log('🆕 ' + a.id.split('-')[1] + ' - ' + a.app + ' - ' + a.startDate);
+ 
+          console.log(a.id.split('-')[1] + ' - ' + a.app + ' - ' + a.startDate);
+
           });
+
           ")
 
-          CHANGED_LIST=$(node -e "
+             CHANGED_LIST=$(node -e "
+
           const r = require('./report.json');
+
           r.changedApps.forEach(a => {
-            console.log('✏️ ' + a.id.split('-')[1] + ' - ' + a.newRecord.app);
+   
+          console.log(a.id.split('-')[1] + ' - ' + a.newRecord.app);
+
           });
+
           ")
 
-            FORMATTED_NEW=$(echo "$NEW_LIST" | sed 's/^/🆕 /')
-            FORMATTED_CHANGED=$(echo "$CHANGED_LIST" | sed 's/^/✏️ /')
+            FORMATTED_NEW=$(echo "$NEW_LIST" | sed '/^$/d' | sed 's/^/🆕 /')
+            FORMATTED_CHANGED=$(echo "$CHANGED_LIST" | sed '/^$/d' | sed 's/^/✏️ /')
 
             TEXT="🚀 Smart Orders Report
+
           📅 Date: $DATE
 
+
           🆕 New Apps: $NEW
+
           ✏️ Changed Apps: $CHANGED
 
+
           ──────────────
+
 
           🆕 New Apps List
+
           $FORMATTED_NEW
+
 
           ──────────────
 
-          ✏️ Changed Apps List
-          $FORMATTED_CHANGED"
-          fi
 
+          ✏️ Changed Apps List
+
+          $FORMATTED_CHANGED"
+            fi
+  
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
             -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
             -d text="$TEXT"
-
+            
       - name: Failure Notification
         if: failure()
         run: |
