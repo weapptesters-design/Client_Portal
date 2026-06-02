@@ -1,16 +1,17 @@
 const fs = require('fs');
 
-const csv = fs.readFileSync('orders.csv', 'utf8');
-
-const rows = csv
+const csv = fs.readFileSync('orders.csv', 'utf8')
   .replace(/\r/g, '')
-  .split('\n')
-  .filter(r => r.trim() !== '');
+  .replace(/\uFEFF/g, ''); // remove BOM
 
-const headers = rows[0].split(',').map(h => h.trim().toLowerCase());
+const rows = csv.split('\n').filter(r => r.trim());
+
+const headers = rows[0]
+  .split(',')
+  .map(h => h.trim().toLowerCase().replace(/\s+/g, ''));
 
 function get(row, name) {
-  const index = headers.indexOf(name);
+  const index = headers.indexOf(name.toLowerCase().replace(/\s+/g, ''));
   return index !== -1 ? (row[index] || '').trim() : '';
 }
 
