@@ -1,21 +1,22 @@
 {
-  "newCount": 2,
-  "changedCount": 0,
-  "newApps": [
+  "newCount": 0,
+  "changedCount": 1,
+  "newApps": [],
+  "changedApps": [
     {
-      "id": "BX026Q-12FA-XYZ",
-      "app": "test12fa",
-      "startDate": "2026-03-01",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-13FA-XYZ",
-      "app": "test13fa",
-      "startDate": "2026-04-01",
-      "totalDays": 14,
-      "status": "active"
+      "id": "BX026Q-10FA-XYZ",
+      "oldRecord": {
+        "app": "tws 3",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "app": "tws 3",
+        "startDate": "2026-01-01",
+        "totalDays": 14,
+        "status": "active"
+      }
     }
-  ],
-  "changedApps": []
+  ]
 }
