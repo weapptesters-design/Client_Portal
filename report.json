@@ -1,127 +1,35 @@
 {
-  "newCount": 0,
-  "changedCount": 8,
-  "newApps": [],
-  "changedApps": [
+  "newCount": 4,
+  "changedCount": 0,
+  "newApps": [
     {
-      "id": "BX026Q-01EA-XYZ",
-      "oldRecord": {
-        "app": "sujit",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "app": "Rechage",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      }
+      "id": "BX026Q-01FA-XYZ",
+      "app": "Test",
+      "startDate": "2026-06-01",
+      "totalDays": 14,
+      "status": "active"
     },
     {
-      "id": "BX026Q-02EA-XYZ",
-      "oldRecord": {
-        "app": "testing",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "app": "Apdi",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      }
+      "id": "BX026Q-02FA-XYZ",
+      "app": "test2",
+      "startDate": "2026-06-01",
+      "totalDays": 14,
+      "status": "active"
     },
     {
-      "id": "BX026Q-03EA-XYZ",
-      "oldRecord": {
-        "app": "aaditya",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "app": "Test",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      }
+      "id": "BX026Q-04FA-XYZ",
+      "app": "test3",
+      "startDate": "2026-06-01",
+      "totalDays": 14,
+      "status": "active"
     },
     {
-      "id": "BX026Q-01EA-XYZ",
-      "oldRecord": {
-        "app": "sujit",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "app": "aaditya",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      }
-    },
-    {
-      "id": "BX026Q-02EA-XYZ",
-      "oldRecord": {
-        "app": "testing",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "app": "sujit",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      }
-    },
-    {
-      "id": "BX026Q-03EA-XYZ",
-      "oldRecord": {
-        "app": "aaditya",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "app": "sujit",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      }
-    },
-    {
-      "id": "BX026Q-02EA-XYZ",
-      "oldRecord": {
-        "app": "testing",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "app": "sujit",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      }
-    },
-    {
-      "id": "BX026Q-03EA-XYZ",
-      "oldRecord": {
-        "app": "aaditya",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "app": "sujit",
-        "startDate": "2026-06-01",
-        "totalDays": 14,
-        "status": "active"
-      }
+      "id": "BX026Q-03FA-XYZ",
+      "app": "test4",
+      "startDate": "2026-06-01",
+      "totalDays": 14,
+      "status": "active"
     }
-  ]
+  ],
+  "changedApps": []
 }

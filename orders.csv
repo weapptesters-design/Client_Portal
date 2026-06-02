@@ -1,16 +1,5 @@
 App Code ,App Name,Start Date,Month ,Year,Prefix,Suffix ,Total Days,Status
-01EA,Rechage,1,6,2026,BX026Q,XYZ,14,active 
-02EA,Apdi,1,6,2026,BX026Q,XYZ,14,active 
-03EA,Test,1,6,2026,BX026Q,XYZ,14,active
-01EA,aaditya,1,6,2026,BX026Q,XYZ,14,active 
-02EA,sujit,1,6,2026,BX026Q,XYZ,14,active
-03EA,sujit,1,6,2026,BX026Q,XYZ,14,active 
-01EA,sujit,1,6,2026,BX026Q,XYZ,14,active
-02EA,sujit,1,6,2026,BX026Q,XYZ,14,active 
-03EA,sujit,1,6,2026,BX026Q,XYZ,14,
-01EA,sujit,1,6,2026,BX026Q,XYZ,14,
-02EA,testing,1,6,2026,BX026Q,XYZ,14,active 
-03EA,aaditya,1,6,2026,BX026Q,XYZ,14,active 
-10EA,Testapp,2,6,2026,BX026Q,XYZ,14,active 
-11EA,Testtrack,1,6,2026,BX026Q,XYZ,14,active 
-12EA,Abcd,1,6,2026,BX026Q,XYZ,14,active 
+01FA,Test,1,6,2026,BX026Q,XYZ,14,active 
+02FA,test2,1,6,2026,BX026Q,XYZ,14,active 
+04FA,test3,1,6,2026,BX026Q,XYZ,14,active
+03FA,test4,1,6,2026,BX026Q,XYZ,14,active 

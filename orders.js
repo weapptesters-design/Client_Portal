@@ -1,36 +1,24 @@
 window.ORDERS = {
-  "BX026Q-01EA-XYZ": {
-    "app": "sujit",
+  "BX026Q-01FA-XYZ": {
+    "app": "Test",
     "startDate": "2026-06-01",
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-02EA-XYZ": {
-    "app": "testing",
+  "BX026Q-02FA-XYZ": {
+    "app": "test2",
     "startDate": "2026-06-01",
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-03EA-XYZ": {
-    "app": "aaditya",
+  "BX026Q-04FA-XYZ": {
+    "app": "test3",
     "startDate": "2026-06-01",
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-10EA-XYZ": {
-    "app": "Testapp",
-    "startDate": "2026-06-02",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-11EA-XYZ": {
-    "app": "Testtrack",
-    "startDate": "2026-06-01",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-12EA-XYZ": {
-    "app": "Abcd",
+  "BX026Q-03FA-XYZ": {
+    "app": "test4",
     "startDate": "2026-06-01",
     "totalDays": 14,
     "status": "active"
