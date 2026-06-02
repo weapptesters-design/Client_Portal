@@ -2,7 +2,7 @@ name: Update Orders
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,9 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
@@ -20,7 +22,7 @@ jobs:
         run: |
           curl -L "https://docs.google.com/spreadsheets/d/1q4GA6nKhfwEqMb0uVlDT8QxgovqucAG1C_d3BDaYeG4/export?format=csv" -o orders.csv
 
-      - name: Generate Smart Orders Report
+      - name: Generate Smart Report
         run: node generate.js
 
       - name: Commit changes
@@ -32,21 +34,35 @@ jobs:
           git commit -m "Auto update orders" || exit 0
           git push
 
-      - name: Telegram Smart Notification
+      - name: Telegram Notification
+        shell: bash
         run: |
+          if [ ! -f report.json ]; then
+            echo "report.json missing"
+            exit 0
+          fi
+
           REPORT=$(cat report.json)
 
-          NEW=$(echo $REPORT | jq '.newCount')
-          CHANGED=$(echo $REPORT | jq '.changedCount')
+          NEW=$(echo "$REPORT" | jq '.newCount')
+          CHANGED=$(echo "$REPORT" | jq '.changedCount')
 
           DATE=$(date '+%d-%b-%Y')
 
-          # 🆕 ONLY APP CODE (middle part)
-          NEW_LIST=$(echo $REPORT | jq -r '.newApps[]? | "🆕 \(.id | split(\"-\")[1]) - \(.app)\n   📅 \(.startDate)\n"')
+          if [ "$NEW" -eq 0 ] && [ "$CHANGED" -eq 0 ]; then
+            TEXT="🚀 Smart Orders Report
+          📅 Date: $DATE
 
-          CHANGED_LIST=$(echo $REPORT | jq -r '.changedApps[]? | "✏️ \(.id | split(\"-\")[1]) - \(.newRecord.app)\n"')
+          ✅ No updates today
+          All apps are up to date."
+          else
+            NEW_LIST=$(echo "$REPORT" | jq -r '.newApps[]? | "\(.id | split(\"-\")[1]) | \(.app) | \(.startDate)"')
+            CHANGED_LIST=$(echo "$REPORT" | jq -r '.changedApps[]? | "\(.id | split(\"-\")[1]) | \(.newRecord.app)"')
 
-          MESSAGE="🚀 Smart Orders Report
+            FORMATTED_NEW=$(echo "$NEW_LIST" | sed 's/^/🆕 /')
+            FORMATTED_CHANGED=$(echo "$CHANGED_LIST" | sed 's/^/✏️ /')
+
+            TEXT="🚀 Smart Orders Report
           📅 Date: $DATE
 
           🆕 New Apps: $NEW
@@ -55,20 +71,21 @@ jobs:
           ──────────────
 
           🆕 New Apps List
-          $NEW_LIST
+          $FORMATTED_NEW
 
           ──────────────
- 
+
           ✏️ Changed Apps List
-          $CHANGED_LIST"
+          $FORMATTED_CHANGED"
+          fi
 
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
-          -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
-          -d text="$MESSAGE"
-          
-      - name: Telegram Failure Notification
+            -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d text="$TEXT"
+
+      - name: Failure Notification
         if: failure()
         run: |
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
-          -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
-          -d text="❌ Orders Update Failed! Check GitHub Actions logs."
+            -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d text="❌ Orders Update Failed! Check logs."
