@@ -1,35 +1,22 @@
 {
-  "newCount": 4,
-  "changedCount": 0,
-  "newApps": [
-    {
-      "id": "BX026Q-01FA-XYZ",
-      "app": "Test",
-      "startDate": "2026-06-01",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-02FA-XYZ",
-      "app": "test2",
-      "startDate": "2026-06-01",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-04FA-XYZ",
-      "app": "test3",
-      "startDate": "2026-06-01",
-      "totalDays": 14,
-      "status": "active"
-    },
+  "newCount": 0,
+  "changedCount": 1,
+  "newApps": [],
+  "changedApps": [
     {
       "id": "BX026Q-03FA-XYZ",
-      "app": "test4",
-      "startDate": "2026-06-01",
-      "totalDays": 14,
-      "status": "active"
+      "oldRecord": {
+        "app": "test4",
+        "startDate": "2026-06-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "app": "test4444",
+        "startDate": "2026-06-01",
+        "totalDays": 14,
+        "status": "active"
+      }
     }
-  ],
-  "changedApps": []
+  ]
 }
