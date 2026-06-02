@@ -20,10 +20,10 @@ jobs:
         run: |
           curl -L "https://docs.google.com/spreadsheets/d/1q4GA6nKhfwEqMb0uVlDT8QxgovqucAG1C_d3BDaYeG4/export?format=csv" -o orders.csv
 
-      - name: Generate orders.js
+      - name: Generate Smart Orders Report
         run: node generate.js
 
-      - name: Commit
+      - name: Commit changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
@@ -32,20 +32,25 @@ jobs:
           git commit -m "Auto update orders" || exit 0
           git push
 
-- name: Telegram Notification
+      # 📢 TELEGRAM SMART NOTIFICATION
+      - name: Telegram Smart Notification
         run: |
           REPORT=$(cat report.json)
 
-          COUNT=$(echo $REPORT | jq '.updatedCount')
-          LIST=$(echo $REPORT | jq -r '.updatedList[]')
+          NEW=$(echo $REPORT | jq '.newCount')
+          CHANGED=$(echo $REPORT | jq '.changedCount')
 
-          MESSAGE="🚀 Orders Update Report%0A%0A📊 Total Updated: $COUNT%0A%0A🆕 Updated Apps:%0A$LIST"
+          NEW_LIST=$(echo $REPORT | jq -r '.newApps[]? | "🆕 \(.id) - \(.app)\n   Start: \(.startDate)"')
+          CHANGED_LIST=$(echo $REPORT | jq -r '.changedApps[]? | "✏️ \(.id)\n   OLD: \(.oldRecord.startDate)\n   NEW: \(.newRecord.startDate)"')
+
+          MESSAGE="🚀 Smart Orders Report%0A%0A🆕 New Apps: $NEW%0A✏️ Changed Apps: $CHANGED%0A%0A$NEW_LIST%0A%0A$CHANGED_LIST"
 
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
           -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
           -d text="$MESSAGE"
 
-          - name: Error Notification
+      # ❌ ERROR NOTIFICATION
+      - name: Telegram Failure Notification
         if: failure()
         run: |
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
