@@ -41,15 +41,31 @@ jobs:
 
           DATE=$(date '+%d-%b-%Y')
 
+          # 🆕 ONLY APP CODE (middle part)
           NEW_LIST=$(echo $REPORT | jq -r '.newApps[]? | "🆕 \(.id | split(\"-\")[1]) - \(.app)\n   📅 \(.startDate)\n"')
+
           CHANGED_LIST=$(echo $REPORT | jq -r '.changedApps[]? | "✏️ \(.id | split(\"-\")[1]) - \(.newRecord.app)\n"')
 
-          MESSAGE="🚀 Smart Orders Report\n📅 Date: $DATE\n\n🆕 New Apps: $NEW\n✏️ Changed Apps: $CHANGED\n\n──────────────\n\n🆕 New Apps List\n$NEW_LIST\n\n──────────────\n\n✏️ Changed Apps List\n$CHANGED_LIST"
+          MESSAGE="🚀 Smart Orders Report
+          📅 Date: $DATE
+
+          🆕 New Apps: $NEW
+          ✏️ Changed Apps: $CHANGED
+
+          ──────────────
+
+          🆕 New Apps List
+          $NEW_LIST
+
+          ──────────────
+ 
+          ✏️ Changed Apps List
+          $CHANGED_LIST"
 
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
           -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
           -d text="$MESSAGE"
-
+          
       - name: Telegram Failure Notification
         if: failure()
         run: |
