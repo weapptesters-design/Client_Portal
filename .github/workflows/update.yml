@@ -69,7 +69,7 @@ jobs:
 
           r.newApps.forEach(a => {
  
-          console.log(a.id.split('-')[1] + ' - ' + a.app + ' - ' + a.startDate);
+          console.log(a.id.split('-')[1] + ' - ' + a.appName + ' - ' + a.startDate);
 
           });
 
@@ -81,7 +81,7 @@ jobs:
 
           r.changedApps.forEach(a => {
    
-          console.log(a.id.split('-')[1] + ' - ' + a.newRecord.app);
+          console.log(a.id.split('-')[1] + ' - ' + a.newRecord.appName);
 
           });
 
