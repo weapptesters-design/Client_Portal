@@ -70,7 +70,7 @@ for (let i = 1; i < rows.length; i++) {
       oldRecord.startDate !== newRecord.startDate ||
       oldRecord.status !== newRecord.status ||
       oldRecord.totalDays !== newRecord.totalDays ||
-      oldRecord.app !== newRecord.app
+      oldRecord.appName !== newRecord.appName
     ) {
       changedApps.push({ id, oldRecord, newRecord });
     }
