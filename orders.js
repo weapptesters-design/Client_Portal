@@ -76,5 +76,131 @@ window.ORDERS = {
     "startDate": "2026-06-01",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-02FC-XYZ": {
+    "appName": "SG Finvault",
+    "startDate": "2026-06-02",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-03FC-XYZ": {
+    "appName": "Snake Rewind",
+    "startDate": "2026-06-04",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-04FC-XYZ": {
+    "appName": "RISHY",
+    "startDate": "2026-06-04",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-05FC-XYZ": {
+    "appName": "Grace Bible Quotes",
+    "startDate": "2026-06-05",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-06FC-XYZ": {
+    "appName": "Stack Elite",
+    "startDate": "2026-06-05",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-07FC-XYZ": {
+    "appName": "Gebblly Driver",
+    "startDate": "2026-06-05",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-08FC-XYZ": {
+    "appName": "Bit2Bid",
+    "startDate": "2026-06-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-09FC-XYZ": {
+    "appName": "Intraeats",
+    "startDate": "2026-06-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-10FC-XYZ": {
+    "appName": "RK Scrap Traders",
+    "startDate": "2026-06-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-04FB-XYZ": {
+    "appName": "NoteCanvas",
+    "startDate": "2026-06-05",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-05FB-XYZ": {
+    "appName": "Feedalto",
+    "startDate": "2026-06-05",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-06FB-XYZ": {
+    "appName": "Prodigy Sports Games",
+    "startDate": "2026-06-05",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-07FB-XYZ": {
+    "appName": "Gebblly Restaurant",
+    "startDate": "2026-06-05",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-10FA-XYZ": {
+    "appName": "Vortex",
+    "startDate": "2026-06-04",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-11FA-XYZ": {
+    "appName": "InstaWall",
+    "startDate": "2026-06-04",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-12FA-XYZ": {
+    "appName": "Aqarat All Iraq",
+    "startDate": "2026-06-05",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-13FA-XYZ": {
+    "appName": "Arva Ai",
+    "startDate": "2026-06-05",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-14FA-XYZ": {
+    "appName": "Gebblly",
+    "startDate": "2026-06-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-15FA-XYZ": {
+    "appName": "PromptBot - AI Photo Editing",
+    "startDate": "2026-06-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-16FA-XYZ": {
+    "appName": "Focus Lock- App Locker/planner",
+    "startDate": "2026-06-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-17FA-XYZ": {
+    "appName": "Rasoi AI - AI powered Kitchen",
+    "startDate": "2026-06-07",
+    "totalDays": 14,
+    "status": "active"
   }
 }
