@@ -3,38 +3,38 @@
   "changedCount": 1,
   "newApps": [
     {
-      "id": "BX026Q-19FA-XYZ",
-      "appName": "Mindfuel: Daily Affirmations",
+      "id": "BX026Q-12FC-XYZ",
+      "appName": "SmileDental- Clinic Manager",
       "startDate": "2026-06-10",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-11FC-XYZ",
-      "appName": "Delivery On Time",
-      "startDate": "2026-06-09",
+      "id": "BX026Q-20FA-XYZ",
+      "appName": "Chef Clemzy",
+      "startDate": "2026-06-10",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-08FB-XYZ",
-      "appName": "Rise Up Balloon",
-      "startDate": "2026-06-00",
+      "id": "BX026Q-21FA-XYZ",
+      "appName": "Kabadeal",
+      "startDate": "2026-06-10",
       "totalDays": 14,
       "status": "active"
     }
   ],
   "changedApps": [
     {
-      "id": "BX026Q-08FC-XYZ",
+      "id": "BX026Q-08FB-XYZ",
       "oldRecord": {
-        "appName": "Bit2Bid",
-        "startDate": "2026-06-07",
+        "appName": "Rise Up Balloon",
+        "startDate": "2026-06-00",
         "totalDays": 14,
         "status": "active"
       },
       "newRecord": {
-        "appName": "Fixipro",
+        "appName": "Rise Up Balloon",
         "startDate": "2026-06-09",
         "totalDays": 14,
         "status": "active"

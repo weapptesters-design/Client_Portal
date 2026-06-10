@@ -223,7 +223,25 @@ window.ORDERS = {
   },
   "BX026Q-08FB-XYZ": {
     "appName": "Rise Up Balloon",
-    "startDate": "2026-06-00",
+    "startDate": "2026-06-09",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-12FC-XYZ": {
+    "appName": "SmileDental- Clinic Manager",
+    "startDate": "2026-06-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-20FA-XYZ": {
+    "appName": "Chef Clemzy",
+    "startDate": "2026-06-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-21FA-XYZ": {
+    "appName": "Kabadeal",
+    "startDate": "2026-06-10",
     "totalDays": 14,
     "status": "active"
   }
