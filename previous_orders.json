@@ -114,8 +114,8 @@
     "status": "active"
   },
   "BX026Q-08FC-XYZ": {
-    "appName": "Bit2Bid",
-    "startDate": "2026-06-07",
+    "appName": "Fixipro",
+    "startDate": "2026-06-09",
     "totalDays": 14,
     "status": "active"
   },
@@ -206,6 +206,24 @@
   "BX026Q-18FA-XYZ": {
     "appName": "My Ace",
     "startDate": "2026-06-08",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-19FA-XYZ": {
+    "appName": "Mindfuel: Daily Affirmations",
+    "startDate": "2026-06-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-11FC-XYZ": {
+    "appName": "Delivery On Time",
+    "startDate": "2026-06-09",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-08FB-XYZ": {
+    "appName": "Rise Up Balloon",
+    "startDate": "2026-06-00",
     "totalDays": 14,
     "status": "active"
   }
