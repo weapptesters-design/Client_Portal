@@ -244,5 +244,29 @@
     "startDate": "2026-06-10",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-22FA-XYZ": {
+    "appName": "PSI Live Rain Track",
+    "startDate": "2026-06-09",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-09FB-XYZ": {
+    "appName": "Rishta Link",
+    "startDate": "2026-06-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-10FB-XYZ": {
+    "appName": "OctoClient",
+    "startDate": "2026-06-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-11FB-XYZ": {
+    "appName": "SmartGrade",
+    "startDate": "2026-06-10",
+    "totalDays": 14,
+    "status": "active"
   }
 }

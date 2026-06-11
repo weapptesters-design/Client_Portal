@@ -1,44 +1,35 @@
 {
-  "newCount": 3,
-  "changedCount": 1,
+  "newCount": 4,
+  "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-12FC-XYZ",
-      "appName": "SmileDental- Clinic Manager",
+      "id": "BX026Q-22FA-XYZ",
+      "appName": "PSI Live Rain Track",
+      "startDate": "2026-06-09",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-09FB-XYZ",
+      "appName": "Rishta Link",
       "startDate": "2026-06-10",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-20FA-XYZ",
-      "appName": "Chef Clemzy",
+      "id": "BX026Q-10FB-XYZ",
+      "appName": "OctoClient",
       "startDate": "2026-06-10",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-21FA-XYZ",
-      "appName": "Kabadeal",
+      "id": "BX026Q-11FB-XYZ",
+      "appName": "SmartGrade",
       "startDate": "2026-06-10",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": [
-    {
-      "id": "BX026Q-08FB-XYZ",
-      "oldRecord": {
-        "appName": "Rise Up Balloon",
-        "startDate": "2026-06-00",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Rise Up Balloon",
-        "startDate": "2026-06-09",
-        "totalDays": 14,
-        "status": "active"
-      }
-    }
-  ]
+  "changedApps": []
 }
