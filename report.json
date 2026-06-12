@@ -1,32 +1,25 @@
 {
-  "newCount": 4,
+  "newCount": 3,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-22FA-XYZ",
-      "appName": "PSI Live Rain Track",
-      "startDate": "2026-06-09",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-09FB-XYZ",
-      "appName": "Rishta Link",
+      "id": "BX026Q-13FC-XYZ",
+      "appName": "Peptometry",
       "startDate": "2026-06-10",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-10FB-XYZ",
-      "appName": "OctoClient",
+      "id": "BX026Q-23FA-XYZ",
+      "appName": "Unigramm",
       "startDate": "2026-06-10",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-11FB-XYZ",
-      "appName": "SmartGrade",
-      "startDate": "2026-06-10",
+      "id": "BX026Q-24FA-XYZ",
+      "appName": "SG MSG",
+      "startDate": "2026-06-11",
       "totalDays": 14,
       "status": "active"
     }

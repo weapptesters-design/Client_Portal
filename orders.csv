@@ -44,9 +44,9 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 09FB,Rishta Link,10,6,2026,BX026Q,09FB,XYZ,14,active
 10FB,OctoClient,10,6,2026,BX026Q,10FB,XYZ,14,active 
 11FB,SmartGrade,10,6,2026,BX026Q,11FB,XYZ,14,active
-,,,6,2026,BX026Q,,XYZ,14,active 
-,,,6,2026,BX026Q,,XYZ,14,active
-,,,6,2026,BX026Q,,XYZ,14,active 
+13FC,Peptometry,10,6,2026,BX026Q,13FC,XYZ,14,active 
+23FA,Unigramm,10,6,2026,BX026Q,23FA,XYZ,14,active
+24FA,SG MSG ,11,6,2026,BX026Q,24FA,XYZ,14,active 
 ,,,6,2026,BX026Q,,XYZ,14,active
 ,,,6,2026,BX026Q,,XYZ,14,active 
 ,,,6,2026,BX026Q,,XYZ,14,active
