@@ -1,18 +1,32 @@
 {
-  "newCount": 2,
+  "newCount": 4,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-28FA-XYZ",
-      "appName": "PDT",
-      "startDate": "2026-06-13",
+      "id": "BX026Q-29FA-XYZ",
+      "appName": "Trade Pulse",
+      "startDate": "2026-06-14",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-18FC-XYZ",
-      "appName": "Dance AI",
-      "startDate": "2026-06-13",
+      "id": "BX026Q-30FA-XYZ",
+      "appName": "PDF Birds",
+      "startDate": "2026-06-14",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-19FC-XYZ",
+      "appName": "ClonePlus",
+      "startDate": "2026-06-14",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-19FB-XYZ",
+      "appName": "Hawkin",
+      "startDate": "2026-06-15",
       "totalDays": 14,
       "status": "active"
     }
