@@ -192,7 +192,7 @@ window.ORDERS = {
     "status": "active"
   },
   "BX026Q-16FA-XYZ": {
-    "appName": "Focus Lock App Locker/planner",
+    "appName": "Focus Lock App Locker planner",
     "startDate": "2026-06-07",
     "totalDays": 14,
     "status": "active"
