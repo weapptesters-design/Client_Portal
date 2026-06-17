@@ -3,9 +3,9 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 02FA ,QRNova,2,6,2026,BX026Q,02FA ,XYZ,14,active 
 03FA ,Xtra Volume Pro,2,6,2026,BX026Q,03FA ,XYZ,14,active
 04FA,AI CALCULATOR ,2,6,2026,BX026Q,04FA,XYZ,14,active 
-05FA ,One More Floor: Escape Tower,3,6,2026,BX026Q,05FA ,XYZ,14,active
+05FA ,One More Floor Escape Tower,3,6,2026,BX026Q,05FA ,XYZ,14,active
 06FA,Oneg Partner ,3,6,2026,BX026Q,06FA,XYZ,14,active 
-07FA,History Trivia-Daily Quiz,3,6,2026,BX026Q,07FA,XYZ,14,active 
+07FA,History Trivia Daily Quiz,3,6,2026,BX026Q,07FA,XYZ,14,active 
 08FA,One Two One,4,6,2026,BX026Q,08FA,XYZ,14,active
 09FA,Octo Tik,4,6,2026,BX026Q,09FA,XYZ,14,active 
 01FB,SPT Campo Pro,1,6,2026,BX026Q,01FB,XYZ,14,active 
@@ -30,11 +30,11 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 12FA,Aqarat All Iraq,5,6,2026,BX026Q,12FA,XYZ,14,active
 13FA,Arva Ai,5,6,2026,BX026Q,13FA,XYZ,14,active 
 14FA,Gebblly,6,6,2026,BX026Q,14FA,XYZ,14,active
-15FA,PromptBot - AI Photo Editing,6,6,2026,BX026Q,15FA,XYZ,14,active 
-16FA,Focus Lock- App Locker/planner,7,6,2026,BX026Q,16FA,XYZ,14,active
-17FA,Rasoi AI - AI powered Kitchen,7,6,2026,BX026Q,17FA,XYZ,14,active 
+15FA,PromptBot  AI Photo Editing,6,6,2026,BX026Q,15FA,XYZ,14,active 
+16FA,Focus Lock App Locker/planner,7,6,2026,BX026Q,16FA,XYZ,14,active
+17FA,Rasoi AI AI powered Kitchen,7,6,2026,BX026Q,17FA,XYZ,14,active 
 18FA,My Ace ,8,6,2026,BX026Q,18FA,XYZ,14,active
-19FA ,Mindfuel: Daily Affirmations ,10,6,2026,BX026Q,19FA ,XYZ,14,active 
+19FA ,Mindfuel Daily Affirmations ,10,6,2026,BX026Q,19FA ,XYZ,14,active 
 11FC,Delivery On Time ,9,6,2026,BX026Q,11FC,XYZ,14,active
 08FB,Rise Up Balloon ,9,6,2026,BX026Q,08FB,XYZ,14,active 
 12FC,SmileDental- Clinic Manager ,10,6,2026,BX026Q,12FC,XYZ,14,active
@@ -56,10 +56,10 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 27FA,Three Color Puzzle ,11,6,2026,BX026Q,27FA,XYZ,14,active 
 15FC,TexamBuddy,11,6,2026,BX026Q,15FC,XYZ,14,active
 16FC,CivilCalcPro,12,6,2026,BX026Q,16FC,XYZ,14,active 
-15FB,Audenahub ,11,6,2026,BX026Q,15FB,,,
-16FB,Bloom -Track Your Cycle ,12,6,2026,BX026Q,16FB,XYZ,14,active
+15FB,Audenahub ,11,6,2026,BX026Q,15FB,XYZ,14,active 
+16FB,Bloom Track Your Cycle ,12,6,2026,BX026Q,16FB,XYZ,14,active
 17FC,BillPatra ,12,6,2026,BX026Q,17FC,XYZ,14,active 
-17FB,ResumeMint: Resume Builder,13,6,2026,BX026Q,17FB,XYZ,14,active
+17FB,ResumeMint  Resume Builder,13,6,2026,BX026Q,17FB,XYZ,14,active
 18FB,PDF Verse,13,6,2026,BX026Q,18FB,XYZ,14,active 
 28FA,PDT,13,6,2026,BX026Q,28FA,XYZ,14,active 
 18FC,Dance AI,13,6,2026,BX026Q,18FC,XYZ,14,active
@@ -67,12 +67,12 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 30FA ,PDF Birds,14,6,2026,BX026Q,30FA ,XYZ,14,active
 19FC,ClonePlus,14,6,2026,BX026Q,19FC,XYZ,14,active 
 19FB,Hawkin,15,6,2026,BX026Q,19FB,XYZ,14,active
-,,,6,2026,BX026Q,,XYZ,14,active 
-,,,6,2026,BX026Q,,XYZ,14,active 
-,,,6,2026,BX026Q,,XYZ,14,active
-,,,6,2026,BX026Q,,XYZ,14,active 
-,,,6,2026,BX026Q,,XYZ,14,active
-,,,6,2026,BX026Q,,XYZ,14,active 
+20FC,Scan to PDF ,16,6,2026,BX026Q,20FC,XYZ,14,active 
+20FB,RasaSnap ,15,6,2026,BX026Q,20FB,XYZ,14,active 
+21FB,Tap Grow Empire Idle Tycoon,15,6,2026,BX026Q,21FB,XYZ,14,active
+22FB,Letters Pro,16,6,2026,BX026Q,22FB,XYZ,14,active 
+23FB,Delhi Metro Nav,16,6,2026,BX026Q,23FB,XYZ,14,active
+24FB,NexoBulk India ,16,6,2026,BX026Q,24FB,XYZ,14,active 
 ,,,6,2026,BX026Q,,XYZ,14,active
 ,,,6,2026,BX026Q,,XYZ,14,active 
 ,,,6,2026,BX026Q,,XYZ,14,active 

@@ -24,7 +24,7 @@
     "status": "active"
   },
   "BX026Q-05FA-XYZ": {
-    "appName": "One More Floor: Escape Tower",
+    "appName": "One More Floor Escape Tower",
     "startDate": "2026-06-03",
     "totalDays": 14,
     "status": "active"
@@ -36,7 +36,7 @@
     "status": "active"
   },
   "BX026Q-07FA-XYZ": {
-    "appName": "History Trivia-Daily Quiz",
+    "appName": "History Trivia Daily Quiz",
     "startDate": "2026-06-03",
     "totalDays": 14,
     "status": "active"
@@ -186,19 +186,19 @@
     "status": "active"
   },
   "BX026Q-15FA-XYZ": {
-    "appName": "PromptBot - AI Photo Editing",
+    "appName": "PromptBot  AI Photo Editing",
     "startDate": "2026-06-06",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-16FA-XYZ": {
-    "appName": "Focus Lock- App Locker/planner",
+    "appName": "Focus Lock App Locker/planner",
     "startDate": "2026-06-07",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-17FA-XYZ": {
-    "appName": "Rasoi AI - AI powered Kitchen",
+    "appName": "Rasoi AI AI powered Kitchen",
     "startDate": "2026-06-07",
     "totalDays": 14,
     "status": "active"
@@ -210,7 +210,7 @@
     "status": "active"
   },
   "BX026Q-19FA-XYZ": {
-    "appName": "Mindfuel: Daily Affirmations",
+    "appName": "Mindfuel Daily Affirmations",
     "startDate": "2026-06-10",
     "totalDays": 14,
     "status": "active"
@@ -341,8 +341,14 @@
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-15FB-XYZ": {
+    "appName": "Audenahub",
+    "startDate": "2026-06-11",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-16FB-XYZ": {
-    "appName": "Bloom -Track Your Cycle",
+    "appName": "Bloom Track Your Cycle",
     "startDate": "2026-06-12",
     "totalDays": 14,
     "status": "active"
@@ -354,7 +360,7 @@
     "status": "active"
   },
   "BX026Q-17FB-XYZ": {
-    "appName": "ResumeMint: Resume Builder",
+    "appName": "ResumeMint  Resume Builder",
     "startDate": "2026-06-13",
     "totalDays": 14,
     "status": "active"
@@ -398,6 +404,42 @@
   "BX026Q-19FB-XYZ": {
     "appName": "Hawkin",
     "startDate": "2026-06-15",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-20FC-XYZ": {
+    "appName": "Scan to PDF",
+    "startDate": "2026-06-16",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-20FB-XYZ": {
+    "appName": "RasaSnap",
+    "startDate": "2026-06-15",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-21FB-XYZ": {
+    "appName": "Tap Grow Empire Idle Tycoon",
+    "startDate": "2026-06-15",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-22FB-XYZ": {
+    "appName": "Letters Pro",
+    "startDate": "2026-06-16",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-23FB-XYZ": {
+    "appName": "Delhi Metro Nav",
+    "startDate": "2026-06-16",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-24FB-XYZ": {
+    "appName": "NexoBulk India",
+    "startDate": "2026-06-16",
     "totalDays": 14,
     "status": "active"
   }
