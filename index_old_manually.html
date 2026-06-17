@@ -4,800 +4,614 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>We App Testers - Client Portal</title>
-<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  :root{
+    --green-600:#16a34a;
+    --green-700:#15803d;
+    --green-50:#f0fdf4;
+    --blue-600:#2563eb;
+    --blue-700:#1d4ed8;
+    --blue-50:#eff6ff;
+    --gray-800:#1f2937;
+    --gray-700:#374151;
+    --gray-600:#4b5563;
+    --gray-500:#6b7280;
+    --gray-300:#d1d5db;
+    --gray-200:#e5e7eb;
+    --gray-100:#f3f4f6;
+    --gray-50:#f9fafb;
+    --red-700:#b91c1c;
+    --red-200:#fecaca;
+    --red-50:#fef2f2;
+    --yellow-400:#facc15;
+    --red-400:#f87171;
+    --green-400:#4ade80;
+    --shadow:0 4px 14px rgba(0,0,0,0.08);
+    --radius:14px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:linear-gradient(180deg,var(--green-50),var(--blue-50));
+    color:var(--gray-800);
+    min-height:100vh;
+  }
+  .hidden{display:none !important;}
+
+  /* Header */
+  .header{
+    background:linear-gradient(90deg,var(--green-600),var(--blue-600));
+    color:#fff;
+    padding:32px 16px;
+    box-shadow:var(--shadow);
+  }
+  .header-inner{max-width:880px;margin:0 auto;}
+  .header h1{margin:0 0 6px 0;font-size:28px;font-weight:800;}
+  .header p.sub{margin:0;color:#dcfce7;font-size:15px;}
+  .header p.note{margin:8px 0 0 0;color:#fee2e2;font-size:13px;}
+
+  .container{max-width:880px;margin:0 auto;padding:24px 16px 90px;}
+
+  .card{
+    background:#fff;
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    padding:24px;
+    margin-bottom:24px;
+  }
+
+  /* Search */
+  .search-label{display:block;font-weight:700;color:var(--gray-700);margin-bottom:10px;font-size:15px;}
+  .search-row{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;align-items:center;}
+  .search-row input{
+    padding:12px 14px;
+    border:2px solid var(--gray-300);
+    border-radius:10px;
+    font-weight:700;
+    text-align:center;
+    font-size:15px;
+    outline:none;
+    transition:border-color .15s ease;
+  }
+  .search-row input:focus{border-color:var(--green-600);}
+  .search-row input#prefixInput{width:120px;}
+  .search-row input#orderIdInput{flex:1;min-width:120px;}
+  .search-row input#suffixInput{width:90px;background:var(--gray-100);color:var(--gray-600);cursor:not-allowed;}
+  .dash{font-size:22px;color:var(--gray-300);font-weight:800;padding:0 2px;}
+
+  .btn-search{
+    width:100%;
+    background:linear-gradient(90deg,var(--green-600),var(--blue-600));
+    color:#fff;
+    border:none;
+    padding:14px 18px;
+    border-radius:10px;
+    font-weight:700;
+    font-size:15px;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    transition:opacity .15s ease;
+  }
+  .btn-search:hover{opacity:0.92;}
+  .btn-search:active{opacity:0.8;}
+
+  .error-box{
+    margin-top:16px;
+    padding:14px;
+    background:var(--red-50);
+    border:1px solid var(--red-200);
+    border-radius:10px;
+    color:var(--red-700);
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+    font-size:14px;
+  }
+  .error-box svg{flex-shrink:0;margin-top:2px;}
+
+  .demo-note{margin-top:16px;font-size:13px;color:var(--gray-600);}
+  .demo-note .label{font-weight:700;display:block;margin-bottom:4px;color:var(--gray-700);}
+
+  /* Order info card */
+  .order-title{font-size:22px;font-weight:800;color:var(--gray-800);margin:0 0 18px 0;}
+  .info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  @media (max-width:640px){ .info-grid{grid-template-columns:1fr;} }
+  .info-item p.label{margin:0 0 4px 0;font-size:13px;color:var(--gray-600);}
+  .info-item p.value{margin:0;font-size:17px;font-weight:700;color:var(--gray-800);}
+
+  /* Progress card */
+  .progress-card{
+    background:linear-gradient(90deg,var(--green-600),var(--blue-600));
+    color:#fff;
+  }
+  .progress-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:10px;}
+  .progress-head h3{margin:0;font-size:19px;font-weight:800;}
+  .status-badge{
+    padding:6px 16px;
+    border-radius:999px;
+    font-size:13px;
+    font-weight:700;
+  }
+  .status-active{background:var(--yellow-400);color:var(--gray-800);}
+  .status-completed{background:var(--green-400);color:var(--gray-800);}
+  .status-stopped{background:var(--red-400);color:#fff;}
+
+  .progress-meta{display:flex;justify-content:space-between;font-size:14px;font-weight:700;margin-bottom:6px;}
+  .progress-track{width:100%;height:12px;background:rgba(255,255,255,0.3);border-radius:999px;overflow:hidden;margin-bottom:18px;}
+  .progress-fill{height:100%;background:#fff;border-radius:999px;transition:width .5s ease;width:0%;}
+
+  .remaining-box{
+    background:rgba(255,255,255,0.18);
+    border-radius:10px;
+    padding:18px;
+    text-align:center;
+  }
+  .remaining-box p.label{margin:0 0 4px 0;font-size:13px;}
+  .remaining-box p.value{margin:0;font-size:30px;font-weight:800;}
+  .check-icon-wrap{margin-bottom:8px;}
+
+  /* Milestones */
+  .milestones-title{font-size:19px;font-weight:800;margin:0 0 18px 0;color:var(--gray-800);}
+  .milestone-list{display:flex;flex-direction:column;gap:12px;}
+
+  .testing-toggle-wrap{border:1px solid var(--gray-200);border-radius:10px;overflow:hidden;}
+  .testing-toggle-btn{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:14px 16px;
+    background:var(--gray-50);
+    border:none;
+    cursor:pointer;
+    font-weight:700;
+    color:var(--gray-800);
+    font-size:14px;
+    letter-spacing:.02em;
+  }
+  .testing-toggle-btn:hover{background:var(--gray-100);}
+  .testing-days-panel{padding:14px 16px;display:flex;flex-direction:column;gap:8px;background:#fff;max-height:280px;overflow-y:auto;}
+  .day-row{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;background:var(--gray-50);}
+  .day-row.done{background:var(--green-50);}
+  .day-row span{font-size:13px;color:var(--gray-500);}
+  .day-row.done span{color:var(--gray-800);}
+
+  .milestone-item{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    padding:12px 14px;
+    border-radius:10px;
+    border:1px solid var(--gray-200);
+    background:var(--gray-50);
+  }
+  .milestone-item.done{background:var(--green-50);border-color:#bbf7d0;}
+  .milestone-item .dot{flex-shrink:0;margin-top:1px;}
+  .milestone-item .circle-empty{
+    width:18px;height:18px;border:2px solid var(--gray-300);border-radius:50%;flex-shrink:0;margin-top:1px;
+  }
+  .milestone-item .m-label{font-size:14px;font-weight:600;color:var(--gray-500);}
+  .milestone-item.done .m-label{color:var(--gray-800);}
+  .milestone-item .m-date{margin:2px 0 0 0;font-size:12px;color:var(--gray-500);}
+
+  /* Footer / time */
+  .time-row{text-align:right;color:var(--gray-500);font-size:13px;margin-top:8px;}
+
+  /* WhatsApp floating button */
+  .whatsapp-btn{
+    position:fixed;
+    bottom:24px;
+    right:24px;
+    background:#25D366;
+    color:#fff;
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 6px 16px rgba(0,0,0,0.25);
+    text-decoration:none;
+    z-index:999;
+    transition:transform .15s ease;
+  }
+  .whatsapp-btn:hover{transform:scale(1.08);background:#21bd5a;}
+
+  svg{display:block;}
+</style>
 </head>
 <body>
-<div id="root"></div>
-<script type="text/babel">
-const { useState, useEffect } = React;
 
-// Icons
-const Search = ({ size = 24 }) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <circle cx="11" cy="11" r="8"></circle>
-    <path d="m21 21-4.35-4.35"></path>
-  </svg>
-);
+<div class="header">
+  <div class="header-inner">
+    <h1>We App Testers</h1>
+    <p class="sub">Track Your App Testing Progress</p>
+    <p class="note">We store only last 20-30 days data</p>
+  </div>
+</div>
 
-const CheckCircle = ({ size = 24, className = "" }) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
-    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-    <polyline points="22 4 12 14.01 9 11.01"></polyline>
-  </svg>
-);
+<div class="container">
 
-const AlertCircle = ({ size = 24, className = "" }) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
-    <circle cx="12" cy="12" r="10"></circle>
-    <line x1="12" y1="8" x2="12" y2="12"></line>
-    <line x1="12" y1="16" x2="12.01" y2="16"></line>
-  </svg>
-);
-
-const ChevronDown = ({ size = 24, className = "" }) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
-    <polyline points="6 9 12 15 18 9"></polyline>
-  </svg>
-);
-
-const ChevronUp = ({ size = 24, className = "" }) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
-    <polyline points="18 15 12 9 6 15"></polyline>
-  </svg>
-);
-
-const MessageCircle = ({ size = 24 }) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-  </svg>
-);
-
-// Demo Orders
-const DEMO_ORDERS = {
-   'BX026Q-30LB-XYZ': {
-    appName: 'Adventures Game',
-    startDate: '2025-12-19',
-    totalDays: 14,
-    status: 'active'
-  },
-  'BX026Q-WAT002-XYZ': {
-    appName: 'Food Delivery Plus',
-    startDate: '2025-12-05',
-    totalDays: 15,
-    status: 'active'
-  },
-  'BX026Q-WAT003-XYZ': {
-    appName: 'Shopping Cart App',
-    startDate: '2025-12-01',
-    totalDays: 14,
-    status: 'active'
-  } ,
-  'BX025Q-29LA-XYZ': {
-    appName: 'Look and Eat',
-    startDate: '2025-12-19',
-    totalDays: 14,
-    status: 'active'
-  },
-  'BX025Q-30LA-XYZ': {
-    appName: 'Clickmora 2',
-    startDate: '2025-12-20',
-    totalDays: 14,
-    status: 'active'
-  } ,
-  'BX025Q-31LA-XYZ': {
-    appName: 'CK HLau tie',
-    startDate: '2025-12-20',
-    totalDays: 14,
-    status: 'active'
-  },
-  'BX025Q-30LB-XYZ': {
-    appName: 'Adventures Game',
-    startDate: '2025-12-19',
-    totalDays: 14,
-    status: 'active'
-  } ,
-  'BX025Q-31LB-XYZ': {
-    appName: 'HabitCore',
-    startDate: '2025-12-20',
-    totalDays: 14,
-    status: 'active'
-  } , 
-  'BX026Q-22DB-XYZ': {
-    appName: 'FactoriesCart Delivery Partner', 
-    startDate: '2026-04-17',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-23DB-XYZ': {
-    appName: 'Maranox', 
-    startDate: '2026-04-18',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-24DB-XYZ': {
-    appName: 'Navio Driver', 
-    startDate: '2026-04-18',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-22DA-XYZ': {
-    appName: 'Home instapro', 
-    startDate: '2026-04-17',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-23DA-XYZ': {
-    appName: 'Shortlines', 
-    startDate: '2026-04-19',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-25DA-XYZ': {
-    appName: 'FynderApp', 
-    startDate: '2026-04-20',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-26DA-XYZ': {
-    appName: 'Ailmlabs', 
-    startDate: '2026-04-20',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-27DA-XYZ': {
-    appName: 'Techmart', 
-    startDate: '2026-04-21',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-28DA-XYZ': {
-    appName: 'Qr barcode scanmaster', 
-    startDate: '2026-04-21',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-29DA-XYZ': {
-    appName: 'Secure status saver', 
-    startDate: '2026-04-21',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-30DA-XYZ': {
-    appName: 'Cine Ai Primefire', 
-    startDate: '2026-04-21',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-31DA-XYZ': {
-    appName: 'Bashdar Auto', 
-    startDate: '2026-04-22',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-32DA-XYZ': {
-    appName: 'AI Brief24', 
-    startDate: '2026-04-22',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-27DB-XYZ': {
-    appName: 'Removebg', 
-    startDate: '2026-04-21',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-28DB-XYZ': {
-    appName: 'Calculator Pro', 
-    startDate: '2026-04-22',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-29DB-XYZ': {
-    appName: 'Vidnest  Media Downloder', 
-    startDate: '2026-04-22',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-30DB-XYZ': {
-    appName: 'AI PDF Suite  Edit & Convert', 
-    startDate: '2026-04-23',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-31DB-XYZ': {
-    appName: 'Candy live Video Chat call', 
-    startDate: '2026-04-23',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-32DB-XYZ': {
-    appName: 'AC Tech Patner', 
-    startDate: '2026-04-23',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-33DB-XYZ': {
-    appName: 'Karmee Circle', 
-    startDate: '2026-04-27',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-34DB-XYZ': {
-    appName: 'IPTV Player  Smart Online TV', 
-    startDate: '2026-04-27',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-35DB-XYZ': {
-    appName: 'Insta Lead', 
-    startDate: '2026-04-27',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-36DB-XYZ': {
-    appName: 'Dear Lottery Target Pro', 
-    startDate: '2026-04-28',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-33DA-XYZ': {
-    appName: 'Rishta Book', 
-    startDate: '2026-04-25',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-34DA-XYZ': {
-    appName: 'Nibiya', 
-    startDate: '2026-04-25',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-35DA-XYZ': {
-    appName: 'Sipora', 
-    startDate: '2026-04-26',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-36DA-XYZ': {
-    appName: 'Arambagh', 
-    startDate: '2026-04-29',
-    totalDays: 14,
-    status: 'active' 
-  } , 
-  'BX026Q-01EA-XYZ': {
-    appName: 'Rechargely', 
-    startDate: '2026-05-01',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-02EA-XYZ': {
-    appName: 'Apnamap', 
-    startDate: '2026-05-02',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-03EA-XYZ': {
-    appName: 'Ganxtv', 
-    startDate: '2026-05-02',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-04EA-XYZ': {
-    appName: 'JK SIGMA', 
-    startDate: '2026-05-02',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-05EA-XYZ': {
-    appName: 'Webspec HUB  Smart Solutions', 
-    startDate: '2026-05-03',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-01EB-XYZ': {
-    appName: 'Psd Finder', 
-    startDate: '2026-05-01',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-02EB-XYZ': {
-    appName: 'Pairup', 
-    startDate: '2026-05-01',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-03EB-XYZ': {
-    appName: 'VTCfacture', 
-    startDate: '2026-05-01',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-04EB-XYZ': {
-    appName: 'Rechargea Recharge Commission', 
-    startDate: '2026-05-01',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-05EB-XYZ': {
-    appName: 'EazyKhata', 
-    startDate: '2026-05-01',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-06EA-XYZ': {
-    appName: 'Bite Adda', 
-    startDate: '2026-05-03',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-07EA-XYZ': {
-    appName: 'trucoPix', 
-    startDate: '2026-05-03',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-08EA-XYZ': {
-    appName: 'Marques VendasPMG', 
-    startDate: '2026-05-03',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-06EB-XYZ': {
-    appName: 'English to Spanish Translator', 
-    startDate: '2026-05-03',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-09EA-XYZ': {
-    appName: 'Baby Dance AI Funny Videos', 
-    startDate: '2026-05-04',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-10EA-XYZ': {
-    appName: 'Regional Basket', 
-    startDate: '2026-05-05',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-11EA-XYZ': {
-    appName: 'OrbiTik', 
-    startDate: '2026-05-05',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-07EB-XYZ': {
-    appName: 'Namaazi', 
-    startDate: '2026-05-04',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-08EB-XYZ': {
-    appName: 'Xopoz', 
-    startDate: '2026-05-05',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-09EB-XYZ': {
-    appName: 'I m Here', 
-    startDate: '2026-05-06',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-12EA-XYZ': {
-    appName: 'AIPPT AI Presentation Maker', 
-    startDate: '2026-05-06',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-10EB-XYZ': {
-    appName: 'Our Kitchen', 
-    startDate: '2026-05-06',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-13EA-XYZ': {
-    appName: 'AlterEgoAi', 
-    startDate: '2026-05-07',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-14EA-XYZ': {
-    appName: 'AstroDRP', 
-    startDate: '2026-05-07',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-15EA-XYZ': {
-    appName: 'Clipboard History Manager', 
-    startDate: '2026-05-08',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-16EA-XYZ': {
-    appName: 'Zeropann', 
-    startDate: '2026-05-09',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-17EA-XYZ': {
-    appName: 'Shipter', 
-    startDate: '2026-05-09',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-18EA-XYZ': {
-    appName: 'MASCA', 
-    startDate: '2026-05-09',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-11EB-XYZ': {
-    appName: 'Mahjong Fortune Match Tiles', 
-    startDate: '2026-05-09',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-12EB-XYZ': {
-    appName: 'Aelioxto', 
-    startDate: '2026-05-09',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-13EB-XYZ': {
-    appName: 'GuestGuard', 
-    startDate: '2026-05-09',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-14EB-XYZ': {
-    appName: 'SuperGenKart', 
-    startDate: '2026-05-10',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-19EA-XYZ': {
-    appName: 'StyleKro', 
-    startDate: '2026-05-10',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-20EA-XYZ': {
-    appName: 'VisualPlot Pro Area  Layout', 
-    startDate: '2026-05-10',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-15EB-XYZ': {
-    appName: 'THTWAAT', 
-    startDate: '2026-05-10',
-    totalDays: 14,
-    status: 'active' 
- }  , 
-  'BX026Q-16EB-XYZ': {
-    appName: 'Rabbitship', 
-    startDate: '2026-05-11',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-21EA-XYZ': {
-    appName: 'WatchoPlay', 
-    startDate: '2026-05-12',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-22EA-XYZ': {
-    appName: 'NEET WITH AI', 
-    startDate: '2026-05-12',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-17EB-XYZ': {
-    appName: 'Dont Hit Red', 
-    startDate: '2026-05-12',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-23EA-XYZ': {
-    appName: 'RadhaKrishna Jaap', 
-    startDate: '2026-05-13',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-24EA-XYZ': {
-    appName: 'Statifyy', 
-    startDate: '2026-05-13',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-18EB-XYZ': {
-    appName: 'DilSync', 
-    startDate: '2026-05-13',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-19EB-XYZ': {
-    appName: 'Kundlipro', 
-    startDate: '2026-05-13',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-20EB-XYZ': {
-    appName: 'Kerala Ranker', 
-    startDate: '2026-05-14',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-21EB-XYZ': {
-    appName: 'Dawn  File Sharing', 
-    startDate: '2026-05-14',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-22EB-XYZ': {
-    appName: 'Rope Twisted Puzzle', 
-    startDate: '2026-05-14',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-23EB-XYZ': {
-    appName: 'DocSnap AI', 
-    startDate: '2026-05-14',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-24EB-XYZ': {
-    appName: 'Zudav Delivery', 
-    startDate: '2026-05-15',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-25EB-XYZ': {
-    appName: 'CarCare', 
-    startDate: '2026-05-16',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-25EA-XYZ': {
-    appName: 'EasyHisab', 
-    startDate: '2026-05-14',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-26EA-XYZ': {
-    appName: 'BondUs  Connect and Chat', 
-    startDate: '2026-05-14',
-    totalDays: 14,
-    status: 'active' 
- } , 
-  'BX026Q-29EB-XYZ': {
-    appName: 'Gemi Cash', 
-    startDate: '2026-05-18',
-    totalDays: 14,
-    status: 'active' 
- } 
-
-
-  
-
-
-
-
-};
-
-// Helpers
-const formatDate = (date) => {
-  const d = new Date(date);
-  const day = String(d.getDate()).padStart(2,'0');
-  const month = d.toLocaleDateString('en-GB',{month:'long'});
-  const year = d.getFullYear();
-  return `${day} ${month} ${year}`;
-};
-
-// Calculate days completed excluding start day and today
-const getDaysCompleted = (startDate, totalDays) => {
-  const start = new Date(startDate); start.setHours(0,0,0,0);
-  const today = new Date(); today.setHours(0,0,0,0);
-  const diff = Math.floor((today - start)/(1000*60*60*24)) - 1; // exclude start and today
-  return Math.min(Math.max(diff,0), totalDays);
-};
-
-// Determine status
-const getStatus = (orderData) => {
-  if(orderData.status==='stopped') return 'Stopped';
-  const start = new Date(orderData.startDate); start.setHours(0,0,0,0);
-  const today = new Date(); today.setHours(0,0,0,0);
-  const daysSinceStart = Math.floor((today - start)/(1000*60*60*24)) - 1; // exclude start and today
-  return daysSinceStart >= 15 ? 'Completed' : 'Active';
-};
-
-const ProgressBar = ({ completed, total }) => {
-  const percent = (completed/total)*100;
-  return (
-    <div className="mb-4">
-      <div className="flex justify-between text-sm font-semibold mb-1">
-        <span>Testing Progress</span>
-        <span>{completed}/{total} Days</span>
-      </div>
-      <div className="w-full bg-white/30 h-3 rounded-full">
-        <div className="bg-white h-3 rounded-full transition-all duration-500" style={{width:`${percent}%`}}></div>
-      </div>
+  <div class="card">
+    <label class="search-label" for="orderIdInput">Enter Your Order ID</label>
+    <div class="search-row">
+      <input type="text" id="prefixInput" value="BX026Q" placeholder="BX026Q" maxlength="20">
+      <span class="dash">-</span>
+      <input type="text" id="orderIdInput" placeholder="30LB" maxlength="20">
+      <span class="dash">-</span>
+      <input type="text" id="suffixInput" value="XYZ" disabled>
     </div>
-  );
-};
+    <button class="btn-search" id="searchBtn" type="button">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+      Track Order
+    </button>
 
-const MilestoneItem = ({ done, label, date }) => (
-  <div className={`flex items-center gap-3 p-3 rounded-lg border ${done?'bg-green-50 border-green-200':'bg-gray-50 border-gray-200'}`}>
-    {done?<CheckCircle size={20} className="text-green-600 flex-shrink-0"/>:<div className="w-5 h-5 border-2 border-gray-300 rounded-full flex-shrink-0"></div>}
-    <div className="flex-1">
-      <span className={`text-sm font-medium ${done?'text-gray-800':'text-gray-500'}`}>{label}</span>
-      {done && date && <p className="text-xs text-gray-500 mt-0.5">{formatDate(date)}</p>}
+    <div class="error-box hidden" id="errorBox">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+      <span id="errorText"></span>
+    </div>
+
+    <div class="demo-note">
+      <span class="label">Demo Order IDs (enter middle part only):</span>
+      <span id="demoIdsText">30LB &bull; WAT002 &bull; WAT003</span>
     </div>
   </div>
-);
 
-const OrderCard = ({ orderData, prefix, orderId, suffix }) => {
-  const [showTestingDays,setShowTestingDays]=useState(false);
-  const daysCompleted = getDaysCompleted(orderData.startDate, orderData.totalDays);
-  const daysRemaining = Math.max(0, orderData.totalDays - daysCompleted);
+  <div id="resultArea"></div>
 
-  const today = new Date(); today.setHours(0,0,0,0);
-  const startDate = new Date(orderData.startDate); startDate.setHours(0,0,0,0);
+  <div class="time-row" id="timeRow">Current Time: --</div>
+</div>
 
-  // Milestones using new day counting
-  const diffDays = Math.floor((today - startDate)/(1000*60*60*24)) - 1;
-  const feedbackSubmitted = diffDays >= 10;
-  const appliedForProduction = diffDays >= 15;
-  const productionApproved = diffDays >= 18;
+<a class="whatsapp-btn" href="https://wa.me/919122061839" target="_blank" rel="noopener noreferrer" aria-label="Contact on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+</a>
 
-  const feedbackDate = new Date(startDate.getTime() + 10*24*60*60*1000);
-  const appliedDate = new Date(startDate.getTime() + 15*24*60*60*1000);
-  const approvedDate = new Date(startDate.getTime() + 18*24*60*60*1000);
+<script>
+(function(){
+  "use strict";
 
-  const status = getStatus(orderData);
+  // ---- Data is hardcoded here directly (no orders.js / window.ORDERS dependency) ----
+  var ORDERS = {
+    "BX026Q-30LB-XYZ": {
+      appName: "Adventures Game",
+      startDate: "2025-12-19",
+      totalDays: 14,
+      status: "active"
+    },
+    "BX025Q-WAT002-XYZ": {
+      appName: "Food Delivery Plus",
+      startDate: "2025-12-05",
+      totalDays: 15,
+      status: "active"
+    },
+    "BX025Q-WAT003-XYZ": {
+      appName: "Shopping Cart App",
+      startDate: "2025-12-01",
+      totalDays: 14,
+      status: "active"
+    },
+    "BX025Q-29LA-XYZ": {
+      appName: "Look and Eat",
+      startDate: "2025-12-19",
+      totalDays: 14,
+      status: "active"
+    }
+  };
 
-  return (
-    <div className="space-y-6">
-      <div className="bg-white rounded-lg shadow-lg p-6">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">{orderData.appName}</h2>
-        <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4">
-          <div>
-            <p className="text-sm text-gray-600">Order ID</p>
-            <p className="text-lg font-semibold text-gray-800">{prefix}-{orderId}-{suffix}</p>
-          </div>
-          <div>
-            <p className="text-sm text-gray-600">Start Date</p>
-            <p className="text-lg font-semibold text-gray-800">{formatDate(orderData.startDate)}</p>
-          </div>
-          <div>
-            <p className="text-sm text-gray-600">Total Testing Days</p>
-            <p className="text-lg font-semibold text-gray-800">{orderData.totalDays} Days</p>
-          </div>
-        </div>
-      </div>
+  var DAY_MS = 24 * 60 * 60 * 1000;
 
-      <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-lg shadow-lg p-6 text-white">
-        <div className="flex justify-between mb-4 items-center">
-          <h3 className="text-xl font-bold">Testing Progress</h3>
-          <span className={`px-4 py-1 rounded-full text-sm font-semibold ${status==='Completed'?'bg-green-400':status==='Active'?'bg-yellow-400 text-gray-800':'bg-red-400'}`}>{status}</span>
-        </div>
-        <ProgressBar completed={daysCompleted} total={orderData.totalDays}/>
-        <div className="bg-white/20 rounded-lg p-4 text-center backdrop-blur">
-          <CheckCircle size={32} className="mb-2 mx-auto"/>
-          <p className="text-sm mb-1">Days Remaining</p>
-          <p className="text-3xl font-bold">{daysRemaining}</p>
-        </div>
-      </div>
-
-      <div className="bg-white rounded-lg shadow-lg p-6">
-        <h3 className="text-xl font-bold text-gray-800 mb-6">Testing Milestones</h3>
-        <div className="space-y-3">
-          <div className="border border-gray-200 rounded-lg overflow-hidden">
-            <button onClick={()=>setShowTestingDays(!showTestingDays)} className="w-full flex justify-between p-4 bg-gray-50 hover:bg-gray-100 transition">
-              <span className="font-semibold text-gray-800">TESTING PROCESS</span>
-              {showTestingDays?<ChevronUp size={20} className="text-gray-600"/>:<ChevronDown size={20} className="text-gray-600"/>}
-            </button>
-            {showTestingDays && (
-              <div className="p-4 space-y-2 bg-white">
-                {Array.from({length:orderData.totalDays},(_,i)=>i+1).map(day=>{
-                  const isComplete = day<=daysCompleted;
-                  return <div key={day} className={`flex items-center gap-3 p-2 rounded ${isComplete?'bg-green-50':'bg-gray-50'}`}>
-                    {isComplete?<CheckCircle size={18} className="text-green-600 flex-shrink-0"/>:<div className="w-[18px] h-[18px] border-2 border-gray-300 rounded-full flex-shrink-0"></div>}
-                    <span className={`text-sm ${isComplete?'text-gray-800':'text-gray-500'}`}>day {day} testing {isComplete?'done':'pending'}</span>
-                  </div>
-                })}
-              </div>
-            )}
-          </div>
-
-          <MilestoneItem done={feedbackSubmitted} label="Feedback Submitted" date={feedbackDate}/>
-          <MilestoneItem done={appliedForProduction} label="Applied for Production" date={appliedDate}/>
-          <MilestoneItem done={productionApproved} label="Production Approved" date={approvedDate}/>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-function AppTestingTracker(){
-  const [prefix,setPrefix]=useState('BX026Q');
-  const [orderId,setOrderId]=useState('');
-  const [suffix]=useState('XYZ');
-  const [orderData,setOrderData]=useState(null);
-  const [error,setError]=useState('');
-  const [currentTime,setCurrentTime]=useState(new Date());
-
-  useEffect(()=>{
-    const timer = setInterval(()=>setCurrentTime(new Date()),60000);
-    return ()=>clearInterval(timer);
-  },[]);
-
-  const handleSearch=()=>{
-    setError('');
-    if(!orderId.trim()) return setError('Please enter a valid order ID.');
-    const fullId = `${prefix}-${orderId}-${suffix}`.toUpperCase();
-    const data = DEMO_ORDERS[fullId];
-    if(data) setOrderData(data);
-    else {
-      setOrderData(null);
-      setError('Order ID not found. Please check and try again.');
+  function safeDate(value){
+    try{
+      var d = new Date(value);
+      if(isNaN(d.getTime())) return null;
+      d.setHours(0,0,0,0);
+      return d;
+    }catch(e){
+      return null;
     }
   }
-  
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50">
-      <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-8 px-4 shadow-lg">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl font-bold mb-2">We App Testers</h1>
-          <p className="text-green-100">Track Your App Testing Progress</p>
-          <p className="text-red-100"> We store only last 20-30 days data </p>
-        
-        </div>
-      </div>
 
-      <div className="max-w-4xl mx-auto px-4 py-8">
-        <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
-          <label className="block text-gray-700 font-semibold mb-2">Enter Your Order ID</label>
-          <div className="flex gap-2 mb-3 flex-wrap sm:flex-col">
-            <input type="text" value={prefix} onChange={e=>setPrefix(e.target.value.toUpperCase())} placeholder="BX026Q" className="w-32 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-green-500 focus:outline-none text-center font-semibold"/>
-            <span className="flex items-center text-2xl text-gray-400 font-bold">-</span>
-            <input type="text" value={orderId} onChange={e=>setOrderId(e.target.value.toUpperCase())} onKeyPress={e=>e.key==='Enter' && handleSearch()} placeholder="30LB" className="flex-1 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-green-500 focus:outline-none text-center font-semibold"/>
-            <span className="flex items-center text-2xl text-gray-400 font-bold">-</span>
-            <input type="text" value={suffix} disabled className="w-24 px-4 py-3 border-2 border-gray-200 rounded-lg bg-gray-100 text-center font-semibold text-gray-600 cursor-not-allowed"/>
-          </div>
-          <button onClick={handleSearch} className="w-full bg-gradient-to-r from-green-600 to-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-green-700 hover:to-blue-700 transition flex items-center justify-center gap-2"><Search size={20}/> Track Order</button>
+  function formatDate(value){
+    var d = safeDate(value);
+    if(!d) return 'N/A';
+    var day = String(d.getDate()).padStart(2,'0');
+    var month = d.toLocaleDateString('en-GB',{month:'long'});
+    var year = d.getFullYear();
+    return day + ' ' + month + ' ' + year;
+  }
 
-          {error && (
-            <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-lg flex items-start gap-2 text-red-700">
-              <AlertCircle size={20} className="mt-0.5 flex-shrink-0"/>
-              <span>{error}</span>
-            </div>
-          )}
+  function getDiffDays(startDate){
+    var start = safeDate(startDate);
+    if(!start) return 0;
+    var today = new Date(); today.setHours(0,0,0,0);
+    // exclude start day and today
+    var diff = Math.floor((today - start) / DAY_MS) - 1;
+    return diff;
+  }
 
-          <div className="mt-4 text-sm text-gray-600">
-            <p className="font-semibold mb-1">Demo Order IDs (enter middle part only):</p>
-            <p>30LB • 31LA • 31LB </p>
-          </div>
-        </div>
+  function getDaysCompleted(startDate, totalDays){
+    var total = Number(totalDays) || 0;
+    var diff = getDiffDays(startDate);
+    return Math.min(Math.max(diff, 0), total);
+  }
 
-        {orderData && <OrderCard orderData={orderData} prefix={prefix} orderId={orderId} suffix={suffix}/>}
+  function getStatus(order){
+    var s = (order.status || '').toLowerCase();
+    if(s === 'stopped') return 'Stopped';
+    var diff = getDiffDays(order.startDate);
+    return diff >= 15 ? 'Completed' : 'Active';
+  }
 
-        <div className="mt-6 text-right text-gray-500 text-sm">
-          Current Time: {currentTime.toLocaleString()}
-        </div>
-      </div>
+  function escapeHtml(str){
+    return String(str)
+      .replace(/&/g,'&amp;')
+      .replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;')
+      .replace(/"/g,'&quot;')
+      .replace(/'/g,'&#39;');
+  }
 
-      <a href="https://wa.me/919122061839" target="_blank" rel="noopener noreferrer" className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all hover:scale-110 z-50" aria-label="Contact on WhatsApp">
-        <MessageCircle size={28}/>
-      </a>
-    </div>
-  )
-}
+  function checkIconSvg(size, extraStyle){
+    return '<svg width="'+size+'" height="'+size+'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="'+(extraStyle||'')+'"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>';
+  }
 
-ReactDOM.render(<AppTestingTracker/>, document.getElementById('root'));
+  function chevronSvg(direction){
+    if(direction === 'up'){
+      return '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>';
+    }
+    return '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>';
+  }
+
+  function buildMilestoneItem(done, label, dateObj){
+    var iconHtml = done
+      ? checkIconSvg(20, 'color:#16a34a;')
+      : '<div class="circle-empty"></div>';
+    var dateHtml = '';
+    if(done && dateObj){
+      dateHtml = '<p class="m-date">' + formatDate(dateObj) + '</p>';
+    }
+    return (
+      '<div class="milestone-item ' + (done ? 'done' : '') + '">' +
+        '<div class="dot">' + iconHtml + '</div>' +
+        '<div>' +
+          '<div class="m-label">' + escapeHtml(label) + '</div>' +
+          dateHtml +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  function buildOrderCardHtml(order, prefix, orderId, suffix){
+    var totalDays = Number(order.totalDays) || 0;
+    var daysCompleted = getDaysCompleted(order.startDate, totalDays);
+    var daysRemaining = Math.max(0, totalDays - daysCompleted);
+    var percent = totalDays > 0 ? Math.min(100, Math.max(0, (daysCompleted / totalDays) * 100)) : 0;
+
+    var diffDays = getDiffDays(order.startDate);
+    var feedbackSubmitted = diffDays >= 10;
+    var appliedForProduction = diffDays >= 15;
+    var productionApproved = diffDays >= 18;
+
+    var startDateObj = safeDate(order.startDate) || new Date();
+    var feedbackDate = new Date(startDateObj.getTime() + 10 * DAY_MS);
+    var appliedDate = new Date(startDateObj.getTime() + 15 * DAY_MS);
+    var approvedDate = new Date(startDateObj.getTime() + 18 * DAY_MS);
+
+    var status = getStatus(order);
+    var statusClass = status === 'Completed' ? 'status-completed' : (status === 'Stopped' ? 'status-stopped' : 'status-active');
+
+    var appName = order.appName ? escapeHtml(order.appName) : 'Untitled App';
+    var fullOrderId = escapeHtml(prefix) + '-' + escapeHtml(orderId) + '-' + escapeHtml(suffix);
+
+    // Testing days panel rows
+    var dayRows = '';
+    for(var day = 1; day <= totalDays; day++){
+      var isComplete = day <= daysCompleted;
+      var icon = isComplete ? checkIconSvg(18, 'color:#16a34a;') : '<div style="width:18px;height:18px;border:2px solid #d1d5db;border-radius:50%;flex-shrink:0;"></div>';
+      dayRows += (
+        '<div class="day-row ' + (isComplete ? 'done' : '') + '">' +
+          icon +
+          '<span>Day ' + day + ' testing ' + (isComplete ? 'done' : 'pending') + '</span>' +
+        '</div>'
+      );
+    }
+    if(totalDays === 0){
+      dayRows = '<div class="day-row"><span>No testing days configured.</span></div>';
+    }
+
+    var html = '';
+
+    html += '<div class="card">';
+    html += '<h2 class="order-title">' + appName + '</h2>';
+    html += '<div class="info-grid">';
+    html += '<div class="info-item"><p class="label">Order ID</p><p class="value">' + fullOrderId + '</p></div>';
+    html += '<div class="info-item"><p class="label">Start Date</p><p class="value">' + formatDate(order.startDate) + '</p></div>';
+    html += '<div class="info-item"><p class="label">Total Testing Days</p><p class="value">' + totalDays + ' Days</p></div>';
+    html += '</div>';
+    html += '</div>';
+
+    html += '<div class="card progress-card">';
+    html += '<div class="progress-head">';
+    html += '<h3>Testing Progress</h3>';
+    html += '<span class="status-badge ' + statusClass + '">' + status + '</span>';
+    html += '</div>';
+    html += '<div class="progress-meta"><span>Testing Progress</span><span>' + daysCompleted + '/' + totalDays + ' Days</span></div>';
+    html += '<div class="progress-track"><div class="progress-fill" style="width:' + percent + '%;"></div></div>';
+    html += '<div class="remaining-box">';
+    html += '<div class="check-icon-wrap">' + checkIconSvg(30) + '</div>';
+    html += '<p class="label">Days Remaining</p>';
+    html += '<p class="value">' + daysRemaining + '</p>';
+    html += '</div>';
+    html += '</div>';
+
+    html += '<div class="card">';
+    html += '<h3 class="milestones-title">Testing Milestones</h3>';
+    html += '<div class="milestone-list">';
+
+    html += '<div class="testing-toggle-wrap">';
+    html += '<button class="testing-toggle-btn" id="toggleTestingDaysBtn" type="button">';
+    html += '<span>TESTING PROCESS</span>';
+    html += '<span id="toggleChevron">' + chevronSvg('down') + '</span>';
+    html += '</button>';
+    html += '<div class="testing-days-panel hidden" id="testingDaysPanel">' + dayRows + '</div>';
+    html += '</div>';
+
+    html += buildMilestoneItem(feedbackSubmitted, 'Feedback Submitted', feedbackDate);
+    html += buildMilestoneItem(appliedForProduction, 'Applied for Production', appliedDate);
+    html += buildMilestoneItem(productionApproved, 'Production Approved', approvedDate);
+
+    html += '</div>';
+    html += '</div>';
+
+    return html;
+  }
+
+  function showError(message){
+    var box = document.getElementById('errorBox');
+    var text = document.getElementById('errorText');
+    if(box && text){
+      text.textContent = message;
+      box.classList.remove('hidden');
+    }
+  }
+
+  function hideError(){
+    var box = document.getElementById('errorBox');
+    if(box) box.classList.add('hidden');
+  }
+
+  function clearResult(){
+    var area = document.getElementById('resultArea');
+    if(area) area.innerHTML = '';
+  }
+
+  function attachToggleHandler(){
+    var btn = document.getElementById('toggleTestingDaysBtn');
+    var panel = document.getElementById('testingDaysPanel');
+    var chevronWrap = document.getElementById('toggleChevron');
+    if(!btn || !panel || !chevronWrap) return;
+    var open = false;
+    btn.addEventListener('click', function(){
+      open = !open;
+      if(open){
+        panel.classList.remove('hidden');
+        chevronWrap.innerHTML = chevronSvg('up');
+      }else{
+        panel.classList.add('hidden');
+        chevronWrap.innerHTML = chevronSvg('down');
+      }
+    });
+  }
+
+  function handleSearch(){
+    hideError();
+    clearResult();
+
+    var prefixEl = document.getElementById('prefixInput');
+    var orderIdEl = document.getElementById('orderIdInput');
+    var suffixEl = document.getElementById('suffixInput');
+
+    var prefix = (prefixEl && prefixEl.value ? prefixEl.value : '').trim().toUpperCase();
+    var orderId = (orderIdEl && orderIdEl.value ? orderIdEl.value : '').trim().toUpperCase();
+    var suffix = (suffixEl && suffixEl.value ? suffixEl.value : '').trim().toUpperCase();
+
+    if(prefixEl) prefixEl.value = prefix;
+    if(orderIdEl) orderIdEl.value = orderId;
+
+    if(!orderId){
+      showError('Please enter a valid order ID.');
+      return;
+    }
+    if(!prefix){
+      showError('Please enter a valid order prefix.');
+      return;
+    }
+
+    var fullId = prefix + '-' + orderId + '-' + suffix;
+
+    var data = null;
+    try{
+      data = ORDERS[fullId] || null;
+    }catch(e){
+      data = null;
+    }
+
+    if(!data){
+      showError('Order ID not found. Please Contact Us');
+      return;
+    }
+
+    try{
+      var html = buildOrderCardHtml(data, prefix, orderId, suffix);
+      var area = document.getElementById('resultArea');
+      if(area){
+        area.innerHTML = html;
+        attachToggleHandler();
+      }
+    }catch(e){
+      showError('Something went wrong while loading this order. Please try again.');
+    }
+  }
+
+  function updateClock(){
+    var row = document.getElementById('timeRow');
+    if(!row) return;
+    try{
+      row.textContent = 'Current Time: ' + new Date().toLocaleString();
+    }catch(e){
+      row.textContent = 'Current Time: --';
+    }
+  }
+
+  function init(){
+    var searchBtn = document.getElementById('searchBtn');
+    var orderIdEl = document.getElementById('orderIdInput');
+    var prefixEl = document.getElementById('prefixInput');
+
+    if(searchBtn){
+      searchBtn.addEventListener('click', handleSearch);
+    }
+
+    function liveUppercase(el){
+      if(!el) return;
+      el.addEventListener('input', function(){
+        var start = el.selectionStart;
+        var end = el.selectionEnd;
+        el.value = el.value.toUpperCase();
+        try{
+          el.setSelectionRange(start, end);
+        }catch(e){}
+      });
+    }
+
+    liveUppercase(orderIdEl);
+    liveUppercase(prefixEl);
+
+    if(orderIdEl){
+      orderIdEl.addEventListener('keypress', function(e){
+        if(e.key === 'Enter') handleSearch();
+      });
+    }
+    if(prefixEl){
+      prefixEl.addEventListener('keypress', function(e){
+        if(e.key === 'Enter') handleSearch();
+      });
+    }
+
+    updateClock();
+    setInterval(updateClock, 1000);
+  }
+
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  }else{
+    init();
+  }
+})();
 </script>
 </body>
 </html>
