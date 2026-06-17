@@ -1,19 +1,34 @@
 {
   "newCount": 0,
-  "changedCount": 1,
+  "changedCount": 2,
   "newApps": [],
   "changedApps": [
     {
-      "id": "BX026Q-16FA-XYZ",
+      "id": "BX026Q-15FB-XYZ",
       "oldRecord": {
-        "appName": "Focus Lock App Locker/planner",
-        "startDate": "2026-06-07",
+        "appName": "Audenahub",
+        "startDate": "2026-06-11",
         "totalDays": 14,
         "status": "active"
       },
       "newRecord": {
-        "appName": "Focus Lock App Locker planner",
-        "startDate": "2026-06-07",
+        "appName": "",
+        "startDate": "2026-06-00",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-17FC-XYZ",
+      "oldRecord": {
+        "appName": "BillPatra",
+        "startDate": "2026-06-12",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "",
+        "startDate": "2026-06-00",
         "totalDays": 14,
         "status": "active"
       }
