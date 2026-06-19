@@ -442,5 +442,41 @@
     "startDate": "2026-06-16",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-31FA-XYZ": {
+    "appName": "Pawdoku",
+    "startDate": "2026-06-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-32FA-XYZ": {
+    "appName": "Veroa Crew",
+    "startDate": "2026-06-18",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-33FA-XYZ": {
+    "appName": "NAAKU GO",
+    "startDate": "2026-06-18",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-21FC-XYZ": {
+    "appName": "Bank officer Tool kit",
+    "startDate": "2026-06-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-25FB-XYZ": {
+    "appName": "FFF Ai Wallpaper Gaming",
+    "startDate": "2026-06-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-26FB-XYZ": {
+    "appName": "Image To Text Convert Offline",
+    "startDate": "2026-06-17",
+    "totalDays": 14,
+    "status": "active"
   }
 }
