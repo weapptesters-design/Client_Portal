@@ -514,5 +514,29 @@ window.ORDERS = {
     "startDate": "2026-06-19",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-28FB-XYZ": {
+    "appName": "Zoora IQ",
+    "startDate": "2026-06-20",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-29FB-XYZ": {
+    "appName": "SaraQCom",
+    "startDate": "2026-06-20",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-30FB-XYZ": {
+    "appName": "Camera HD : Ultra Zoom",
+    "startDate": "2026-06-20",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-24FC-XYZ": {
+    "appName": "FaceMask",
+    "startDate": "2026-06-20",
+    "totalDays": 14,
+    "status": "active"
   }
 }
