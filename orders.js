@@ -538,5 +538,11 @@ window.ORDERS = {
     "startDate": "2026-06-20",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-25FC-XYZ": {
+    "appName": "Rttols Lite",
+    "startDate": "2026-06-21",
+    "totalDays": 14,
+    "status": "active"
   }
 }
