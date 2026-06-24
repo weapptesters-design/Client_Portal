@@ -1,11 +1,53 @@
 {
-  "newCount": 1,
+  "newCount": 7,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-25FC-XYZ",
-      "appName": "Rttols Lite",
-      "startDate": "2026-06-21",
+      "id": "BX026Q-31FB-XYZ",
+      "appName": "HelixPemf",
+      "startDate": "2026-06-22",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-37FA-XYZ",
+      "appName": "HabitNow Pro",
+      "startDate": "2026-06-22",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-38FA-XYZ",
+      "appName": "Science Trivia Quiz",
+      "startDate": "2026-06-22",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-39FA-XYZ",
+      "appName": "QRental Car",
+      "startDate": "2026-06-22",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-40FA-XYZ",
+      "appName": "AI PDF Reader & Speech",
+      "startDate": "2026-06-23",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-32FB-XYZ",
+      "appName": "NextShift",
+      "startDate": "2026-06-22",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-33FB-XYZ",
+      "appName": "Mera Rashan",
+      "startDate": "2026-06-22",
       "totalDays": 14,
       "status": "active"
     }
