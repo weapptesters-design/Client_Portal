@@ -586,5 +586,53 @@
     "startDate": "2026-06-22",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-41FA-XYZ": {
+    "appName": "Zygo",
+    "startDate": "2026-06-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-42FA-XYZ": {
+    "appName": "Galafy",
+    "startDate": "2026-06-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-43FA-XYZ": {
+    "appName": "Ultimate Calculator Pro",
+    "startDate": "2026-06-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-44FA-XYZ": {
+    "appName": "30:21 Tpekep",
+    "startDate": "2026-06-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-34FB-XYZ": {
+    "appName": "Riderindia Taxi",
+    "startDate": "2026-06-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-35FB-XYZ": {
+    "appName": "Riderindia Driver",
+    "startDate": "2026-06-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-36FB-XYZ": {
+    "appName": "Awoncarts Ecommerce",
+    "startDate": "2026-06-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-26FC-XYZ": {
+    "appName": "KamraKiraya - Room Rental",
+    "startDate": "2026-06-23",
+    "totalDays": 14,
+    "status": "active"
   }
 }

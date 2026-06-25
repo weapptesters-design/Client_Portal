@@ -1,53 +1,60 @@
 {
-  "newCount": 7,
+  "newCount": 8,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-31FB-XYZ",
-      "appName": "HelixPemf",
-      "startDate": "2026-06-22",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-37FA-XYZ",
-      "appName": "HabitNow Pro",
-      "startDate": "2026-06-22",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-38FA-XYZ",
-      "appName": "Science Trivia Quiz",
-      "startDate": "2026-06-22",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-39FA-XYZ",
-      "appName": "QRental Car",
-      "startDate": "2026-06-22",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-40FA-XYZ",
-      "appName": "AI PDF Reader & Speech",
+      "id": "BX026Q-41FA-XYZ",
+      "appName": "Zygo",
       "startDate": "2026-06-23",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-32FB-XYZ",
-      "appName": "NextShift",
-      "startDate": "2026-06-22",
+      "id": "BX026Q-42FA-XYZ",
+      "appName": "Galafy",
+      "startDate": "2026-06-23",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-33FB-XYZ",
-      "appName": "Mera Rashan",
-      "startDate": "2026-06-22",
+      "id": "BX026Q-43FA-XYZ",
+      "appName": "Ultimate Calculator Pro",
+      "startDate": "2026-06-23",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-44FA-XYZ",
+      "appName": "30:21 Tpekep",
+      "startDate": "2026-06-23",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-34FB-XYZ",
+      "appName": "Riderindia Taxi",
+      "startDate": "2026-06-23",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-35FB-XYZ",
+      "appName": "Riderindia Driver",
+      "startDate": "2026-06-23",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-36FB-XYZ",
+      "appName": "Awoncarts Ecommerce",
+      "startDate": "2026-06-23",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-26FC-XYZ",
+      "appName": "KamraKiraya - Room Rental",
+      "startDate": "2026-06-23",
       "totalDays": 14,
       "status": "active"
     }
