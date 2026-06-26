@@ -1,63 +1,65 @@
 {
-  "newCount": 8,
-  "changedCount": 0,
+  "newCount": 6,
+  "changedCount": 1,
   "newApps": [
     {
-      "id": "BX026Q-41FA-XYZ",
-      "appName": "Zygo",
-      "startDate": "2026-06-23",
+      "id": "BX026Q-37FB-XYZ",
+      "appName": "Rahi TV",
+      "startDate": "2026-06-24",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-42FA-XYZ",
-      "appName": "Galafy",
-      "startDate": "2026-06-23",
+      "id": "BX026Q-38FB-XYZ",
+      "appName": "Look&GLOW",
+      "startDate": "2026-06-24",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-43FA-XYZ",
-      "appName": "Ultimate Calculator Pro",
-      "startDate": "2026-06-23",
+      "id": "BX026Q-39FB-XYZ",
+      "appName": "SpeakNow : Transcribe Translate",
+      "startDate": "2026-06-24",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-44FA-XYZ",
-      "appName": "30:21 Tpekep",
-      "startDate": "2026-06-23",
+      "id": "BX026Q-40FB-XYZ",
+      "appName": "Best Bazaar",
+      "startDate": "2026-06-25",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-34FB-XYZ",
-      "appName": "Riderindia Taxi",
-      "startDate": "2026-06-23",
+      "id": "BX026Q-41FB-XYZ",
+      "appName": "Marathi Barakhadi",
+      "startDate": "2026-06-25",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-35FB-XYZ",
-      "appName": "Riderindia Driver",
-      "startDate": "2026-06-23",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-36FB-XYZ",
-      "appName": "Awoncarts Ecommerce",
-      "startDate": "2026-06-23",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-26FC-XYZ",
-      "appName": "KamraKiraya - Room Rental",
-      "startDate": "2026-06-23",
+      "id": "BX026Q-42FB-XYZ",
+      "appName": "Police Bharti Question Paper",
+      "startDate": "2026-06-25",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": []
+  "changedApps": [
+    {
+      "id": "BX026Q-40FA-XYZ",
+      "oldRecord": {
+        "appName": "AI PDF Reader & Speech",
+        "startDate": "2026-06-23",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Talathi Bharti Question Paper",
+        "startDate": "2026-06-24",
+        "totalDays": 14,
+        "status": "active"
+      }
+    }
+  ]
 }
