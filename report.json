@@ -1,65 +1,42 @@
 {
-  "newCount": 6,
-  "changedCount": 1,
+  "newCount": 5,
+  "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-37FB-XYZ",
-      "appName": "Rahi TV",
-      "startDate": "2026-06-24",
+      "id": "BX026Q-45FA-XYZ",
+      "appName": "ZORWE",
+      "startDate": "2026-06-26",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-38FB-XYZ",
-      "appName": "Look&GLOW",
-      "startDate": "2026-06-24",
+      "id": "BX026Q-46FA-XYZ",
+      "appName": "Service Connect",
+      "startDate": "2026-06-26",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-39FB-XYZ",
-      "appName": "SpeakNow : Transcribe Translate",
-      "startDate": "2026-06-24",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-40FB-XYZ",
-      "appName": "Best Bazaar",
+      "id": "BX026Q-43FB-XYZ",
+      "appName": "Vybeto",
       "startDate": "2026-06-25",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-41FB-XYZ",
-      "appName": "Marathi Barakhadi",
+      "id": "BX026Q-44FB-XYZ",
+      "appName": "A&A Wedding",
       "startDate": "2026-06-25",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-42FB-XYZ",
-      "appName": "Police Bharti Question Paper",
-      "startDate": "2026-06-25",
+      "id": "BX026Q-45FB-XYZ",
+      "appName": "MSC Messenger",
+      "startDate": "2026-06-26",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": [
-    {
-      "id": "BX026Q-40FA-XYZ",
-      "oldRecord": {
-        "appName": "AI PDF Reader & Speech",
-        "startDate": "2026-06-23",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Talathi Bharti Question Paper",
-        "startDate": "2026-06-24",
-        "totalDays": 14,
-        "status": "active"
-      }
-    }
-  ]
+  "changedApps": []
 }

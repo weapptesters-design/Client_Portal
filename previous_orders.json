@@ -670,5 +670,35 @@
     "startDate": "2026-06-25",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-45FA-XYZ": {
+    "appName": "ZORWE",
+    "startDate": "2026-06-26",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-46FA-XYZ": {
+    "appName": "Service Connect",
+    "startDate": "2026-06-26",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-43FB-XYZ": {
+    "appName": "Vybeto",
+    "startDate": "2026-06-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-44FB-XYZ": {
+    "appName": "A&A Wedding",
+    "startDate": "2026-06-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-45FB-XYZ": {
+    "appName": "MSC Messenger",
+    "startDate": "2026-06-26",
+    "totalDays": 14,
+    "status": "active"
   }
 }
