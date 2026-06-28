@@ -700,5 +700,29 @@ window.ORDERS = {
     "startDate": "2026-06-26",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-46FB-XYZ": {
+    "appName": "AI Text Summarizer & Notes",
+    "startDate": "2026-06-26",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-47FB-XYZ": {
+    "appName": "WOK Women Occupied Kaar",
+    "startDate": "2026-06-26",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-48FB-XYZ": {
+    "appName": "Impresso AI : Smart Chat Reply",
+    "startDate": "2026-06-26",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-47FA-XYZ": {
+    "appName": "Talkzi",
+    "startDate": "2026-06-27",
+    "totalDays": 14,
+    "status": "active"
   }
 }

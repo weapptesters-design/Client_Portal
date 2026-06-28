@@ -1,39 +1,32 @@
 {
-  "newCount": 5,
+  "newCount": 4,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-45FA-XYZ",
-      "appName": "ZORWE",
+      "id": "BX026Q-46FB-XYZ",
+      "appName": "AI Text Summarizer & Notes",
       "startDate": "2026-06-26",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-46FA-XYZ",
-      "appName": "Service Connect",
+      "id": "BX026Q-47FB-XYZ",
+      "appName": "WOK Women Occupied Kaar",
       "startDate": "2026-06-26",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-43FB-XYZ",
-      "appName": "Vybeto",
-      "startDate": "2026-06-25",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-44FB-XYZ",
-      "appName": "A&A Wedding",
-      "startDate": "2026-06-25",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-45FB-XYZ",
-      "appName": "MSC Messenger",
+      "id": "BX026Q-48FB-XYZ",
+      "appName": "Impresso AI : Smart Chat Reply",
       "startDate": "2026-06-26",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-47FA-XYZ",
+      "appName": "Talkzi",
+      "startDate": "2026-06-27",
       "totalDays": 14,
       "status": "active"
     }
