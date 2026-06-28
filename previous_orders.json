@@ -724,5 +724,41 @@
     "startDate": "2026-06-27",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-48FA-XYZ": {
+    "appName": "Fake Chat Maker",
+    "startDate": "2026-06-27",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-49FA-XYZ": {
+    "appName": "ScoreXLive",
+    "startDate": "2026-06-27",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-49FB-XYZ": {
+    "appName": "Reels- Time-Lapse",
+    "startDate": "2026-06-27",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-50FB-XYZ": {
+    "appName": "Zara",
+    "startDate": "2026-06-27",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-27FC-XYZ": {
+    "appName": "NassSha",
+    "startDate": "2026-06-27",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-28FC-XYZ": {
+    "appName": "Exabl",
+    "startDate": "2026-06-27",
+    "totalDays": 14,
+    "status": "active"
   }
 }

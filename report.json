@@ -1,31 +1,45 @@
 {
-  "newCount": 4,
+  "newCount": 6,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-46FB-XYZ",
-      "appName": "AI Text Summarizer & Notes",
-      "startDate": "2026-06-26",
+      "id": "BX026Q-48FA-XYZ",
+      "appName": "Fake Chat Maker",
+      "startDate": "2026-06-27",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-47FB-XYZ",
-      "appName": "WOK Women Occupied Kaar",
-      "startDate": "2026-06-26",
+      "id": "BX026Q-49FA-XYZ",
+      "appName": "ScoreXLive",
+      "startDate": "2026-06-27",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-48FB-XYZ",
-      "appName": "Impresso AI : Smart Chat Reply",
-      "startDate": "2026-06-26",
+      "id": "BX026Q-49FB-XYZ",
+      "appName": "Reels- Time-Lapse",
+      "startDate": "2026-06-27",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-47FA-XYZ",
-      "appName": "Talkzi",
+      "id": "BX026Q-50FB-XYZ",
+      "appName": "Zara",
+      "startDate": "2026-06-27",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-27FC-XYZ",
+      "appName": "NassSha",
+      "startDate": "2026-06-27",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-28FC-XYZ",
+      "appName": "Exabl",
       "startDate": "2026-06-27",
       "totalDays": 14,
       "status": "active"
