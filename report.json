@@ -1,49 +1,37 @@
 {
-  "newCount": 6,
-  "changedCount": 0,
+  "newCount": 2,
+  "changedCount": 1,
   "newApps": [
     {
-      "id": "BX026Q-48FA-XYZ",
-      "appName": "Fake Chat Maker",
-      "startDate": "2026-06-27",
+      "id": "BX026Q-51FB-XYZ",
+      "appName": "Health AI Calorie Tracker",
+      "startDate": "2026-06-28",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-49FA-XYZ",
-      "appName": "ScoreXLive",
-      "startDate": "2026-06-27",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-49FB-XYZ",
-      "appName": "Reels- Time-Lapse",
-      "startDate": "2026-06-27",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-50FB-XYZ",
-      "appName": "Zara",
-      "startDate": "2026-06-27",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-27FC-XYZ",
-      "appName": "NassSha",
-      "startDate": "2026-06-27",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-28FC-XYZ",
-      "appName": "Exabl",
-      "startDate": "2026-06-27",
+      "id": "BX026Q-50FA-XYZ",
+      "appName": "Laho",
+      "startDate": "2026-06-28",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": []
+  "changedApps": [
+    {
+      "id": "BX026Q-42FA-XYZ",
+      "oldRecord": {
+        "appName": "Galafy",
+        "startDate": "2026-06-23",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Laho",
+        "startDate": "2026-06-28",
+        "totalDays": 14,
+        "status": "active"
+      }
+    }
+  ]
 }
