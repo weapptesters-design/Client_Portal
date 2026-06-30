@@ -1,37 +1,6 @@
 {
-  "newCount": 2,
-  "changedCount": 1,
-  "newApps": [
-    {
-      "id": "BX026Q-51FB-XYZ",
-      "appName": "Health AI Calorie Tracker",
-      "startDate": "2026-06-28",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-50FA-XYZ",
-      "appName": "Laho",
-      "startDate": "2026-06-28",
-      "totalDays": 14,
-      "status": "active"
-    }
-  ],
-  "changedApps": [
-    {
-      "id": "BX026Q-42FA-XYZ",
-      "oldRecord": {
-        "appName": "Galafy",
-        "startDate": "2026-06-23",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Laho",
-        "startDate": "2026-06-28",
-        "totalDays": 14,
-        "status": "active"
-      }
-    }
-  ]
+  "newCount": 0,
+  "changedCount": 0,
+  "newApps": [],
+  "changedApps": []
 }
