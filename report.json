@@ -1,6 +1,84 @@
 {
-  "newCount": 0,
+  "newCount": 11,
   "changedCount": 0,
-  "newApps": [],
+  "newApps": [
+    {
+      "id": "BX026Q-51FA-XYZ",
+      "appName": "Workout Routines",
+      "startDate": "2026-06-28",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-29FC-XYZ",
+      "appName": "Home Tution",
+      "startDate": "2026-06-28",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-30FC-XYZ",
+      "appName": "Blizu",
+      "startDate": "2026-06-29",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-01GB-XYZ",
+      "appName": "AI Expand  Video Enhancer",
+      "startDate": "2026-07-01",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-01GA-XYZ",
+      "appName": "MSC Network Wallet",
+      "startDate": "2026-07-01",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-02GA-XYZ",
+      "appName": "Zygo Captain",
+      "startDate": "2026-07-01",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-03GA-XYZ",
+      "appName": "GraminKart",
+      "startDate": "2026-07-01",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-04GA-XYZ",
+      "appName": "GraminKart Seller",
+      "startDate": "2026-07-01",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-05GA-XYZ",
+      "appName": "Polylingo AI",
+      "startDate": "2026-07-01",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-01GC-XYZ",
+      "appName": "WallAura",
+      "startDate": "2026-07-01",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-06GA-XYZ",
+      "appName": "Nalori",
+      "startDate": "2026-07-01",
+      "totalDays": 14,
+      "status": "active"
+    }
+  ],
   "changedApps": []
 }
