@@ -838,5 +838,35 @@ window.ORDERS = {
     "startDate": "2026-07-01",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-07GA-XYZ": {
+    "appName": "Space Adventure",
+    "startDate": "2026-07-01",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-08GA-XYZ": {
+    "appName": "Block Blasty",
+    "startDate": "2026-07-01",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-02GB-XYZ": {
+    "appName": "LighthousePrep  Exam Guider",
+    "startDate": "2026-07-01",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-03GB-XYZ": {
+    "appName": "Kinship Vault",
+    "startDate": "2026-07-01",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-02GC-XYZ": {
+    "appName": "Divyora",
+    "startDate": "2026-07-01",
+    "totalDays": 14,
+    "status": "active"
   }
 }

@@ -1,80 +1,38 @@
 {
-  "newCount": 11,
+  "newCount": 5,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-51FA-XYZ",
-      "appName": "Workout Routines",
-      "startDate": "2026-06-28",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-29FC-XYZ",
-      "appName": "Home Tution",
-      "startDate": "2026-06-28",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-30FC-XYZ",
-      "appName": "Blizu",
-      "startDate": "2026-06-29",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-01GB-XYZ",
-      "appName": "AI Expand  Video Enhancer",
+      "id": "BX026Q-07GA-XYZ",
+      "appName": "Space Adventure",
       "startDate": "2026-07-01",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-01GA-XYZ",
-      "appName": "MSC Network Wallet",
+      "id": "BX026Q-08GA-XYZ",
+      "appName": "Block Blasty",
       "startDate": "2026-07-01",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-02GA-XYZ",
-      "appName": "Zygo Captain",
+      "id": "BX026Q-02GB-XYZ",
+      "appName": "LighthousePrep  Exam Guider",
       "startDate": "2026-07-01",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-03GA-XYZ",
-      "appName": "GraminKart",
+      "id": "BX026Q-03GB-XYZ",
+      "appName": "Kinship Vault",
       "startDate": "2026-07-01",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-04GA-XYZ",
-      "appName": "GraminKart Seller",
-      "startDate": "2026-07-01",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-05GA-XYZ",
-      "appName": "Polylingo AI",
-      "startDate": "2026-07-01",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-01GC-XYZ",
-      "appName": "WallAura",
-      "startDate": "2026-07-01",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-06GA-XYZ",
-      "appName": "Nalori",
+      "id": "BX026Q-02GC-XYZ",
+      "appName": "Divyora",
       "startDate": "2026-07-01",
       "totalDays": 14,
       "status": "active"
