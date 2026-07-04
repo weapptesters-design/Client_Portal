@@ -868,5 +868,29 @@
     "startDate": "2026-07-01",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-09GA-XYZ": {
+    "appName": "Glamee",
+    "startDate": "2026-07-02",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-04GB-XYZ": {
+    "appName": "Universal Signs",
+    "startDate": "2026-07-02",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-03GC-XYZ": {
+    "appName": "AtomSpace AI",
+    "startDate": "2026-07-02",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-10GA-XYZ": {
+    "appName": "QR code Premium",
+    "startDate": "2026-07-02",
+    "totalDays": 14,
+    "status": "active"
   }
 }

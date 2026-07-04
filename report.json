@@ -1,39 +1,32 @@
 {
-  "newCount": 5,
+  "newCount": 4,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-07GA-XYZ",
-      "appName": "Space Adventure",
-      "startDate": "2026-07-01",
+      "id": "BX026Q-09GA-XYZ",
+      "appName": "Glamee",
+      "startDate": "2026-07-02",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-08GA-XYZ",
-      "appName": "Block Blasty",
-      "startDate": "2026-07-01",
+      "id": "BX026Q-04GB-XYZ",
+      "appName": "Universal Signs",
+      "startDate": "2026-07-02",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-02GB-XYZ",
-      "appName": "LighthousePrep  Exam Guider",
-      "startDate": "2026-07-01",
+      "id": "BX026Q-03GC-XYZ",
+      "appName": "AtomSpace AI",
+      "startDate": "2026-07-02",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-03GB-XYZ",
-      "appName": "Kinship Vault",
-      "startDate": "2026-07-01",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-02GC-XYZ",
-      "appName": "Divyora",
-      "startDate": "2026-07-01",
+      "id": "BX026Q-10GA-XYZ",
+      "appName": "QR code Premium",
+      "startDate": "2026-07-02",
       "totalDays": 14,
       "status": "active"
     }
