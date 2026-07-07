@@ -892,5 +892,65 @@
     "startDate": "2026-07-02",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-04GC-XYZ": {
+    "appName": "Mahaprasad",
+    "startDate": "2026-07-03",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-05GC-XYZ": {
+    "appName": "LotalA Brasil",
+    "startDate": "2026-07-04",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-05GB-XYZ": {
+    "appName": "NavioFood",
+    "startDate": "2026-07-03",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-06GB-XYZ": {
+    "appName": "JITONEX GLOBAL",
+    "startDate": "2026-07-03",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-07GB-XYZ": {
+    "appName": "AmazeDaily",
+    "startDate": "2026-07-04",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-08GB-XYZ": {
+    "appName": "Boost Fire  Game Booster 4x",
+    "startDate": "2026-07-04",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-11GA-XYZ": {
+    "appName": "GOGARDA",
+    "startDate": "2026-07-05",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-12GA-XYZ": {
+    "appName": "Ramli Divination",
+    "startDate": "2026-07-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-13GA-XYZ": {
+    "appName": "Mythos Dream Journal tarot",
+    "startDate": "2026-07-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-06GC-XYZ": {
+    "appName": "FamNest CREL",
+    "startDate": "2026-07-05",
+    "totalDays": 14,
+    "status": "active"
   }
 }
