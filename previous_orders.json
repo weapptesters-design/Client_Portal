@@ -952,5 +952,17 @@
     "startDate": "2026-07-05",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-07GC-XYZ": {
+    "appName": "All Game Booster",
+    "startDate": "2026-07-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-14GA-XYZ": {
+    "appName": "NavioFood Seller",
+    "startDate": "2026-07-06",
+    "totalDays": 14,
+    "status": "active"
   }
 }
