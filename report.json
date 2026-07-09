@@ -3,16 +3,16 @@
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-07GC-XYZ",
-      "appName": "All Game Booster",
-      "startDate": "2026-07-06",
+      "id": "BX026Q-15GA-XYZ",
+      "appName": "AI PDF Reader Speech",
+      "startDate": "2026-07-07",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-14GA-XYZ",
-      "appName": "NavioFood Seller",
-      "startDate": "2026-07-06",
+      "id": "BX026Q-09GB-XYZ",
+      "appName": "Upcharify",
+      "startDate": "2026-07-07",
       "totalDays": 14,
       "status": "active"
     }

@@ -964,5 +964,17 @@ window.ORDERS = {
     "startDate": "2026-07-06",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-15GA-XYZ": {
+    "appName": "AI PDF Reader Speech",
+    "startDate": "2026-07-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-09GB-XYZ": {
+    "appName": "Upcharify",
+    "startDate": "2026-07-07",
+    "totalDays": 14,
+    "status": "active"
   }
 }
