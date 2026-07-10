@@ -131,70 +131,70 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 51FA,Workout Routines ,28,6,2026,BX026Q,51FA,XYZ,14,active 
 29FC,Home Tution ,28,6,2026,BX026Q,29FC,XYZ,14,active
 30FC,Blizu,29,6,2026,BX026Q,30FC,XYZ,14,active 
-01GB,AI Expand  Video Enhancer,1,,2026,BX026Q,01GB,XYZ,14,active 
-01GA,MSC Network Wallet ,1,,2026,BX026Q,01GA,XYZ,14,active
-02GA,Zygo Captain ,1,,2026,BX026Q,02GA,XYZ,14,active 
-03GA,GraminKart ,1,,2026,BX026Q,03GA,XYZ,14,active
-04GA,GraminKart Seller ,1,,2026,BX026Q,04GA,XYZ,14,active 
-05GA,Polylingo AI ,1,,2026,BX026Q,05GA,XYZ,14,active
-01GC,WallAura,1,,2026,BX026Q,01GC,XYZ,14,active 
-06GA,Nalori ,1,,2026,BX026Q,06GA,XYZ,14,active 
-07GA,Space Adventure ,1,,2026,BX026Q,07GA,XYZ,14,active
-08GA,Block Blasty ,1,,2026,BX026Q,08GA,XYZ,14,active 
-02GB,LighthousePrep  Exam Guider ,1,,2026,BX026Q,02GB,XYZ,14,active
-03GB,Kinship Vault ,1,,2026,BX026Q,03GB,XYZ,14,active 
-02GC,Divyora,1,,2026,BX026Q,02GC,XYZ,14,active
-09GA,Glamee,2,,2026,BX026Q,09GA,XYZ,14,active
-04GB,Universal Signs,2,,2026,BX026Q,04GB,XYZ,14,active 
-03GC,AtomSpace AI,2,,2026,BX026Q,03GC,XYZ,14,active
-10GA,QR code Premium ,2,,2026,BX026Q,10GA,XYZ,14,active
-04GC,Mahaprasad ,3,,2026,BX026Q,04GC,XYZ,14,active 
-05GC,LotalA Brasil ,4,,2026,BX026Q,05GC,XYZ,14,active
-05GB,NavioFood,3,,2026,BX026Q,05GB,XYZ,14,active
-06GB,JITONEX GLOBAL,3,,2026,BX026Q,06GB,XYZ,14,active 
-07GB,AmazeDaily,4,,2026,BX026Q,07GB,XYZ,14,active
-08GB,Boost Fire  Game Booster 4x,4,,2026,BX026Q,08GB,XYZ,14,active
-11GA,GOGARDA ,5,,2026,BX026Q,11GA,XYZ,14,active 
-12GA,Ramli Divination ,6,,2026,BX026Q,12GA,XYZ,14,active
-13GA,Mythos Dream Journal tarot ,6,,2026,BX026Q,13GA,XYZ,14,active
-06GC,FamNest CREL ,5,,2026,BX026Q,06GC,XYZ,14,active 
-07GC,All Game Booster,6,,2026,BX026Q,07GC,XYZ,14,active
-14GA,NavioFood Seller,6,,2026,BX026Q,14GA,XYZ,14,active
-15GA,AI PDF Reader Speech ,7,,2026,BX026Q,15GA,XYZ,14,active 
-09GB,Upcharify,7,,2026,BX026Q,09GB,XYZ,14,active
-16GA,Nandu Nai ,8,,2026,BX026Q,16GA,XYZ,14,active
-10GB,Labour Link,8,,2026,BX026Q,10GB,XYZ,14,active 
-11GB,Kot Preng,8,,2026,BX026Q,11GB,XYZ,14,active
-17GA ,TaskTiger ,8,,2026,BX026Q,17GA ,XYZ,14,active
-18GA ,Henna Studio Mehndi ,8,,2026,BX026Q,18GA ,XYZ,14,active 
-08GC,GraminKart Delivery ,8,,2026,BX026Q,08GC,XYZ,14,active
-09GC,TowMasters,8,,2026,BX026Q,09GC,XYZ,14,active
-19GA,Polz,9,,2026,BX026Q,19GA,XYZ,14,active 
-20GA,Voiturio Le Jeu de Route,9,,2026,BX026Q,20GA,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
+01GB,AI Expand  Video Enhancer,1,7,2026,BX026Q,01GB,XYZ,14,active 
+01GA,MSC Network Wallet ,1,7,2026,BX026Q,01GA,XYZ,14,active
+02GA,Zygo Captain ,1,7,2026,BX026Q,02GA,XYZ,14,active 
+03GA,GraminKart ,1,7,2026,BX026Q,03GA,XYZ,14,active
+04GA,GraminKart Seller ,1,7,2026,BX026Q,04GA,XYZ,14,active 
+05GA,Polylingo AI ,1,7,2026,BX026Q,05GA,XYZ,14,active
+01GC,WallAura,1,7,2026,BX026Q,01GC,XYZ,14,active 
+06GA,Nalori ,1,7,2026,BX026Q,06GA,XYZ,14,active 
+07GA,Space Adventure ,1,7,2026,BX026Q,07GA,XYZ,14,active
+08GA,Block Blasty ,1,7,2026,BX026Q,08GA,XYZ,14,active 
+02GB,LighthousePrep  Exam Guider ,1,7,2026,BX026Q,02GB,XYZ,14,active
+03GB,Kinship Vault ,1,7,2026,BX026Q,03GB,XYZ,14,active 
+02GC,Divyora,1,7,2026,BX026Q,02GC,XYZ,14,active
+09GA,Glamee,2,7,2026,BX026Q,09GA,XYZ,14,active
+04GB,Universal Signs,2,7,2026,BX026Q,04GB,XYZ,14,active 
+03GC,AtomSpace AI,2,7,2026,BX026Q,03GC,XYZ,14,active
+10GA,QR code Premium ,2,7,2026,BX026Q,10GA,XYZ,14,active
+04GC,Mahaprasad ,3,7,2026,BX026Q,04GC,XYZ,14,active 
+05GC,LotalA Brasil ,4,7,2026,BX026Q,05GC,XYZ,14,active
+05GB,NavioFood,3,7,2026,BX026Q,05GB,XYZ,14,active
+06GB,JITONEX GLOBAL,3,7,2026,BX026Q,06GB,XYZ,14,active 
+07GB,AmazeDaily,4,7,2026,BX026Q,07GB,XYZ,14,active
+08GB,Boost Fire  Game Booster 4x,4,7,2026,BX026Q,08GB,XYZ,14,active
+11GA,GOGARDA ,5,7,2026,BX026Q,11GA,XYZ,14,active 
+12GA,Ramli Divination ,6,7,2026,BX026Q,12GA,XYZ,14,active
+13GA,Mythos Dream Journal tarot ,6,7,2026,BX026Q,13GA,XYZ,14,active
+06GC,FamNest CREL ,5,7,2026,BX026Q,06GC,XYZ,14,active 
+07GC,All Game Booster,6,7,2026,BX026Q,07GC,XYZ,14,active
+14GA,NavioFood Seller,6,7,2026,BX026Q,14GA,XYZ,14,active
+15GA,AI PDF Reader Speech ,7,7,2026,BX026Q,15GA,XYZ,14,active 
+09GB,Upcharify,7,7,2026,BX026Q,09GB,XYZ,14,active
+16GA,Nandu Nai ,8,7,2026,BX026Q,16GA,XYZ,14,active
+10GB,Labour Link,8,7,2026,BX026Q,10GB,XYZ,14,active 
+11GB,Kot Preng,8,7,2026,BX026Q,11GB,XYZ,14,active
+17GA ,TaskTiger ,8,7,2026,BX026Q,17GA ,XYZ,14,active
+18GA ,Henna Studio Mehndi ,8,7,2026,BX026Q,18GA ,XYZ,14,active 
+08GC,GraminKart Delivery ,8,7,2026,BX026Q,08GC,XYZ,14,active
+09GC,TowMasters,8,7,2026,BX026Q,09GC,XYZ,14,active
+19GA,Polz,9,7,2026,BX026Q,19GA,XYZ,14,active 
+20GA,Voiturio Le Jeu de Route,9,7,2026,BX026Q,20GA,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active 
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active 
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active 
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active 
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active 
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active 
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active 
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active 
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active
+,,,7,2026,BX026Q,,XYZ,14,active 
+,,,7,2026,BX026Q,,XYZ,14,active
