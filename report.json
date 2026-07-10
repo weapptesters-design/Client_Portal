@@ -1,21 +1,536 @@
 {
-  "newCount": 2,
-  "changedCount": 0,
+  "newCount": 9,
+  "changedCount": 31,
   "newApps": [
     {
-      "id": "BX026Q-15GA-XYZ",
-      "appName": "AI PDF Reader Speech",
-      "startDate": "2026-07-07",
+      "id": "BX026Q-16GA-XYZ",
+      "appName": "Nandu Nai",
+      "startDate": "2026-00-08",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-09GB-XYZ",
-      "appName": "Upcharify",
-      "startDate": "2026-07-07",
+      "id": "BX026Q-10GB-XYZ",
+      "appName": "Labour Link",
+      "startDate": "2026-00-08",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-11GB-XYZ",
+      "appName": "Kot Preng",
+      "startDate": "2026-00-08",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-17GA-XYZ",
+      "appName": "TaskTiger",
+      "startDate": "2026-00-08",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-18GA-XYZ",
+      "appName": "Henna Studio Mehndi",
+      "startDate": "2026-00-08",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-08GC-XYZ",
+      "appName": "GraminKart Delivery",
+      "startDate": "2026-00-08",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-09GC-XYZ",
+      "appName": "TowMasters",
+      "startDate": "2026-00-08",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-19GA-XYZ",
+      "appName": "Polz",
+      "startDate": "2026-00-09",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-20GA-XYZ",
+      "appName": "Voiturio Le Jeu de Route",
+      "startDate": "2026-00-09",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": []
+  "changedApps": [
+    {
+      "id": "BX026Q-01GB-XYZ",
+      "oldRecord": {
+        "appName": "AI Expand  Video Enhancer",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "AI Expand  Video Enhancer",
+        "startDate": "2026-00-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-01GA-XYZ",
+      "oldRecord": {
+        "appName": "MSC Network Wallet",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "MSC Network Wallet",
+        "startDate": "2026-00-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-02GA-XYZ",
+      "oldRecord": {
+        "appName": "Zygo Captain",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Zygo Captain",
+        "startDate": "2026-00-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-03GA-XYZ",
+      "oldRecord": {
+        "appName": "GraminKart",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "GraminKart",
+        "startDate": "2026-00-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-04GA-XYZ",
+      "oldRecord": {
+        "appName": "GraminKart Seller",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "GraminKart Seller",
+        "startDate": "2026-00-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-05GA-XYZ",
+      "oldRecord": {
+        "appName": "Polylingo AI",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Polylingo AI",
+        "startDate": "2026-00-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-01GC-XYZ",
+      "oldRecord": {
+        "appName": "WallAura",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "WallAura",
+        "startDate": "2026-00-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-06GA-XYZ",
+      "oldRecord": {
+        "appName": "Nalori",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Nalori",
+        "startDate": "2026-00-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-07GA-XYZ",
+      "oldRecord": {
+        "appName": "Space Adventure",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Space Adventure",
+        "startDate": "2026-00-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-08GA-XYZ",
+      "oldRecord": {
+        "appName": "Block Blasty",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Block Blasty",
+        "startDate": "2026-00-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-02GB-XYZ",
+      "oldRecord": {
+        "appName": "LighthousePrep  Exam Guider",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "LighthousePrep  Exam Guider",
+        "startDate": "2026-00-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-03GB-XYZ",
+      "oldRecord": {
+        "appName": "Kinship Vault",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Kinship Vault",
+        "startDate": "2026-00-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-02GC-XYZ",
+      "oldRecord": {
+        "appName": "Divyora",
+        "startDate": "2026-07-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Divyora",
+        "startDate": "2026-00-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-09GA-XYZ",
+      "oldRecord": {
+        "appName": "Glamee",
+        "startDate": "2026-07-02",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Glamee",
+        "startDate": "2026-00-02",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-04GB-XYZ",
+      "oldRecord": {
+        "appName": "Universal Signs",
+        "startDate": "2026-07-02",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Universal Signs",
+        "startDate": "2026-00-02",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-03GC-XYZ",
+      "oldRecord": {
+        "appName": "AtomSpace AI",
+        "startDate": "2026-07-02",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "AtomSpace AI",
+        "startDate": "2026-00-02",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-10GA-XYZ",
+      "oldRecord": {
+        "appName": "QR code Premium",
+        "startDate": "2026-07-02",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "QR code Premium",
+        "startDate": "2026-00-02",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-04GC-XYZ",
+      "oldRecord": {
+        "appName": "Mahaprasad",
+        "startDate": "2026-07-03",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Mahaprasad",
+        "startDate": "2026-00-03",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-05GC-XYZ",
+      "oldRecord": {
+        "appName": "LotalA Brasil",
+        "startDate": "2026-07-04",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "LotalA Brasil",
+        "startDate": "2026-00-04",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-05GB-XYZ",
+      "oldRecord": {
+        "appName": "NavioFood",
+        "startDate": "2026-07-03",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "NavioFood",
+        "startDate": "2026-00-03",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-06GB-XYZ",
+      "oldRecord": {
+        "appName": "JITONEX GLOBAL",
+        "startDate": "2026-07-03",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "JITONEX GLOBAL",
+        "startDate": "2026-00-03",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-07GB-XYZ",
+      "oldRecord": {
+        "appName": "AmazeDaily",
+        "startDate": "2026-07-04",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "AmazeDaily",
+        "startDate": "2026-00-04",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-08GB-XYZ",
+      "oldRecord": {
+        "appName": "Boost Fire  Game Booster 4x",
+        "startDate": "2026-07-04",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Boost Fire  Game Booster 4x",
+        "startDate": "2026-00-04",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-11GA-XYZ",
+      "oldRecord": {
+        "appName": "GOGARDA",
+        "startDate": "2026-07-05",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "GOGARDA",
+        "startDate": "2026-00-05",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-12GA-XYZ",
+      "oldRecord": {
+        "appName": "Ramli Divination",
+        "startDate": "2026-07-06",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Ramli Divination",
+        "startDate": "2026-00-06",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-13GA-XYZ",
+      "oldRecord": {
+        "appName": "Mythos Dream Journal tarot",
+        "startDate": "2026-07-06",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Mythos Dream Journal tarot",
+        "startDate": "2026-00-06",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-06GC-XYZ",
+      "oldRecord": {
+        "appName": "FamNest CREL",
+        "startDate": "2026-07-05",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "FamNest CREL",
+        "startDate": "2026-00-05",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-07GC-XYZ",
+      "oldRecord": {
+        "appName": "All Game Booster",
+        "startDate": "2026-07-06",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "All Game Booster",
+        "startDate": "2026-00-06",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-14GA-XYZ",
+      "oldRecord": {
+        "appName": "NavioFood Seller",
+        "startDate": "2026-07-06",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "NavioFood Seller",
+        "startDate": "2026-00-06",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-15GA-XYZ",
+      "oldRecord": {
+        "appName": "AI PDF Reader Speech",
+        "startDate": "2026-07-07",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "AI PDF Reader Speech",
+        "startDate": "2026-00-07",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-09GB-XYZ",
+      "oldRecord": {
+        "appName": "Upcharify",
+        "startDate": "2026-07-07",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Upcharify",
+        "startDate": "2026-00-07",
+        "totalDays": 14,
+        "status": "active"
+      }
+    }
+  ]
 }
