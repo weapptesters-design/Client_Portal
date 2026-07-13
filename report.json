@@ -1,6 +1,49 @@
 {
-  "newCount": 0,
+  "newCount": 6,
   "changedCount": 0,
-  "newApps": [],
+  "newApps": [
+    {
+      "id": "BX026Q-12GB-XYZ",
+      "appName": "Biodata Marker",
+      "startDate": "2026-07-10",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-13GB-XYZ",
+      "appName": "Patna Metro Navigator",
+      "startDate": "2026-07-10",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-14GB-XYZ",
+      "appName": "NammaSeva",
+      "startDate": "2026-07-11",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-22GA-XYZ",
+      "appName": "BRIS",
+      "startDate": "2026-07-10",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-23GA-XYZ",
+      "appName": "ZyDO",
+      "startDate": "2026-07-11",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-24GA-XYZ",
+      "appName": "Right Wises",
+      "startDate": "2026-07-11",
+      "totalDays": 14,
+      "status": "active"
+    }
+  ],
   "changedApps": []
 }
