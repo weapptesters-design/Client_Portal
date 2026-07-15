@@ -1,25 +1,32 @@
 {
-  "newCount": 3,
+  "newCount": 4,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-25GA-XYZ",
-      "appName": "WhiteOceanBook",
-      "startDate": "2026-07-12",
+      "id": "BX026Q-26GA-XYZ",
+      "appName": "The Listner",
+      "startDate": "2026-07-13",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-15GB-XYZ",
-      "appName": "Anime Depth Effect Wallpapers",
-      "startDate": "2026-07-12",
+      "id": "BX026Q-16GB-XYZ",
+      "appName": "ExitCall Smartest Fake Call",
+      "startDate": "2026-07-13",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-12GC-XYZ",
-      "appName": "Goyabinha Animes",
-      "startDate": "2026-07-12",
+      "id": "BX026Q-13GC-XYZ",
+      "appName": "Car Deal",
+      "startDate": "2026-07-13",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-14GC-XYZ",
+      "appName": "Daisy",
+      "startDate": "2026-07-13",
       "totalDays": 14,
       "status": "active"
     }
