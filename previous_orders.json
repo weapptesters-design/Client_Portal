@@ -1126,5 +1126,65 @@
     "startDate": "2026-07-13",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-17GB-XYZ": {
+    "appName": "Postalprep",
+    "startDate": "2026-07-14",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-18GB-XYZ": {
+    "appName": "Love US PDF Converter",
+    "startDate": "2026-07-14",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-19GB-XYZ": {
+    "appName": "MakHubby",
+    "startDate": "2026-07-15",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-20GB-XYZ": {
+    "appName": "Jharkhand ekalyan Guide",
+    "startDate": "2026-07-15",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-15GC-XYZ": {
+    "appName": "Full Battery",
+    "startDate": "2026-07-15",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-27GA-XYZ": {
+    "appName": "Sociocube",
+    "startDate": "2026-07-15",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-28GA-XYZ": {
+    "appName": "ShredSphere",
+    "startDate": "2026-07-15",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-29GA-XYZ": {
+    "appName": "FITABYSS",
+    "startDate": "2026-07-16",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-21GB-XYZ": {
+    "appName": "MAGHANN",
+    "startDate": "2026-07-15",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-22GB-XYZ": {
+    "appName": "Web2App",
+    "startDate": "2026-07-15",
+    "totalDays": 14,
+    "status": "active"
   }
 }
