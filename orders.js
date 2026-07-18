@@ -1186,5 +1186,41 @@ window.ORDERS = {
     "startDate": "2026-07-15",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-30GA-XYZ": {
+    "appName": "Neibrz",
+    "startDate": "2026-07-16",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-31GA-XYZ": {
+    "appName": "Nammasante",
+    "startDate": "2026-07-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-16GC-XYZ": {
+    "appName": "Karent Admin",
+    "startDate": "2026-07-16",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-17GC-XYZ": {
+    "appName": "Karent",
+    "startDate": "2026-07-16",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-23GB-XYZ": {
+    "appName": "Kudmi Matrimony",
+    "startDate": "2026-07-16",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-32GA-XYZ": {
+    "appName": "SreeOTT",
+    "startDate": "2026-07-17",
+    "totalDays": 14,
+    "status": "active"
   }
 }
