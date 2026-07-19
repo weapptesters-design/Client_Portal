@@ -3,43 +3,43 @@
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-30GA-XYZ",
-      "appName": "Neibrz",
-      "startDate": "2026-07-16",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-31GA-XYZ",
-      "appName": "Nammasante",
+      "id": "BX026Q-33GA-XYZ",
+      "appName": "NexuraPlay",
       "startDate": "2026-07-17",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-16GC-XYZ",
-      "appName": "Karent Admin",
-      "startDate": "2026-07-16",
+      "id": "BX026Q-34GA-XYZ",
+      "appName": "Kiddo Playbook",
+      "startDate": "2026-07-17",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-17GC-XYZ",
-      "appName": "Karent",
-      "startDate": "2026-07-16",
+      "id": "BX026Q-18GC-XYZ",
+      "appName": "DIE",
+      "startDate": "2026-07-17",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-23GB-XYZ",
-      "appName": "Kudmi Matrimony",
-      "startDate": "2026-07-16",
+      "id": "BX026Q-19GC-XYZ",
+      "appName": "KaamPlus",
+      "startDate": "2026-07-17",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-32GA-XYZ",
-      "appName": "SreeOTT",
+      "id": "BX026Q-35GA-XYZ",
+      "appName": "AI Baby Dance",
+      "startDate": "2026-07-18",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-24GB-XYZ",
+      "appName": "Numpuz Classic Brain Game",
       "startDate": "2026-07-17",
       "totalDays": 14,
       "status": "active"

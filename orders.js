@@ -1222,5 +1222,41 @@ window.ORDERS = {
     "startDate": "2026-07-17",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-33GA-XYZ": {
+    "appName": "NexuraPlay",
+    "startDate": "2026-07-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-34GA-XYZ": {
+    "appName": "Kiddo Playbook",
+    "startDate": "2026-07-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-18GC-XYZ": {
+    "appName": "DIE",
+    "startDate": "2026-07-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-19GC-XYZ": {
+    "appName": "KaamPlus",
+    "startDate": "2026-07-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-35GA-XYZ": {
+    "appName": "AI Baby Dance",
+    "startDate": "2026-07-18",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-24GB-XYZ": {
+    "appName": "Numpuz Classic Brain Game",
+    "startDate": "2026-07-17",
+    "totalDays": 14,
+    "status": "active"
   }
 }
