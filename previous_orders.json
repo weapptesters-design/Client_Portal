@@ -1258,5 +1258,59 @@
     "startDate": "2026-07-17",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-25GB-XYZ": {
+    "appName": "Mumbai Metro Navigator",
+    "startDate": "2026-07-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-36GA-XYZ": {
+    "appName": "Unseen People",
+    "startDate": "2026-07-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-37GA-XYZ": {
+    "appName": "92 Pak Game",
+    "startDate": "2026-07-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-26GB-XYZ": {
+    "appName": "Chillfi Electronic Store",
+    "startDate": "2026-07-18",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-27GB-XYZ": {
+    "appName": "Foodbee",
+    "startDate": "2026-07-18",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-28GB-XYZ": {
+    "appName": "Foodbee Restuarant",
+    "startDate": "2026-07-18",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-29GB-XYZ": {
+    "appName": "Foodbee Delivery Partner",
+    "startDate": "2026-07-18",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-30GB-XYZ": {
+    "appName": "Rashi Bhavishya in Marathi",
+    "startDate": "2026-07-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-20GC-XYZ": {
+    "appName": "All Gaming Logo",
+    "startDate": "2026-07-18",
+    "totalDays": 14,
+    "status": "active"
   }
 }
