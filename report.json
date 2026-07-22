@@ -1,67 +1,32 @@
 {
-  "newCount": 9,
+  "newCount": 4,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-25GB-XYZ",
-      "appName": "Mumbai Metro Navigator",
-      "startDate": "2026-07-17",
+      "id": "BX026Q-31GB-XYZ",
+      "appName": "ShopFusion",
+      "startDate": "2026-07-20",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-36GA-XYZ",
-      "appName": "Unseen People",
+      "id": "BX026Q-32GB-XYZ",
+      "appName": "LINKUP",
+      "startDate": "2026-07-20",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-38GA-XYZ",
+      "appName": "Nxora",
       "startDate": "2026-07-19",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-37GA-XYZ",
-      "appName": "92 Pak Game",
-      "startDate": "2026-07-19",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-26GB-XYZ",
-      "appName": "Chillfi Electronic Store",
-      "startDate": "2026-07-18",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-27GB-XYZ",
-      "appName": "Foodbee",
-      "startDate": "2026-07-18",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-28GB-XYZ",
-      "appName": "Foodbee Restuarant",
-      "startDate": "2026-07-18",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-29GB-XYZ",
-      "appName": "Foodbee Delivery Partner",
-      "startDate": "2026-07-18",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-30GB-XYZ",
-      "appName": "Rashi Bhavishya in Marathi",
-      "startDate": "2026-07-19",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-20GC-XYZ",
-      "appName": "All Gaming Logo",
-      "startDate": "2026-07-18",
+      "id": "BX026Q-39GA-XYZ",
+      "appName": "Maharashtra Vanrakashak bharati",
+      "startDate": "2026-07-20",
       "totalDays": 14,
       "status": "active"
     }
