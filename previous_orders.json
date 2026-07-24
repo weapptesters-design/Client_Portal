@@ -1336,5 +1336,41 @@
     "startDate": "2026-07-20",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-40GA-XYZ": {
+    "appName": "Business Card Maker",
+    "startDate": "2026-07-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-33GB-XYZ": {
+    "appName": "MemoryLens Photos by Person",
+    "startDate": "2026-07-22",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-34GB-XYZ": {
+    "appName": "Marthi Quiz",
+    "startDate": "2026-07-22",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-35GB-XYZ": {
+    "appName": "Cashoox",
+    "startDate": "2026-07-22",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-21GC-XYZ": {
+    "appName": "RDC Learn",
+    "startDate": "2026-07-21",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-22GC-XYZ": {
+    "appName": "Smart Calculator",
+    "startDate": "2026-07-22",
+    "totalDays": 14,
+    "status": "active"
   }
 }
