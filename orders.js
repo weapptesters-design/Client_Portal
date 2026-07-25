@@ -1372,5 +1372,17 @@ window.ORDERS = {
     "startDate": "2026-07-22",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-41GA-XYZ": {
+    "appName": "Unit Calc Free",
+    "startDate": "2026-07-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-42GA-XYZ": {
+    "appName": "Qwista Partner",
+    "startDate": "2026-07-23",
+    "totalDays": 14,
+    "status": "active"
   }
 }
