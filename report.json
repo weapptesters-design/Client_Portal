@@ -1,21 +1,6 @@
 {
-  "newCount": 2,
+  "newCount": 0,
   "changedCount": 0,
-  "newApps": [
-    {
-      "id": "BX026Q-41GA-XYZ",
-      "appName": "Unit Calc Free",
-      "startDate": "2026-07-23",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-42GA-XYZ",
-      "appName": "Qwista Partner",
-      "startDate": "2026-07-23",
-      "totalDays": 14,
-      "status": "active"
-    }
-  ],
+  "newApps": [],
   "changedApps": []
 }
