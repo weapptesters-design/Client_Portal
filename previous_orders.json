@@ -1384,5 +1384,83 @@
     "startDate": "2026-07-23",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-43GA-XYZ": {
+    "appName": "HASHIQ ASSISTANT",
+    "startDate": "2026-07-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-36GB-XYZ": {
+    "appName": "Postrica Daily Post",
+    "startDate": "2026-07-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-37GB-XYZ": {
+    "appName": "PromptPool AI Prompts",
+    "startDate": "2026-07-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-38GB-XYZ": {
+    "appName": "Waltra",
+    "startDate": "2026-07-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-39GB-XYZ": {
+    "appName": "Metech",
+    "startDate": "2026-07-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-40GB-XYZ": {
+    "appName": "XamHall",
+    "startDate": "2026-07-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-41GB-XYZ": {
+    "appName": "RR Basket Kavali  GT Mart",
+    "startDate": "2026-07-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-42GB-XYZ": {
+    "appName": "Flinq Shop Local",
+    "startDate": "2026-07-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-23GC-XYZ": {
+    "appName": "Phone Checker",
+    "startDate": "2026-07-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-24GC-XYZ": {
+    "appName": "Flinq Merchant",
+    "startDate": "2026-07-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-44GA-XYZ": {
+    "appName": "Lookout",
+    "startDate": "2026-07-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-43GB-XYZ": {
+    "appName": "SouqGo",
+    "startDate": "2026-07-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-44GB-XYZ": {
+    "appName": "Klover",
+    "startDate": "2026-07-25",
+    "totalDays": 14,
+    "status": "active"
   }
 }
