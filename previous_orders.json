@@ -1462,5 +1462,35 @@
     "startDate": "2026-07-25",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-45GB-XYZ": {
+    "appName": "Raan",
+    "startDate": "2026-07-26",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-45GA-XYZ": {
+    "appName": "Reapp Mobi",
+    "startDate": "2026-07-26",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-46GA-XYZ": {
+    "appName": "BlueLink Chat Even Offline",
+    "startDate": "2026-07-26",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-47GA-XYZ": {
+    "appName": "Registro FJ28",
+    "startDate": "2026-07-27",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-25GC-XYZ": {
+    "appName": "Sketch Jigsaw Puzzle",
+    "startDate": "2026-07-26",
+    "totalDays": 14,
+    "status": "active"
   }
 }
