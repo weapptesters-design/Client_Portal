@@ -1528,5 +1528,53 @@ window.ORDERS = {
     "startDate": "2026-07-28",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-50GA-XYZ": {
+    "appName": "Flinq Delivery Partner",
+    "startDate": "2026-07-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-51GA-XYZ": {
+    "appName": "RiderOS",
+    "startDate": "2026-07-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-26GC-XYZ": {
+    "appName": "Jai Motors",
+    "startDate": "2026-07-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-27GC-XYZ": {
+    "appName": "ReelRack",
+    "startDate": "2026-07-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-28GC-XYZ": {
+    "appName": "Hasph Ludo",
+    "startDate": "2026-07-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-29GC-XYZ": {
+    "appName": "NECC TMS",
+    "startDate": "2026-07-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-30GC-XYZ": {
+    "appName": "Tronoxa",
+    "startDate": "2026-07-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-50GB-XYZ": {
+    "appName": "Tulu Keyboard",
+    "startDate": "2026-07-29",
+    "totalDays": 14,
+    "status": "active"
   }
 }
