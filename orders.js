@@ -1576,5 +1576,23 @@ window.ORDERS = {
     "startDate": "2026-07-29",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-51GB-XYZ": {
+    "appName": "MR BITES",
+    "startDate": "2026-07-29",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-52GB-XYZ": {
+    "appName": "ARK Kidoid  MKP",
+    "startDate": "2026-07-29",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-52GA-XYZ": {
+    "appName": "Gold Prime Signals",
+    "startDate": "2026-07-29",
+    "totalDays": 14,
+    "status": "active"
   }
 }
