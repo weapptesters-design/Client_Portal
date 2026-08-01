@@ -1594,5 +1594,59 @@ window.ORDERS = {
     "startDate": "2026-07-29",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-53GA-XYZ": {
+    "appName": "Cosmos",
+    "startDate": "2026-07-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-54GA-XYZ": {
+    "appName": "DriveMe Crew",
+    "startDate": "2026-07-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-53GB-XYZ": {
+    "appName": "Adcard Shopping",
+    "startDate": "2026-07-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-54GB-XYZ": {
+    "appName": "PresentBook",
+    "startDate": "2026-07-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-31GC-XYZ": {
+    "appName": "Boost King",
+    "startDate": "2026-07-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-32GC-XYZ": {
+    "appName": "Monopoly",
+    "startDate": "2026-07-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-33GC-XYZ": {
+    "appName": "Game Booster",
+    "startDate": "2026-07-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-34GC-XYZ": {
+    "appName": "Architectural Project",
+    "startDate": "2026-07-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-35GC-XYZ": {
+    "appName": "Hyperion Starfall",
+    "startDate": "2026-07-30",
+    "totalDays": 14,
+    "status": "active"
   }
 }
