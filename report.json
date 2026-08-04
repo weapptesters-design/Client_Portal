@@ -1,53 +1,67 @@
 {
-  "newCount": 7,
+  "newCount": 9,
   "changedCount": 2,
   "newApps": [
     {
-      "id": "BX026Q-01HA-XYZ",
-      "appName": "Vidioza AI Video Maker",
-      "startDate": "2026-08-31",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-02HA-XYZ",
-      "appName": "DPAM",
-      "startDate": "2026-08-01",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-01HB-XYZ",
-      "appName": "Snak Eat Your Name!",
-      "startDate": "2026-08-31",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-02HB-XYZ",
-      "appName": "Alcheverse Magic Sort",
-      "startDate": "2026-08-31",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-03HB-XYZ",
-      "appName": "گریبه ست",
+      "id": "BX026Q-03HC-XYZ",
+      "appName": "Nutriscan",
       "startDate": "2026-08-02",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-01HC-XYZ",
-      "appName": "Lo Lottery",
-      "startDate": "2026-08-31",
+      "id": "BX026Q-04HC-XYZ",
+      "appName": "WS Status Saver",
+      "startDate": "2026-08-02",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-02HC-XYZ",
-      "appName": "Melovecars",
+      "id": "BX026Q-05HC-XYZ",
+      "appName": "MiCampus",
       "startDate": "2026-08-02",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-04HB-XYZ",
+      "appName": "Fling",
+      "startDate": "2026-08-02",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-05HB-XYZ",
+      "appName": "Smart App Lock",
+      "startDate": "2026-08-03",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-03HA-XYZ",
+      "appName": "Lunara",
+      "startDate": "2026-08-02",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-04HA-XYZ",
+      "appName": "Veel",
+      "startDate": "2026-08-02",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-05HA-XYZ",
+      "appName": "Umang Juice Bar  Restaurant",
+      "startDate": "2026-08-02",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-06HA-XYZ",
+      "appName": "AnyCut Cutlist Optimizer",
+      "startDate": "2026-08-03",
       "totalDays": 14,
       "status": "active"
     }
@@ -71,14 +85,14 @@
     {
       "id": "BX026Q-30GC-XYZ",
       "oldRecord": {
-        "appName": "Tronoxa",
-        "startDate": "2026-07-28",
+        "appName": "Balloon Protect",
+        "startDate": "2026-08-01",
         "totalDays": 14,
         "status": "active"
       },
       "newRecord": {
-        "appName": "Balloon Protect",
-        "startDate": "2026-08-01",
+        "appName": "Tronoxa",
+        "startDate": "2026-07-28",
         "totalDays": 14,
         "status": "active"
       }

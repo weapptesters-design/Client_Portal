@@ -283,15 +283,15 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 01HC,Lo Lottery ,31,8,2026,BX026Q,01HC,XYZ,14,active
 02HC,Melovecars ,2,8,2026,BX026Q,02HC,XYZ,14,active 
 30GC,Balloon Protect ,1,8,2026,BX026Q,30GC,XYZ,14,active
-,,,8,2026,BX026Q,,XYZ,14,active
-,,,8,2026,BX026Q,,XYZ,14,active
-,,,8,2026,BX026Q,,XYZ,14,active 
-,,,8,2026,BX026Q,,XYZ,14,active
-,,,8,2026,BX026Q,,XYZ,14,active
-,,,8,2026,BX026Q,,XYZ,14,active
-,,,8,2026,BX026Q,,XYZ,14,active 
-,,,8,2026,BX026Q,,XYZ,14,active
-,,,8,2026,BX026Q,,XYZ,14,active
+03HC,Nutriscan ,2,8,2026,BX026Q,03HC,XYZ,14,active
+04HC,WS Status Saver ,2,8,2026,BX026Q,04HC,XYZ,14,active
+05HC,MiCampus ,2,8,2026,BX026Q,05HC,XYZ,14,active 
+04HB,Fling ,2,8,2026,BX026Q,04HB,XYZ,14,active
+05HB,Smart App Lock,3,8,2026,BX026Q,05HB,XYZ,14,active
+03HA,Lunara,2,8,2026,BX026Q,03HA,XYZ,14,active
+04HA,Veel,2,8,2026,BX026Q,04HA,XYZ,14,active 
+05HA,Umang Juice Bar  Restaurant ,2,8,2026,BX026Q,05HA,XYZ,14,active
+06HA,AnyCut Cutlist Optimizer ,3,8,2026,BX026Q,06HA,XYZ,14,active
 ,,,8,2026,BX026Q,,XYZ,14,active
 ,,,8,2026,BX026Q,,XYZ,14,active 
 ,,,8,2026,BX026Q,,XYZ,14,active
