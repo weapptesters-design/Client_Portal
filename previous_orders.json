@@ -1744,5 +1744,17 @@
     "startDate": "2026-08-03",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-07HA-XYZ": {
+    "appName": "Mastya Mart",
+    "startDate": "2026-08-03",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-06HC-XYZ": {
+    "appName": "Nurvii",
+    "startDate": "2026-08-03",
+    "totalDays": 14,
+    "status": "active"
   }
 }
