@@ -1,7 +1,15 @@
 {
-  "newCount": 0,
+  "newCount": 1,
   "changedCount": 2,
-  "newApps": [],
+  "newApps": [
+    {
+      "id": "BX026Q-06HB-XYZ",
+      "appName": "Live Music Share  Sync Player",
+      "startDate": "2026-08-05",
+      "totalDays": 14,
+      "status": "active"
+    }
+  ],
   "changedApps": [
     {
       "id": "BX026Q-23GB-XYZ",
