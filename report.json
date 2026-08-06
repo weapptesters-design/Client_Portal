@@ -1,22 +1,7 @@
 {
-  "newCount": 2,
+  "newCount": 0,
   "changedCount": 2,
-  "newApps": [
-    {
-      "id": "BX026Q-07HA-XYZ",
-      "appName": "Mastya Mart",
-      "startDate": "2026-08-03",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-06HC-XYZ",
-      "appName": "Nurvii",
-      "startDate": "2026-08-03",
-      "totalDays": 14,
-      "status": "active"
-    }
-  ],
+  "newApps": [],
   "changedApps": [
     {
       "id": "BX026Q-23GB-XYZ",
