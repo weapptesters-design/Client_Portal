@@ -17,6 +17,24 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-07HB-XYZ": {
+    "appName": "Smart Shopkeeper",
+    "startDate": "2026-08-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-07HC-XYZ": {
+    "appName": "Whiteboard",
+    "startDate": "2026-08-05",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-08HC-XYZ": {
+    "appName": "ClinikNote",
+    "startDate": "2026-08-05",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-27GA-XYZ": {
     "appName": "Sociocube",
     "startDate": "2026-07-15",
@@ -68,12 +86,6 @@ window.ORDERS = {
   "BX026Q-17GC-XYZ": {
     "appName": "Karent",
     "startDate": "2026-07-16",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-23GB-XYZ": {
-    "appName": "Fintrack Expence Tracker",
-    "startDate": "2026-07-27",
     "totalDays": 14,
     "status": "active"
   },
@@ -389,6 +401,12 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-23GB-XYZ": {
+    "appName": "Fintrack Expence Tracker",
+    "startDate": "2026-07-27",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-50GA-XYZ": {
     "appName": "Flinq Delivery Partner",
     "startDate": "2026-07-28",
@@ -422,12 +440,6 @@ window.ORDERS = {
   "BX026Q-29GC-XYZ": {
     "appName": "NECC TMS",
     "startDate": "2026-07-28",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-30GC-XYZ": {
-    "appName": "Balloon Protect",
-    "startDate": "2026-08-01",
     "totalDays": 14,
     "status": "active"
   },
@@ -548,6 +560,12 @@ window.ORDERS = {
   "BX026Q-02HC-XYZ": {
     "appName": "Melovecars",
     "startDate": "2026-08-02",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-30GC-XYZ": {
+    "appName": "Balloon Protect",
+    "startDate": "2026-08-01",
     "totalDays": 14,
     "status": "active"
   },
