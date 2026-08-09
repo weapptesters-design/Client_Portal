@@ -35,6 +35,72 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-09HC-XYZ": {
+    "appName": "Bablu Jewellers",
+    "startDate": "2026-08-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-11HC-XYZ": {
+    "appName": "RescueX Care",
+    "startDate": "2026-08-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-12HC-XYZ": {
+    "appName": "Mind Shift 360",
+    "startDate": "2026-08-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-08HA-XYZ": {
+    "appName": "Suvichar Marathi",
+    "startDate": "2026-08-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-09HA-XYZ": {
+    "appName": "Go Arrow Pro Puzzle Escape",
+    "startDate": "2026-08-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-08HB-XYZ": {
+    "appName": "eMony  Money Manager",
+    "startDate": "2026-08-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-09HB-XYZ": {
+    "appName": "Marathi Kodi",
+    "startDate": "2026-08-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-10HB-XYZ": {
+    "appName": "Klover Partner",
+    "startDate": "2026-08-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-10HA-XYZ": {
+    "appName": "Water Go Water Sort Puzzle",
+    "startDate": "2026-08-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-11HA-XYZ": {
+    "appName": "Killer Sudoku Pro",
+    "startDate": "2026-08-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-13HC-XYZ": {
+    "appName": "PromptPica AI Photo Prompts",
+    "startDate": "2026-08-07",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-27GA-XYZ": {
     "appName": "Sociocube",
     "startDate": "2026-07-15",
