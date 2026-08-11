@@ -42,8 +42,8 @@ window.ORDERS = {
     "status": "active"
   },
   "BX026Q-11HC-XYZ": {
-    "appName": "RescueX Care",
-    "startDate": "2026-08-06",
+    "appName": "Fruit Journey",
+    "startDate": "2026-08-09",
     "totalDays": 14,
     "status": "active"
   },
@@ -107,9 +107,75 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-13HA-XYZ": {
+  "BX026Q-14HC-XYZ": {
     "appName": "bellustafifng",
     "startDate": "2026-08-08",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-13HA-XYZ": {
+    "appName": "2048 Merge Quest",
+    "startDate": "2026-08-08",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-14HA-XYZ": {
+    "appName": "SGR HR App",
+    "startDate": "2026-08-08",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-15HA-XYZ": {
+    "appName": "Omsent Business partner",
+    "startDate": "2026-08-08",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-16HA-XYZ": {
+    "appName": "HypeBuddy",
+    "startDate": "2026-08-08",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-17HA-XYZ": {
+    "appName": "Holy Bible",
+    "startDate": "2026-08-09",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-18HA-XYZ": {
+    "appName": "Pragati",
+    "startDate": "2026-08-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-11HB-XYZ": {
+    "appName": "Kudmi Matrimony",
+    "startDate": "2026-08-09",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-12HB-XYZ": {
+    "appName": "XO King",
+    "startDate": "2026-08-09",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-13HB-XYZ": {
+    "appName": "Raysheo",
+    "startDate": "2026-08-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-15HC-XYZ": {
+    "appName": "Better For Love",
+    "startDate": "2026-08-09",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-16HC-XYZ": {
+    "appName": "Ramkoti",
+    "startDate": "2026-08-10",
     "totalDays": 14,
     "status": "active"
   },
