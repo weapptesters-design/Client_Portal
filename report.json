@@ -1,53 +1,46 @@
 {
-  "newCount": 7,
+  "newCount": 6,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-17HC-XYZ",
-      "appName": "FaceShape",
-      "startDate": "2026-08-10",
+      "id": "BX026Q-21HA-XYZ",
+      "appName": "Healthy Vow",
+      "startDate": "2026-08-11",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-18HC-XYZ",
-      "appName": "King Of Jigsaw Puzzle",
-      "startDate": "2026-08-10",
+      "id": "BX026Q-22HA-XYZ",
+      "appName": "ShipZilla  Courier app",
+      "startDate": "2026-08-11",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-19HC-XYZ",
-      "appName": "WERIZ",
-      "startDate": "2026-08-10",
+      "id": "BX026Q-23HA-XYZ",
+      "appName": "udaan sathi",
+      "startDate": "2026-08-11",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-20HC-XYZ",
-      "appName": "Timepass Katta",
-      "startDate": "2026-08-10",
+      "id": "BX026Q-15HB-XYZ",
+      "appName": "Business calculator",
+      "startDate": "2026-08-11",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-19HA-XYZ",
-      "appName": "Porkaram Collection",
-      "startDate": "2026-08-10",
+      "id": "BX026Q-16HB-XYZ",
+      "appName": "My Angel 360  Anti Truffa",
+      "startDate": "2026-08-11",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-20HA-XYZ",
-      "appName": "Rail Live Zone MEMUDEMU LOCAL",
-      "startDate": "2026-08-10",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-14HB-XYZ",
-      "appName": "GigZee",
-      "startDate": "2026-08-10",
+      "id": "BX026Q-17HB-XYZ",
+      "appName": "UDAAN RIDER",
+      "startDate": "2026-08-11",
       "totalDays": 14,
       "status": "active"
     }
