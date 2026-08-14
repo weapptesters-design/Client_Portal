@@ -1,46 +1,60 @@
 {
-  "newCount": 6,
+  "newCount": 8,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-21HA-XYZ",
-      "appName": "Healthy Vow",
-      "startDate": "2026-08-11",
+      "id": "BX026Q-18HB-XYZ",
+      "appName": "Red Sensitivity Pro",
+      "startDate": "2026-08-12",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-22HA-XYZ",
-      "appName": "ShipZilla  Courier app",
-      "startDate": "2026-08-11",
+      "id": "BX026Q-19HB-XYZ",
+      "appName": "Image Prompt Kit AI Prompts",
+      "startDate": "2026-08-12",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-23HA-XYZ",
-      "appName": "udaan sathi",
-      "startDate": "2026-08-11",
+      "id": "BX026Q-20HB-XYZ",
+      "appName": "Volleyball Score Tracker",
+      "startDate": "2026-08-12",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-15HB-XYZ",
-      "appName": "Business calculator",
-      "startDate": "2026-08-11",
+      "id": "BX026Q-24HA-XYZ",
+      "appName": "Propmpt Image",
+      "startDate": "2026-08-12",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-16HB-XYZ",
-      "appName": "My Angel 360  Anti Truffa",
-      "startDate": "2026-08-11",
+      "id": "BX026Q-25HA-XYZ",
+      "appName": "BudgetCare Expenses Tracker",
+      "startDate": "2026-08-12",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-17HB-XYZ",
-      "appName": "UDAAN RIDER",
-      "startDate": "2026-08-11",
+      "id": "BX026Q-26HA-XYZ",
+      "appName": "Millionaire4K",
+      "startDate": "2026-08-13",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-21HC-XYZ",
+      "appName": "Red Sensitivity",
+      "startDate": "2026-08-12",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-27HA-XYZ",
+      "appName": "Flappy Bird Names",
+      "startDate": "2026-08-13",
       "totalDays": 14,
       "status": "active"
     }
