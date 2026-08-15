@@ -1,59 +1,31 @@
 {
-  "newCount": 8,
+  "newCount": 4,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-18HB-XYZ",
-      "appName": "Red Sensitivity Pro",
-      "startDate": "2026-08-12",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-19HB-XYZ",
-      "appName": "Image Prompt Kit AI Prompts",
-      "startDate": "2026-08-12",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-20HB-XYZ",
-      "appName": "Volleyball Score Tracker",
-      "startDate": "2026-08-12",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-24HA-XYZ",
-      "appName": "Propmpt Image",
-      "startDate": "2026-08-12",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-25HA-XYZ",
-      "appName": "BudgetCare Expenses Tracker",
-      "startDate": "2026-08-12",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-26HA-XYZ",
-      "appName": "Millionaire4K",
+      "id": "BX026Q-28HA-XYZ",
+      "appName": "Dare the Devil",
       "startDate": "2026-08-13",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-21HC-XYZ",
-      "appName": "Red Sensitivity",
-      "startDate": "2026-08-12",
+      "id": "BX026Q-29HA-XYZ",
+      "appName": "Jakyn",
+      "startDate": "2026-08-13",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-27HA-XYZ",
-      "appName": "Flappy Bird Names",
+      "id": "BX026Q-22HC-XYZ",
+      "appName": "Promodoro Timer",
+      "startDate": "2026-08-13",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-21HB-XYZ",
+      "appName": "FFF 3D Parallex Wallpapers",
       "startDate": "2026-08-13",
       "totalDays": 14,
       "status": "active"
