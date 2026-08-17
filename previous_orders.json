@@ -318,14 +318,32 @@
     "status": "active"
   },
   "BX026Q-22HC-XYZ": {
-    "appName": "Promodoro Timer",
-    "startDate": "2026-08-13",
+    "appName": "Scan Pro OCR",
+    "startDate": "2026-08-15",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-21HB-XYZ": {
     "appName": "FFF 3D Parallex Wallpapers",
     "startDate": "2026-08-13",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-23HC-XYZ": {
+    "appName": "Enhancer Studio",
+    "startDate": "2026-08-14",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-24HC-XYZ": {
+    "appName": "Water Colour Sporting",
+    "startDate": "2026-08-14",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-30HA-XYZ": {
+    "appName": "LifeAstro Personal Astrologer",
+    "startDate": "2026-08-15",
     "totalDays": 14,
     "status": "active"
   },
