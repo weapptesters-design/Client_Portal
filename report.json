@@ -1,44 +1,49 @@
 {
-  "newCount": 3,
-  "changedCount": 1,
+  "newCount": 6,
+  "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-23HC-XYZ",
-      "appName": "Enhancer Studio",
-      "startDate": "2026-08-14",
+      "id": "BX026Q-31HA-XYZ",
+      "appName": "Fizzle",
+      "startDate": "2026-08-16",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-24HC-XYZ",
-      "appName": "Water Colour Sporting",
-      "startDate": "2026-08-14",
+      "id": "BX026Q-32HA-XYZ",
+      "appName": "Cat Sudoku  Logic Puzzle",
+      "startDate": "2026-08-17",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-30HA-XYZ",
-      "appName": "LifeAstro Personal Astrologer",
-      "startDate": "2026-08-15",
+      "id": "BX026Q-22HB-XYZ",
+      "appName": "Eurofire Group",
+      "startDate": "2026-08-16",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-25HC-XYZ",
+      "appName": "Embers",
+      "startDate": "2026-08-16",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-26HC-XYZ",
+      "appName": "BLE Radar",
+      "startDate": "2026-08-17",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-10HC-XYZ",
+      "appName": "HOL",
+      "startDate": "2026-08-16",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": [
-    {
-      "id": "BX026Q-22HC-XYZ",
-      "oldRecord": {
-        "appName": "Promodoro Timer",
-        "startDate": "2026-08-13",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Scan Pro OCR",
-        "startDate": "2026-08-15",
-        "totalDays": 14,
-        "status": "active"
-      }
-    }
-  ]
+  "changedApps": []
 }
