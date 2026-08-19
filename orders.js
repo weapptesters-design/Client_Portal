@@ -395,6 +395,12 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-27HC-XYZ": {
+    "appName": "Sarvekshanam",
+    "startDate": "2026-08-18",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-27GA-XYZ": {
     "appName": "Sociocube",
     "startDate": "2026-07-15",

@@ -1,17 +1,10 @@
 {
-  "newCount": 2,
+  "newCount": 1,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-33HA-XYZ",
-      "appName": "Footimes Local Live",
-      "startDate": "2026-08-17",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-34HA-XYZ",
-      "appName": "TOKIIO",
+      "id": "BX026Q-27HC-XYZ",
+      "appName": "Sarvekshanam",
       "startDate": "2026-08-18",
       "totalDays": 14,
       "status": "active"
