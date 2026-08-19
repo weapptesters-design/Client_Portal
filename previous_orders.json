@@ -383,6 +383,18 @@
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-33HA-XYZ": {
+    "appName": "Footimes Local Live",
+    "startDate": "2026-08-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-34HA-XYZ": {
+    "appName": "TOKIIO",
+    "startDate": "2026-08-18",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-27GA-XYZ": {
     "appName": "Sociocube",
     "startDate": "2026-07-15",

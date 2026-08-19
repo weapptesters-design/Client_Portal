@@ -1,46 +1,18 @@
 {
-  "newCount": 6,
+  "newCount": 2,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-31HA-XYZ",
-      "appName": "Fizzle",
-      "startDate": "2026-08-16",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-32HA-XYZ",
-      "appName": "Cat Sudoku  Logic Puzzle",
+      "id": "BX026Q-33HA-XYZ",
+      "appName": "Footimes Local Live",
       "startDate": "2026-08-17",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-22HB-XYZ",
-      "appName": "Eurofire Group",
-      "startDate": "2026-08-16",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-25HC-XYZ",
-      "appName": "Embers",
-      "startDate": "2026-08-16",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-26HC-XYZ",
-      "appName": "BLE Radar",
-      "startDate": "2026-08-17",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-10HC-XYZ",
-      "appName": "HOL",
-      "startDate": "2026-08-16",
+      "id": "BX026Q-34HA-XYZ",
+      "appName": "TOKIIO",
+      "startDate": "2026-08-18",
       "totalDays": 14,
       "status": "active"
     }
