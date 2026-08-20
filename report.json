@@ -1,11 +1,53 @@
 {
-  "newCount": 1,
+  "newCount": 7,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-27HC-XYZ",
-      "appName": "Sarvekshanam",
+      "id": "BX026Q-28HC-XYZ",
+      "appName": "Neareba",
       "startDate": "2026-08-18",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-29HC-XYZ",
+      "appName": "FastEd Student",
+      "startDate": "2026-08-18",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-23HB-XYZ",
+      "appName": "GEET Music",
+      "startDate": "2026-08-18",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-24HB-XYZ",
+      "appName": "Haval Taxi",
+      "startDate": "2026-08-18",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-25HB-XYZ",
+      "appName": "Havel Taxi Driver",
+      "startDate": "2026-08-18",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-26HB-XYZ",
+      "appName": "Nourivo",
+      "startDate": "2026-08-18",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-27HB-XYZ",
+      "appName": "Drive Me",
+      "startDate": "2026-08-19",
       "totalDays": 14,
       "status": "active"
     }
