@@ -73,13 +73,13 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 25HB,Havel Taxi Driver,18,8,2026,BX026Q,25HB,XYZ,14,active 
 26HB,Nourivo,18,8,2026,BX026Q,26HB,XYZ,14,active
 27HB,Drive Me,19,8,2026,BX026Q,27HB,XYZ,14,active 
-,,,8,2026,BX026Q,,XYZ,14,active
-,,,8,2026,BX026Q,,XYZ,14,active 
-,,,8,2026,BX026Q,,XYZ,14,active 
-,,,8,2026,BX026Q,,XYZ,14,active
-,,,8,2026,BX026Q,,XYZ,14,active 
-,,,8,2026,BX026Q,,XYZ,14,active
-,,,8,2026,BX026Q,,XYZ,14,active 
+28HB,DocMate AI PDF Scanner OCR,19,8,2026,BX026Q,28HB,XYZ,14,active
+30HC,PAC Advisory ,19,8,2026,BX026Q,30HC,XYZ,14,active 
+31HC,Zido ,19,8,2026,BX026Q,31HC,XYZ,14,active 
+35HA,ClueChain,19,8,2026,BX026Q,35HA,XYZ,14,active
+36HA,PlantCare AI,19,8,2026,BX026Q,36HA,XYZ,14,active 
+29HA,Hotel Connect,20,8,2026,BX026Q,29HA,XYZ,14,active
+30HA,Listener Expert,20,8,2026,BX026Q,30HA,XYZ,14,active 
 ,,,8,2026,BX026Q,,XYZ,14,active
 ,,,8,2026,BX026Q,,XYZ,14,active 
 ,,,8,2026,BX026Q,,XYZ,14,active 

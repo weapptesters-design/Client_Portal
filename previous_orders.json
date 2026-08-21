@@ -312,8 +312,8 @@
     "status": "active"
   },
   "BX026Q-29HA-XYZ": {
-    "appName": "Jakyn",
-    "startDate": "2026-08-13",
+    "appName": "Hotel Connect",
+    "startDate": "2026-08-20",
     "totalDays": 14,
     "status": "active"
   },
@@ -342,8 +342,8 @@
     "status": "active"
   },
   "BX026Q-30HA-XYZ": {
-    "appName": "LifeAstro Personal Astrologer",
-    "startDate": "2026-08-15",
+    "appName": "Listener Expert",
+    "startDate": "2026-08-20",
     "totalDays": 14,
     "status": "active"
   },
@@ -439,6 +439,36 @@
   },
   "BX026Q-27HB-XYZ": {
     "appName": "Drive Me",
+    "startDate": "2026-08-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-28HB-XYZ": {
+    "appName": "DocMate AI PDF Scanner OCR",
+    "startDate": "2026-08-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-30HC-XYZ": {
+    "appName": "PAC Advisory",
+    "startDate": "2026-08-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-31HC-XYZ": {
+    "appName": "Zido",
+    "startDate": "2026-08-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-35HA-XYZ": {
+    "appName": "ClueChain",
+    "startDate": "2026-08-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-36HA-XYZ": {
+    "appName": "PlantCare AI",
     "startDate": "2026-08-19",
     "totalDays": 14,
     "status": "active"

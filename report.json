@@ -1,56 +1,73 @@
 {
-  "newCount": 7,
-  "changedCount": 0,
+  "newCount": 5,
+  "changedCount": 2,
   "newApps": [
     {
-      "id": "BX026Q-28HC-XYZ",
-      "appName": "Neareba",
-      "startDate": "2026-08-18",
+      "id": "BX026Q-28HB-XYZ",
+      "appName": "DocMate AI PDF Scanner OCR",
+      "startDate": "2026-08-19",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-29HC-XYZ",
-      "appName": "FastEd Student",
-      "startDate": "2026-08-18",
+      "id": "BX026Q-30HC-XYZ",
+      "appName": "PAC Advisory",
+      "startDate": "2026-08-19",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-23HB-XYZ",
-      "appName": "GEET Music",
-      "startDate": "2026-08-18",
+      "id": "BX026Q-31HC-XYZ",
+      "appName": "Zido",
+      "startDate": "2026-08-19",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-24HB-XYZ",
-      "appName": "Haval Taxi",
-      "startDate": "2026-08-18",
+      "id": "BX026Q-35HA-XYZ",
+      "appName": "ClueChain",
+      "startDate": "2026-08-19",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-25HB-XYZ",
-      "appName": "Havel Taxi Driver",
-      "startDate": "2026-08-18",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-26HB-XYZ",
-      "appName": "Nourivo",
-      "startDate": "2026-08-18",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-27HB-XYZ",
-      "appName": "Drive Me",
+      "id": "BX026Q-36HA-XYZ",
+      "appName": "PlantCare AI",
       "startDate": "2026-08-19",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": []
+  "changedApps": [
+    {
+      "id": "BX026Q-29HA-XYZ",
+      "oldRecord": {
+        "appName": "Jakyn",
+        "startDate": "2026-08-13",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Hotel Connect",
+        "startDate": "2026-08-20",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-30HA-XYZ",
+      "oldRecord": {
+        "appName": "LifeAstro Personal Astrologer",
+        "startDate": "2026-08-15",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Listener Expert",
+        "startDate": "2026-08-20",
+        "totalDays": 14,
+        "status": "active"
+      }
+    }
+  ]
 }
