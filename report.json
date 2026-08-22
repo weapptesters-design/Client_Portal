@@ -3,37 +3,37 @@
   "changedCount": 2,
   "newApps": [
     {
-      "id": "BX026Q-28HB-XYZ",
-      "appName": "DocMate AI PDF Scanner OCR",
-      "startDate": "2026-08-19",
+      "id": "BX026Q-29HB-XYZ",
+      "appName": "Hotel Connect",
+      "startDate": "2026-08-20",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-30HC-XYZ",
-      "appName": "PAC Advisory",
-      "startDate": "2026-08-19",
+      "id": "BX026Q-30HB-XYZ",
+      "appName": "Listener Expert",
+      "startDate": "2026-08-20",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-31HC-XYZ",
-      "appName": "Zido",
-      "startDate": "2026-08-19",
+      "id": "BX026Q-37HA-XYZ",
+      "appName": "Startraack",
+      "startDate": "2026-08-20",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-35HA-XYZ",
-      "appName": "ClueChain",
-      "startDate": "2026-08-19",
+      "id": "BX026Q-38HA-XYZ",
+      "appName": "MyQuest",
+      "startDate": "2026-08-20",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-36HA-XYZ",
-      "appName": "PlantCare AI",
-      "startDate": "2026-08-19",
+      "id": "BX026Q-39HA-XYZ",
+      "appName": "FFF Reels video Gaming",
+      "startDate": "2026-08-21",
       "totalDays": 14,
       "status": "active"
     }
@@ -42,14 +42,14 @@
     {
       "id": "BX026Q-29HA-XYZ",
       "oldRecord": {
-        "appName": "Jakyn",
-        "startDate": "2026-08-13",
+        "appName": "Hotel Connect",
+        "startDate": "2026-08-20",
         "totalDays": 14,
         "status": "active"
       },
       "newRecord": {
-        "appName": "Hotel Connect",
-        "startDate": "2026-08-20",
+        "appName": "Jakyn",
+        "startDate": "2026-08-13",
         "totalDays": 14,
         "status": "active"
       }
@@ -57,14 +57,14 @@
     {
       "id": "BX026Q-30HA-XYZ",
       "oldRecord": {
-        "appName": "LifeAstro Personal Astrologer",
-        "startDate": "2026-08-15",
+        "appName": "Listener Expert",
+        "startDate": "2026-08-20",
         "totalDays": 14,
         "status": "active"
       },
       "newRecord": {
-        "appName": "Listener Expert",
-        "startDate": "2026-08-20",
+        "appName": "LifeAstro Personal Astrologer",
+        "startDate": "2026-08-15",
         "totalDays": 14,
         "status": "active"
       }
