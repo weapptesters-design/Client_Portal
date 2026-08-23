@@ -1,73 +1,35 @@
 {
-  "newCount": 5,
-  "changedCount": 2,
+  "newCount": 4,
+  "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-29HB-XYZ",
-      "appName": "Hotel Connect",
-      "startDate": "2026-08-20",
+      "id": "BX026Q-40HA-XYZ",
+      "appName": "Apna bhumi Jharkhand",
+      "startDate": "2026-08-21",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-30HB-XYZ",
-      "appName": "Listener Expert",
-      "startDate": "2026-08-20",
+      "id": "BX026Q-41HA-XYZ",
+      "appName": "MaBabiCar",
+      "startDate": "2026-08-21",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-37HA-XYZ",
-      "appName": "Startraack",
-      "startDate": "2026-08-20",
+      "id": "BX026Q-31HB-XYZ",
+      "appName": "Jay Bhawani Travels",
+      "startDate": "2026-08-21",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-38HA-XYZ",
-      "appName": "MyQuest",
-      "startDate": "2026-08-20",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-39HA-XYZ",
-      "appName": "FFF Reels video Gaming",
+      "id": "BX026Q-32HB-XYZ",
+      "appName": "Romantic Kiss WAStickers",
       "startDate": "2026-08-21",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": [
-    {
-      "id": "BX026Q-29HA-XYZ",
-      "oldRecord": {
-        "appName": "Hotel Connect",
-        "startDate": "2026-08-20",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Jakyn",
-        "startDate": "2026-08-13",
-        "totalDays": 14,
-        "status": "active"
-      }
-    },
-    {
-      "id": "BX026Q-30HA-XYZ",
-      "oldRecord": {
-        "appName": "Listener Expert",
-        "startDate": "2026-08-20",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "LifeAstro Personal Astrologer",
-        "startDate": "2026-08-15",
-        "totalDays": 14,
-        "status": "active"
-      }
-    }
-  ]
+  "changedApps": []
 }
