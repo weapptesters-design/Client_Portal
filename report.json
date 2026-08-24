@@ -1,35 +1,6 @@
 {
-  "newCount": 4,
+  "newCount": 0,
   "changedCount": 0,
-  "newApps": [
-    {
-      "id": "BX026Q-40HA-XYZ",
-      "appName": "Apna bhumi Jharkhand",
-      "startDate": "2026-08-21",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-41HA-XYZ",
-      "appName": "MaBabiCar",
-      "startDate": "2026-08-21",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-31HB-XYZ",
-      "appName": "Jay Bhawani Travels",
-      "startDate": "2026-08-21",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-32HB-XYZ",
-      "appName": "Romantic Kiss WAStickers",
-      "startDate": "2026-08-21",
-      "totalDays": 14,
-      "status": "active"
-    }
-  ],
+  "newApps": [],
   "changedApps": []
 }
