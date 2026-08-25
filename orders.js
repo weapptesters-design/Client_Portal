@@ -402,8 +402,8 @@ window.ORDERS = {
     "status": "active"
   },
   "BX026Q-28HC-XYZ": {
-    "appName": "Neareba",
-    "startDate": "2026-08-18",
+    "appName": "Bellustafifng",
+    "startDate": "2026-08-23",
     "totalDays": 14,
     "status": "active"
   },
@@ -524,6 +524,42 @@ window.ORDERS = {
   "BX026Q-32HB-XYZ": {
     "appName": "Romantic Kiss WAStickers",
     "startDate": "2026-08-21",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-33HB-XYZ": {
+    "appName": "G2G School App",
+    "startDate": "2026-08-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-34HB-XYZ": {
+    "appName": "HaatBeat Billing  Business",
+    "startDate": "2026-08-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-35HB-XYZ": {
+    "appName": "Gold Price Live India Tracker",
+    "startDate": "2026-08-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-42HA-XYZ": {
+    "appName": "Break Together",
+    "startDate": "2026-08-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-43HA-XYZ": {
+    "appName": "Blue Track",
+    "startDate": "2026-08-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-44HA-XYZ": {
+    "appName": "Borneo Foods",
+    "startDate": "2026-08-24",
     "totalDays": 14,
     "status": "active"
   },
