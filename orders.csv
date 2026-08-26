@@ -93,9 +93,9 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 42HA,Break Together ,23,8,2026,BX026Q,42HA,XYZ,14,active
 43HA,Blue Track ,23,8,2026,BX026Q,43HA,XYZ,14,active 
 44HA,Borneo Foods,24,8,2026,BX026Q,44HA,XYZ,14,active
-,,,8,2026,BX026Q,,XYZ,14,active 
-,,,8,2026,BX026Q,,XYZ,14,active
-,,,8,2026,BX026Q,,XYZ,14,active 
+36HB,NavioFood Delivery ,24,8,2026,BX026Q,36HB,XYZ,14,active 
+37HB,BillKaro Offline Bill Maker ,24,8,2026,BX026Q,37HB,XYZ,14,active
+45HA,Pawn Billing,25,8,2026,BX026Q,45HA,XYZ,14,active 
 ,,,8,2026,BX026Q,,XYZ,14,active 
 ,,,8,2026,BX026Q,,XYZ,14,active
 ,,,8,2026,BX026Q,,XYZ,14,active 
