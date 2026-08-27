@@ -1,28 +1,6 @@
 {
-  "newCount": 3,
+  "newCount": 0,
   "changedCount": 0,
-  "newApps": [
-    {
-      "id": "BX026Q-36HB-XYZ",
-      "appName": "NavioFood Delivery",
-      "startDate": "2026-08-24",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-37HB-XYZ",
-      "appName": "BillKaro Offline Bill Maker",
-      "startDate": "2026-08-24",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-45HA-XYZ",
-      "appName": "Pawn Billing",
-      "startDate": "2026-08-25",
-      "totalDays": 14,
-      "status": "active"
-    }
-  ],
+  "newApps": [],
   "changedApps": []
 }
