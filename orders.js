@@ -707,6 +707,36 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-54HA-XYZ": {
+    "appName": "BalaKatha",
+    "startDate": "2026-08-29",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-51HB-XYZ": {
+    "appName": "STYLER STUDIO",
+    "startDate": "2026-08-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-52HB-XYZ": {
+    "appName": "KnowMe Ask Me Anything",
+    "startDate": "2026-08-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-53HB-XYZ": {
+    "appName": "lbsher",
+    "startDate": "2026-08-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-55HA-XYZ": {
+    "appName": "VG Movies",
+    "startDate": "2026-08-29",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-27GA-XYZ": {
     "appName": "Sociocube",
     "startDate": "2026-07-15",
