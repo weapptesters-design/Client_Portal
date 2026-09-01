@@ -738,7 +738,31 @@ window.ORDERS = {
     "status": "active"
   },
   "BX026Q-54HB-XYZ": {
-    "appName": "",
+    "appName": "Parking jam",
+    "startDate": "2026-08-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-55HB-XYZ": {
+    "appName": "Arrow escape",
+    "startDate": "2026-08-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-56HB-XYZ": {
+    "appName": "Hungry snake",
+    "startDate": "2026-08-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-57HB-XYZ": {
+    "appName": "ABC Kids Learning",
+    "startDate": "2026-08-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-56HA-XYZ": {
+    "appName": "QR  Barcode Scanner",
     "startDate": "2026-08-30",
     "totalDays": 14,
     "status": "active"

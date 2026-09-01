@@ -1,14 +1,51 @@
 {
-  "newCount": 1,
-  "changedCount": 0,
+  "newCount": 4,
+  "changedCount": 1,
   "newApps": [
     {
-      "id": "BX026Q-54HB-XYZ",
-      "appName": "",
+      "id": "BX026Q-55HB-XYZ",
+      "appName": "Arrow escape",
+      "startDate": "2026-08-30",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-56HB-XYZ",
+      "appName": "Hungry snake",
+      "startDate": "2026-08-30",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-57HB-XYZ",
+      "appName": "ABC Kids Learning",
+      "startDate": "2026-08-30",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-56HA-XYZ",
+      "appName": "QR  Barcode Scanner",
       "startDate": "2026-08-30",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": []
+  "changedApps": [
+    {
+      "id": "BX026Q-54HB-XYZ",
+      "oldRecord": {
+        "appName": "",
+        "startDate": "2026-08-30",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Parking jam",
+        "startDate": "2026-08-30",
+        "totalDays": 14,
+        "status": "active"
+      }
+    }
+  ]
 }
