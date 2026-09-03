@@ -1,31 +1,52 @@
 {
-  "newCount": 4,
+  "newCount": 7,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-57HA-XYZ",
-      "appName": "The Analyst Gym",
-      "startDate": "2026-08-31",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-01IA-XYZ",
-      "appName": "AI Kissing Generator",
+      "id": "BX026Q-04IA-XYZ",
+      "appName": "HomeRox",
       "startDate": "2026-09-01",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-02IA-XYZ",
-      "appName": "Funzo CRM",
+      "id": "BX026Q-05IA-XYZ",
+      "appName": "COW SHED",
       "startDate": "2026-09-01",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-03IA-XYZ",
-      "appName": "Category Match Puzzle Game",
+      "id": "BX026Q-01IB-XYZ",
+      "appName": "REDO PARTNER",
+      "startDate": "2026-09-01",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-01IC-XYZ",
+      "appName": "Unruffle",
+      "startDate": "2026-09-31",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-02IC-XYZ",
+      "appName": "Holiday Calendar",
+      "startDate": "2026-09-01",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-03IC-XYZ",
+      "appName": "Slide Puzzle",
+      "startDate": "2026-09-01",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-04IC-XYZ",
+      "appName": "Pro Tambola",
       "startDate": "2026-09-01",
       "totalDays": 14,
       "status": "active"

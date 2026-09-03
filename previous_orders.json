@@ -791,6 +791,48 @@
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-04IA-XYZ": {
+    "appName": "HomeRox",
+    "startDate": "2026-09-01",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-05IA-XYZ": {
+    "appName": "COW SHED",
+    "startDate": "2026-09-01",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-01IB-XYZ": {
+    "appName": "REDO PARTNER",
+    "startDate": "2026-09-01",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-01IC-XYZ": {
+    "appName": "Unruffle",
+    "startDate": "2026-09-31",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-02IC-XYZ": {
+    "appName": "Holiday Calendar",
+    "startDate": "2026-09-01",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-03IC-XYZ": {
+    "appName": "Slide Puzzle",
+    "startDate": "2026-09-01",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-04IC-XYZ": {
+    "appName": "Pro Tambola",
+    "startDate": "2026-09-01",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-27GA-XYZ": {
     "appName": "Sociocube",
     "startDate": "2026-07-15",
