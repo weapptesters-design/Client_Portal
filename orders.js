@@ -881,507 +881,57 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-25GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
+  "BX026Q-03IB-XYZ": {
+    "appName": "Simpho Minimalist Launcher",
+    "startDate": "2026-09-04",
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-36GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
+  "BX026Q-04IB-XYZ": {
+    "appName": "pgaxis",
+    "startDate": "2026-09-04",
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-37GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
+  "BX026Q-12IA-XYZ": {
+    "appName": "Moda Acessivel",
+    "startDate": "2026-09-04",
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-26GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
+  "BX026Q-07IC-XYZ": {
+    "appName": "ROR Visual Deck",
+    "startDate": "2026-09-04",
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-27GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
+  "BX026Q-08IC-XYZ": {
+    "appName": "Kasratbook",
+    "startDate": "2026-09-04",
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-28GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
+  "BX026Q-13IA-XYZ": {
+    "appName": "Invoxit",
+    "startDate": "2026-09-05",
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-29GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
+  "BX026Q-14IA-XYZ": {
+    "appName": "Truehris",
+    "startDate": "2026-09-05",
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-30GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
+  "BX026Q-09IC-XYZ": {
+    "appName": "TTaxi",
+    "startDate": "2026-09-04",
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-20GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-31GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-32GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-38GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-39GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-40GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-33GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-34GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-35GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-21GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-22GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-41GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-42GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-43GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-36GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-37GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-38GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-39GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-40GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-41GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-42GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-23GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-24GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-44GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-43GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-44GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-45GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-45GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-46GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-47GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-25GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-48GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-49GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-46GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-47GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-48GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-49GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-23GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-50GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-51GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-26GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-27GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-28GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-29GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-50GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-51GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-52GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-52GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-53GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-54GA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-53GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-54GB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-31GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-32GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-33GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-34GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-35GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-01HA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-02HA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-01HB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-02HB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-03HB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-01HC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-02HC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-30GC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-03HC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-04HC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-05HC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-04HB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-05HB-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-03HA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-04HA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-05HA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-06HA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-07HA-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-06HC-XYZ": {
-    "appName": "",
-    "startDate": "INVALID_DATE",
+  "BX026Q-10IC-XYZ": {
+    "appName": "TTaxi Driver",
+    "startDate": "2026-09-04",
     "totalDays": 14,
     "status": "active"
   }
