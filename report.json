@@ -1,67 +1,46 @@
 {
-  "newCount": 9,
+  "newCount": 6,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-03IB-XYZ",
-      "appName": "Simpho Minimalist Launcher",
-      "startDate": "2026-09-04",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-04IB-XYZ",
-      "appName": "pgaxis",
-      "startDate": "2026-09-04",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-12IA-XYZ",
-      "appName": "Moda Acessivel",
-      "startDate": "2026-09-04",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-07IC-XYZ",
-      "appName": "ROR Visual Deck",
-      "startDate": "2026-09-04",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-08IC-XYZ",
-      "appName": "Kasratbook",
-      "startDate": "2026-09-04",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-13IA-XYZ",
-      "appName": "Invoxit",
+      "id": "BX026Q-15IA-XYZ",
+      "appName": "WorkLink India",
       "startDate": "2026-09-05",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-14IA-XYZ",
-      "appName": "Truehris",
+      "id": "BX026Q-16IA-XYZ",
+      "appName": "SnapGen AI video generator",
       "startDate": "2026-09-05",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-09IC-XYZ",
-      "appName": "TTaxi",
-      "startDate": "2026-09-04",
+      "id": "BX026Q-11IC-XYZ",
+      "appName": "Keymate",
+      "startDate": "2026-09-05",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-10IC-XYZ",
-      "appName": "TTaxi Driver",
-      "startDate": "2026-09-04",
+      "id": "BX026Q-12IC-XYZ",
+      "appName": "Salonext",
+      "startDate": "2026-09-05",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-05IB-XYZ",
+      "appName": "Water Intake Reminder",
+      "startDate": "2026-09-05",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-08IA-XYZ",
+      "appName": "GO WITH DRIVER Partner",
+      "startDate": "2026-09-02",
       "totalDays": 14,
       "status": "active"
     }
