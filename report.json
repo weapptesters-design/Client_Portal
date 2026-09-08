@@ -1,49 +1,51 @@
 {
-  "newCount": 6,
-  "changedCount": 0,
+  "newCount": 4,
+  "changedCount": 1,
   "newApps": [
     {
-      "id": "BX026Q-15IA-XYZ",
-      "appName": "WorkLink India",
-      "startDate": "2026-09-05",
+      "id": "BX026Q-06IB-XYZ",
+      "appName": "Alnwkhba Market",
+      "startDate": "2026-09-06",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-16IA-XYZ",
-      "appName": "SnapGen AI video generator",
-      "startDate": "2026-09-05",
+      "id": "BX026Q-07IB-XYZ",
+      "appName": "BOYODO",
+      "startDate": "2026-09-06",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-11IC-XYZ",
-      "appName": "Keymate",
-      "startDate": "2026-09-05",
+      "id": "BX026Q-13IC-XYZ",
+      "appName": "War Of Watchers",
+      "startDate": "2026-09-06",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-12IC-XYZ",
-      "appName": "Salonext",
-      "startDate": "2026-09-05",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-05IB-XYZ",
-      "appName": "Water Intake Reminder",
-      "startDate": "2026-09-05",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-08IA-XYZ",
-      "appName": "GO WITH DRIVER Partner",
-      "startDate": "2026-09-02",
+      "id": "BX026Q-14IC-XYZ",
+      "appName": "Comores Market",
+      "startDate": "2026-09-06",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": []
+  "changedApps": [
+    {
+      "id": "BX026Q-11IA-XYZ",
+      "oldRecord": {
+        "appName": "Yatayat Nepal",
+        "startDate": "2026-09-04",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Yatayat Nepal",
+        "startDate": "2026-09-06",
+        "totalDays": 14,
+        "status": "active"
+      }
+    }
+  ]
 }

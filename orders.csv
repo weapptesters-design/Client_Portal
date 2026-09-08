@@ -144,7 +144,7 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 05iC,Arogya Vibhag ,2,9,2026,BX026Q,05IC,XYZ,14,active
 09iA ,Foodcorp ,3,9,2026,BX026Q,09IA ,XYZ,14,active 
 10iA,QRx Vault ,3,9,2026,BX026Q,10IA,XYZ,14,active
-11iA,Yatayat Nepal ,4,9,2026,BX026Q,11IA,XYZ,14,active
+11iA,Yatayat Nepal ,6,9,2026,BX026Q,11IA,XYZ,14,active
 06iC,Ibo Smarters,4,9,2026,BX026Q,06IC,XYZ,14,active 
 03iB,Simpho Minimalist Launcher ,4,9,2026,BX026Q,03IB,XYZ,14,active
 04iB,pgaxis,4,9,2026,BX026Q,04IB,XYZ,14,active
@@ -161,10 +161,10 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 12iC,Salonext,5,9,2026,BX026Q,12IC,XYZ,14,active
 05iB,Water Intake Reminder ,5,9,2026,BX026Q,05IB,XYZ,14,active
 08iA,GO WITH DRIVER Partner ,2,9,2026,BX026Q,08IA,XYZ,14,active 
-,,,9,2026,BX026Q,,XYZ,14,active
-,,,9,2026,BX026Q,,XYZ,14,active
-,,,9,2026,BX026Q,,XYZ,14,active 
-,,,9,2026,BX026Q,,XYZ,14,active
+06iB,Alnwkhba Market ,6,9,2026,BX026Q,06IB,XYZ,14,active
+07iB,BOYODO,6,9,2026,BX026Q,07IB,XYZ,14,active
+13iC,War Of Watchers ,6,9,2026,BX026Q,13IC,XYZ,14,active 
+14iC,Comores Market ,6,9,2026,BX026Q,14IC,XYZ,14,active
 ,,,9,2026,BX026Q,,XYZ,14,active
 ,,,9,2026,BX026Q,,XYZ,14,active 
 ,,,9,2026,BX026Q,,XYZ,14,active
