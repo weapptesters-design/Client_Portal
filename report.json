@@ -1,51 +1,14 @@
 {
-  "newCount": 4,
-  "changedCount": 1,
+  "newCount": 1,
+  "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-06IB-XYZ",
-      "appName": "Alnwkhba Market",
-      "startDate": "2026-09-06",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-07IB-XYZ",
-      "appName": "BOYODO",
-      "startDate": "2026-09-06",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-13IC-XYZ",
-      "appName": "War Of Watchers",
-      "startDate": "2026-09-06",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-14IC-XYZ",
-      "appName": "Comores Market",
-      "startDate": "2026-09-06",
+      "id": "BX026Q-08IB-XYZ",
+      "appName": "Compass Navigation Vault",
+      "startDate": "2026-09-07",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": [
-    {
-      "id": "BX026Q-11IA-XYZ",
-      "oldRecord": {
-        "appName": "Yatayat Nepal",
-        "startDate": "2026-09-04",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Yatayat Nepal",
-        "startDate": "2026-09-06",
-        "totalDays": 14,
-        "status": "active"
-      }
-    }
-  ]
+  "changedApps": []
 }
