@@ -1042,5 +1042,41 @@
     "startDate": "2026-09-10",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-17IA-XYZ": {
+    "appName": "Fitmate",
+    "startDate": "2026-09-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-18IA-XYZ": {
+    "appName": "Dloklz",
+    "startDate": "2026-09-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-20IC-XYZ": {
+    "appName": "Truck wala",
+    "startDate": "2026-09-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-11IB-XYZ": {
+    "appName": "Smart Med Tracker",
+    "startDate": "2026-09-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-12IB-XYZ": {
+    "appName": "Wasl",
+    "startDate": "2026-09-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-13IB-XYZ": {
+    "appName": "Wasl Pro",
+    "startDate": "2026-09-10",
+    "totalDays": 14,
+    "status": "active"
   }
 }
