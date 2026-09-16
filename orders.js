@@ -1146,14 +1146,56 @@ window.ORDERS = {
     "status": "active"
   },
   "BX026Q-22IC-XYZ": {
-    "appName": "",
-    "startDate": "2026-09-00",
+    "appName": "1000",
+    "startDate": "2026-09-13",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-23IC-XYZ": {
-    "appName": "",
-    "startDate": "2026-09-00",
+    "appName": "Vidnux",
+    "startDate": "2026-09-13",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-24IC-XYZ": {
+    "appName": "VCB Vinod",
+    "startDate": "2026-09-14",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-25IC-XYZ": {
+    "appName": "Formbhro",
+    "startDate": "2026-09-14",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-25IA-XYZ": {
+    "appName": "P Camera",
+    "startDate": "2026-09-14",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-26IA-XYZ": {
+    "appName": "Palavi Library",
+    "startDate": "2026-09-14",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-27IA-XYZ": {
+    "appName": "GroomAra",
+    "startDate": "2026-09-14",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-18IB-XYZ": {
+    "appName": "StorageScope",
+    "startDate": "2026-09-14",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-19IB-XYZ": {
+    "appName": "Zoyyle",
+    "startDate": "2026-09-14",
     "totalDays": 14,
     "status": "active"
   }

@@ -1,49 +1,87 @@
 {
-  "newCount": 6,
-  "changedCount": 0,
+  "newCount": 7,
+  "changedCount": 2,
   "newApps": [
     {
-      "id": "BX026Q-22IA-XYZ",
-      "appName": "75P 75 Parables of Christ",
-      "startDate": "2026-09-13",
+      "id": "BX026Q-24IC-XYZ",
+      "appName": "VCB Vinod",
+      "startDate": "2026-09-14",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-23IA-XYZ",
-      "appName": "DG Academy",
-      "startDate": "2026-09-13",
+      "id": "BX026Q-25IC-XYZ",
+      "appName": "Formbhro",
+      "startDate": "2026-09-14",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-24IA-XYZ",
-      "appName": "FlowSequences",
-      "startDate": "2026-09-13",
+      "id": "BX026Q-25IA-XYZ",
+      "appName": "P Camera",
+      "startDate": "2026-09-14",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-21IC-XYZ",
-      "appName": "MoodLens",
-      "startDate": "2026-09-13",
+      "id": "BX026Q-26IA-XYZ",
+      "appName": "Palavi Library",
+      "startDate": "2026-09-14",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-22IC-XYZ",
-      "appName": "",
-      "startDate": "2026-09-00",
+      "id": "BX026Q-27IA-XYZ",
+      "appName": "GroomAra",
+      "startDate": "2026-09-14",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-23IC-XYZ",
-      "appName": "",
-      "startDate": "2026-09-00",
+      "id": "BX026Q-18IB-XYZ",
+      "appName": "StorageScope",
+      "startDate": "2026-09-14",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-19IB-XYZ",
+      "appName": "Zoyyle",
+      "startDate": "2026-09-14",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": []
+  "changedApps": [
+    {
+      "id": "BX026Q-22IC-XYZ",
+      "oldRecord": {
+        "appName": "",
+        "startDate": "2026-09-00",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "1000",
+        "startDate": "2026-09-13",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-23IC-XYZ",
+      "oldRecord": {
+        "appName": "",
+        "startDate": "2026-09-00",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Vidnux",
+        "startDate": "2026-09-13",
+        "totalDays": 14,
+        "status": "active"
+      }
+    }
+  ]
 }
