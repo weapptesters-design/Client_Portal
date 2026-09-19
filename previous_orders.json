@@ -1234,5 +1234,41 @@
     "startDate": "2026-09-16",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-29IA-XYZ": {
+    "appName": "Gramsevak Bharti",
+    "startDate": "2026-09-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-27IC-XYZ": {
+    "appName": "Blink Puzzle Game",
+    "startDate": "2026-09-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-26IC-XYZ": {
+    "appName": "Fitofly",
+    "startDate": "2026-09-15",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-25IB-XYZ": {
+    "appName": "Video Converter",
+    "startDate": "2026-09-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-28IC-XYZ": {
+    "appName": "SafeAura",
+    "startDate": "2026-09-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-30IA-XYZ": {
+    "appName": "Trend Catcher Blueprint",
+    "startDate": "2026-09-18",
+    "totalDays": 14,
+    "status": "active"
   }
 }
