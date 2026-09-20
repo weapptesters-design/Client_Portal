@@ -1,45 +1,38 @@
 {
-  "newCount": 6,
+  "newCount": 5,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-29IA-XYZ",
-      "appName": "Gramsevak Bharti",
-      "startDate": "2026-09-17",
+      "id": "BX026Q-31IA-XYZ",
+      "appName": "GV MART",
+      "startDate": "2026-09-18",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-27IC-XYZ",
-      "appName": "Blink Puzzle Game",
-      "startDate": "2026-09-17",
+      "id": "BX026Q-32IA-XYZ",
+      "appName": "Roj Rast",
+      "startDate": "2026-09-18",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-26IC-XYZ",
-      "appName": "Fitofly",
-      "startDate": "2026-09-15",
+      "id": "BX026Q-33IA-XYZ",
+      "appName": "Localdrop delivery",
+      "startDate": "2026-09-19",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-25IB-XYZ",
-      "appName": "Video Converter",
-      "startDate": "2026-09-17",
+      "id": "BX026Q-26IB-XYZ",
+      "appName": "Ludo Pool Fun Unlimited Games",
+      "startDate": "2026-09-18",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-28IC-XYZ",
-      "appName": "SafeAura",
-      "startDate": "2026-09-17",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-30IA-XYZ",
-      "appName": "Trend Catcher Blueprint",
+      "id": "BX026Q-29IC-XYZ",
+      "appName": "Driver TE",
       "startDate": "2026-09-18",
       "totalDays": 14,
       "status": "active"
