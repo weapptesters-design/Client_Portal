@@ -1284,8 +1284,8 @@ window.ORDERS = {
     "status": "active"
   },
   "BX026Q-33IA-XYZ": {
-    "appName": "Localdrop delivery",
-    "startDate": "2026-09-19",
+    "appName": "HoneyHive",
+    "startDate": "2026-09-20",
     "totalDays": 14,
     "status": "active"
   },
@@ -1298,6 +1298,36 @@ window.ORDERS = {
   "BX026Q-29IC-XYZ": {
     "appName": "Driver TE",
     "startDate": "2026-09-18",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-30IC-XYZ": {
+    "appName": "JT Zone",
+    "startDate": "2026-09-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-31IC-XYZ": {
+    "appName": "Arrow Line",
+    "startDate": "2026-09-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-34IA-XYZ": {
+    "appName": "GV MART Vendor App",
+    "startDate": "2026-09-20",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-27IB-XYZ": {
+    "appName": "2048 Pro Number Puzzle Game",
+    "startDate": "2026-09-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-28IB-XYZ": {
+    "appName": "Hostwise",
+    "startDate": "2026-09-19",
     "totalDays": 14,
     "status": "active"
   }
