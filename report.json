@@ -1,46 +1,32 @@
 {
-  "newCount": 6,
+  "newCount": 4,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-29IB-XYZ",
-      "appName": "New Yummy Wheels",
-      "startDate": "2026-09-21",
+      "id": "BX026Q-32IB-XYZ",
+      "appName": "Paralux 3D wallpapers",
+      "startDate": "2026-09-23",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-36IA-XYZ",
-      "appName": "Marathi Ukhane",
-      "startDate": "2026-09-22",
+      "id": "BX026Q-37IA-XYZ",
+      "appName": "Squishy World",
+      "startDate": "2026-09-23",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-30IB-XYZ",
-      "appName": "Afea Agent",
-      "startDate": "2026-09-21",
+      "id": "BX026Q-33IB-XYZ",
+      "appName": "TanantSnap",
+      "startDate": "2026-09-23",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-31IB-XYZ",
-      "appName": "Anthrosian  The AI native HCM",
-      "startDate": "2026-09-21",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-33IC-XYZ",
-      "appName": "Proofit",
-      "startDate": "2026-09-22",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-34IC-XYZ",
-      "appName": "The Train Station",
-      "startDate": "2026-09-22",
+      "id": "BX026Q-34IB-XYZ",
+      "appName": "Chilli Bus Traffic Jam",
+      "startDate": "2026-09-23",
       "totalDays": 14,
       "status": "active"
     }
