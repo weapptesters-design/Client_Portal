@@ -1402,5 +1402,41 @@
     "startDate": "2026-09-23",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-35IC-XYZ": {
+    "appName": "CinTV",
+    "startDate": "2026-09-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-36IC-XYZ": {
+    "appName": "Localdrop Delivery",
+    "startDate": "2026-09-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-35IB-XYZ": {
+    "appName": "Lumawalls 4K Depth wallpaper",
+    "startDate": "2026-09-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-36IB-XYZ": {
+    "appName": "FP Player",
+    "startDate": "2026-09-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-38IA-XYZ": {
+    "appName": "IT Clinic",
+    "startDate": "2026-09-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-39IA-XYZ": {
+    "appName": "P Book Notes",
+    "startDate": "2026-09-25",
+    "totalDays": 14,
+    "status": "active"
   }
 }
