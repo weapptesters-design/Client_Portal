@@ -1,45 +1,59 @@
 {
-  "newCount": 6,
+  "newCount": 8,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-35IC-XYZ",
-      "appName": "CinTV",
-      "startDate": "2026-09-23",
+      "id": "BX026Q-40IA-XYZ",
+      "appName": "GlowRift",
+      "startDate": "2026-09-25",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-36IC-XYZ",
-      "appName": "Localdrop Delivery",
-      "startDate": "2026-09-23",
+      "id": "BX026Q-37IB-XYZ",
+      "appName": "Mega Shopping App",
+      "startDate": "2026-09-25",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-35IB-XYZ",
-      "appName": "Lumawalls 4K Depth wallpaper",
-      "startDate": "2026-09-24",
+      "id": "BX026Q-41IA-XYZ",
+      "appName": "WAkaGood Rider",
+      "startDate": "2026-09-25",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-36IB-XYZ",
-      "appName": "FP Player",
-      "startDate": "2026-09-24",
+      "id": "BX026Q-38IB-XYZ",
+      "appName": "WAkaGood Passenger",
+      "startDate": "2026-09-25",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-38IA-XYZ",
-      "appName": "IT Clinic",
-      "startDate": "2026-09-24",
+      "id": "BX026Q-42IA-XYZ",
+      "appName": "MyBepar",
+      "startDate": "2026-09-25",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-39IA-XYZ",
-      "appName": "P Book Notes",
+      "id": "BX026Q-43IA-XYZ",
+      "appName": "Remix Ludo Royale",
+      "startDate": "2026-09-25",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-39IB-XYZ",
+      "appName": "Apno Event",
+      "startDate": "2026-09-25",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-44IA-XYZ",
+      "appName": "Family Ledger",
       "startDate": "2026-09-25",
       "totalDays": 14,
       "status": "active"
