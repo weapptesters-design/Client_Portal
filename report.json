@@ -1,60 +1,46 @@
 {
-  "newCount": 8,
+  "newCount": 6,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-40IA-XYZ",
-      "appName": "GlowRift",
-      "startDate": "2026-09-25",
+      "id": "BX026Q-45IA-XYZ",
+      "appName": "GlitchCam",
+      "startDate": "2026-09-26",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-37IB-XYZ",
-      "appName": "Mega Shopping App",
-      "startDate": "2026-09-25",
+      "id": "BX026Q-46IA-XYZ",
+      "appName": "KnotSolve",
+      "startDate": "2026-09-26",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-41IA-XYZ",
-      "appName": "WAkaGood Rider",
-      "startDate": "2026-09-25",
+      "id": "BX026Q-47IA-XYZ",
+      "appName": "KIRZ Store",
+      "startDate": "2026-09-26",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-38IB-XYZ",
-      "appName": "WAkaGood Passenger",
-      "startDate": "2026-09-25",
+      "id": "BX026Q-40IB-XYZ",
+      "appName": "Pinterest Video Downloader",
+      "startDate": "2026-09-26",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-42IA-XYZ",
-      "appName": "MyBepar",
-      "startDate": "2026-09-25",
+      "id": "BX026Q-41IB-XYZ",
+      "appName": "Zorvexl Staff",
+      "startDate": "2026-09-26",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-43IA-XYZ",
-      "appName": "Remix Ludo Royale",
-      "startDate": "2026-09-25",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-39IB-XYZ",
-      "appName": "Apno Event",
-      "startDate": "2026-09-25",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-44IA-XYZ",
-      "appName": "Family Ledger",
-      "startDate": "2026-09-25",
+      "id": "BX026Q-48IA-XYZ",
+      "appName": "Update All Apps Phone Software",
+      "startDate": "2026-09-27",
       "totalDays": 14,
       "status": "active"
     }
