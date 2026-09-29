@@ -1,46 +1,25 @@
 {
-  "newCount": 6,
+  "newCount": 3,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-45IA-XYZ",
-      "appName": "GlitchCam",
-      "startDate": "2026-09-26",
+      "id": "BX026Q-42IB-XYZ",
+      "appName": "Book Apno Event Scanner",
+      "startDate": "2026-00-27",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-46IA-XYZ",
-      "appName": "KnotSolve",
-      "startDate": "2026-09-26",
+      "id": "BX026Q-43IB-XYZ",
+      "appName": "A Drive",
+      "startDate": "2026-00-27",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-47IA-XYZ",
-      "appName": "KIRZ Store",
-      "startDate": "2026-09-26",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-40IB-XYZ",
-      "appName": "Pinterest Video Downloader",
-      "startDate": "2026-09-26",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-41IB-XYZ",
-      "appName": "Zorvexl Staff",
-      "startDate": "2026-09-26",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-48IA-XYZ",
-      "appName": "Update All Apps Phone Software",
-      "startDate": "2026-09-27",
+      "id": "BX026Q-44IB-XYZ",
+      "appName": "Ride",
+      "startDate": "2026-00-27",
       "totalDays": 14,
       "status": "active"
     }
