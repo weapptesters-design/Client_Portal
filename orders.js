@@ -1362,8 +1362,8 @@ window.ORDERS = {
     "status": "active"
   },
   "BX026Q-31IB-XYZ": {
-    "appName": "Anthrosian  The AI native HCM",
-    "startDate": "2026-09-21",
+    "appName": "iManager",
+    "startDate": "2026-09-27",
     "totalDays": 14,
     "status": "active"
   },
@@ -1525,19 +1525,55 @@ window.ORDERS = {
   },
   "BX026Q-42IB-XYZ": {
     "appName": "Book Apno Event Scanner",
-    "startDate": "2026-00-27",
+    "startDate": "2026-09-27",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-43IB-XYZ": {
     "appName": "A Drive",
-    "startDate": "2026-00-27",
+    "startDate": "2026-09-27",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-44IB-XYZ": {
     "appName": "Ride",
-    "startDate": "2026-00-27",
+    "startDate": "2026-09-27",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-49IA-XYZ": {
+    "appName": "Noise Remover",
+    "startDate": "2026-09-27",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-45IB-XYZ": {
+    "appName": "Brioq  Kide IQ Development",
+    "startDate": "2026-09-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-46IB-XYZ": {
+    "appName": "Homura Animes",
+    "startDate": "2026-09-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-47IB-XYZ": {
+    "appName": "Cupple",
+    "startDate": "2026-09-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-50IA-XYZ": {
+    "appName": "AI Photo Talk",
+    "startDate": "2026-09-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-48IB-XYZ": {
+    "appName": "V",
+    "startDate": "2026-09-28",
     "totalDays": 14,
     "status": "active"
   }
