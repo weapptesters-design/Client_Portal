@@ -1576,5 +1576,29 @@ window.ORDERS = {
     "startDate": "2026-09-28",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-49IB-XYZ": {
+    "appName": "Bulkwise",
+    "startDate": "2026-09-29",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-50IB-XYZ": {
+    "appName": "1001DM",
+    "startDate": "2026-09-29",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-01JA-XYZ": {
+    "appName": "Ori",
+    "startDate": "2026-10-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-03JA-XYZ": {
+    "appName": "Last Digit",
+    "startDate": "2026-10-30",
+    "totalDays": 14,
+    "status": "active"
   }
 }

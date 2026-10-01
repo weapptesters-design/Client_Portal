@@ -1,107 +1,48 @@
 {
-  "newCount": 6,
-  "changedCount": 4,
+  "newCount": 4,
+  "changedCount": 1,
   "newApps": [
     {
-      "id": "BX026Q-49IA-XYZ",
-      "appName": "Noise Remover",
-      "startDate": "2026-09-27",
+      "id": "BX026Q-49IB-XYZ",
+      "appName": "Bulkwise",
+      "startDate": "2026-09-29",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-45IB-XYZ",
-      "appName": "Brioq  Kide IQ Development",
-      "startDate": "2026-09-28",
+      "id": "BX026Q-50IB-XYZ",
+      "appName": "1001DM",
+      "startDate": "2026-09-29",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-46IB-XYZ",
-      "appName": "Homura Animes",
-      "startDate": "2026-09-28",
+      "id": "BX026Q-01JA-XYZ",
+      "appName": "Ori",
+      "startDate": "2026-10-30",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-47IB-XYZ",
-      "appName": "Cupple",
-      "startDate": "2026-09-28",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-50IA-XYZ",
-      "appName": "AI Photo Talk",
-      "startDate": "2026-09-28",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-48IB-XYZ",
-      "appName": "V",
-      "startDate": "2026-09-28",
+      "id": "BX026Q-03JA-XYZ",
+      "appName": "Last Digit",
+      "startDate": "2026-10-30",
       "totalDays": 14,
       "status": "active"
     }
   ],
   "changedApps": [
     {
-      "id": "BX026Q-42IB-XYZ",
-      "oldRecord": {
-        "appName": "Book Apno Event Scanner",
-        "startDate": "2026-00-27",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Book Apno Event Scanner",
-        "startDate": "2026-09-27",
-        "totalDays": 14,
-        "status": "active"
-      }
-    },
-    {
-      "id": "BX026Q-43IB-XYZ",
-      "oldRecord": {
-        "appName": "A Drive",
-        "startDate": "2026-00-27",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "A Drive",
-        "startDate": "2026-09-27",
-        "totalDays": 14,
-        "status": "active"
-      }
-    },
-    {
-      "id": "BX026Q-44IB-XYZ",
-      "oldRecord": {
-        "appName": "Ride",
-        "startDate": "2026-00-27",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Ride",
-        "startDate": "2026-09-27",
-        "totalDays": 14,
-        "status": "active"
-      }
-    },
-    {
       "id": "BX026Q-31IB-XYZ",
       "oldRecord": {
-        "appName": "Anthrosian  The AI native HCM",
-        "startDate": "2026-09-21",
+        "appName": "iManager",
+        "startDate": "2026-09-27",
         "totalDays": 14,
         "status": "active"
       },
       "newRecord": {
-        "appName": "iManager",
-        "startDate": "2026-09-27",
+        "appName": "Anthrosian  The AI native HCM",
+        "startDate": "2026-09-21",
         "totalDays": 14,
         "status": "active"
       }
