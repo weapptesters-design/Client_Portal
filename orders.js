@@ -1600,5 +1600,29 @@ window.ORDERS = {
     "startDate": "2026-10-30",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-02JA-XYZ": {
+    "appName": "SizeSnap",
+    "startDate": "2026-10-01",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-01JC-XYZ": {
+    "appName": "Dumbell",
+    "startDate": "2026-10-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-02JC-XYZ": {
+    "appName": "Falaas",
+    "startDate": "2026-10-30",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-04JA-XYZ": {
+    "appName": "FamOrbit",
+    "startDate": "2026-10-01",
+    "totalDays": 14,
+    "status": "active"
   }
 }
