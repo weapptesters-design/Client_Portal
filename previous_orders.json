@@ -13,13 +13,13 @@
   },
   "BX026Q-01JA-XYZ": {
     "appName": "Ori",
-    "startDate": "2026-10-30",
+    "startDate": "2026-09-30",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-03JA-XYZ": {
     "appName": "Last Digit",
-    "startDate": "2026-10-30",
+    "startDate": "2026-09-30",
     "totalDays": 14,
     "status": "active"
   },
@@ -31,13 +31,13 @@
   },
   "BX026Q-01JC-XYZ": {
     "appName": "Dumbell",
-    "startDate": "2026-10-30",
+    "startDate": "2026-09-30",
     "totalDays": 14,
     "status": "active"
   },
   "BX026Q-02JC-XYZ": {
     "appName": "Falaas",
-    "startDate": "2026-10-30",
+    "startDate": "2026-09-30",
     "totalDays": 14,
     "status": "active"
   },

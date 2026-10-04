@@ -1,11 +1,11 @@
 test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Status
 01FA,Chaw,1,6,2026,BX026Q,01FA,XYZ,14,active 
 02FA ,QRNova,2,6,2026,BX026Q,02FA ,XYZ,14,active 
-01jA,Ori,30,10,2026,BX026Q,01JA,XYZ,14,active
-03jA,Last Digit ,30,10,2026,BX026Q,03JA,XYZ,14,active 
+01jA,Ori,30,9,2026,BX026Q,01JA,XYZ,14,active
+03jA,Last Digit ,30,9,2026,BX026Q,03JA,XYZ,14,active 
 02jA,SizeSnap ,1,10,2026,BX026Q,02JA,XYZ,14,active
-01jC,Dumbell ,30,10,2026,BX026Q,01JC,XYZ,14,active 
-02jC,Falaas,30,10,2026,BX026Q,02JC,XYZ,14,active 
+01jC,Dumbell ,30,9,2026,BX026Q,01JC,XYZ,14,active 
+02jC,Falaas,30,9,2026,BX026Q,02JC,XYZ,14,active 
 04jA ,FamOrbit ,1,10,2026,BX026Q,04JA ,XYZ,14,active
 03jC,Mico World ,1,10,2026,BX026Q,03JC,XYZ,14,active 
 04jC,Tape Mark,2,10,2026,BX026Q,04JC,XYZ,14,active 

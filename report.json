@@ -1,56 +1,67 @@
 {
-  "newCount": 7,
-  "changedCount": 0,
-  "newApps": [
+  "newCount": 0,
+  "changedCount": 4,
+  "newApps": [],
+  "changedApps": [
     {
-      "id": "BX026Q-05JA-XYZ",
-      "appName": "FontCraft",
-      "startDate": "2026-10-02",
-      "totalDays": 14,
-      "status": "active"
+      "id": "BX026Q-01JA-XYZ",
+      "oldRecord": {
+        "appName": "Ori",
+        "startDate": "2026-10-30",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Ori",
+        "startDate": "2026-09-30",
+        "totalDays": 14,
+        "status": "active"
+      }
     },
     {
-      "id": "BX026Q-01JB-XYZ",
-      "appName": "Nimaz Time Wallpaper",
-      "startDate": "2026-10-02",
-      "totalDays": 14,
-      "status": "active"
+      "id": "BX026Q-03JA-XYZ",
+      "oldRecord": {
+        "appName": "Last Digit",
+        "startDate": "2026-10-30",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Last Digit",
+        "startDate": "2026-09-30",
+        "totalDays": 14,
+        "status": "active"
+      }
     },
     {
-      "id": "BX026Q-02JB-XYZ",
-      "appName": "Gold Rate Zakat Calculator",
-      "startDate": "2026-10-03",
-      "totalDays": 14,
-      "status": "active"
+      "id": "BX026Q-01JC-XYZ",
+      "oldRecord": {
+        "appName": "Dumbell",
+        "startDate": "2026-10-30",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Dumbell",
+        "startDate": "2026-09-30",
+        "totalDays": 14,
+        "status": "active"
+      }
     },
     {
-      "id": "BX026Q-07JC-XYZ",
-      "appName": "Wish40 Meditation",
-      "startDate": "2026-10-02",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-08JC-XYZ",
-      "appName": "BRDeals",
-      "startDate": "2026-10-02",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-09JC-XYZ",
-      "appName": "Dose Tracker",
-      "startDate": "2026-10-02",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-06JA-XYZ",
-      "appName": "Jelly Grid Blast",
-      "startDate": "2026-10-03",
-      "totalDays": 14,
-      "status": "active"
+      "id": "BX026Q-02JC-XYZ",
+      "oldRecord": {
+        "appName": "Falaas",
+        "startDate": "2026-10-30",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Falaas",
+        "startDate": "2026-09-30",
+        "totalDays": 14,
+        "status": "active"
+      }
     }
-  ],
-  "changedApps": []
+  ]
 }
