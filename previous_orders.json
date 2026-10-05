@@ -113,6 +113,18 @@
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-03JB-XYZ": {
+    "appName": "Diavolo del Capello",
+    "startDate": "2026-10-03",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-04JB-XYZ": {
+    "appName": "SuperCalc Pro",
+    "startDate": "2026-10-04",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-18IC-XYZ": {
     "appName": "Ecommerce PDF Editor",
     "startDate": "2026-09-09",

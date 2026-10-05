@@ -1,67 +1,21 @@
 {
-  "newCount": 0,
-  "changedCount": 4,
-  "newApps": [],
-  "changedApps": [
+  "newCount": 2,
+  "changedCount": 0,
+  "newApps": [
     {
-      "id": "BX026Q-01JA-XYZ",
-      "oldRecord": {
-        "appName": "Ori",
-        "startDate": "2026-10-30",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Ori",
-        "startDate": "2026-09-30",
-        "totalDays": 14,
-        "status": "active"
-      }
+      "id": "BX026Q-03JB-XYZ",
+      "appName": "Diavolo del Capello",
+      "startDate": "2026-10-03",
+      "totalDays": 14,
+      "status": "active"
     },
     {
-      "id": "BX026Q-03JA-XYZ",
-      "oldRecord": {
-        "appName": "Last Digit",
-        "startDate": "2026-10-30",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Last Digit",
-        "startDate": "2026-09-30",
-        "totalDays": 14,
-        "status": "active"
-      }
-    },
-    {
-      "id": "BX026Q-01JC-XYZ",
-      "oldRecord": {
-        "appName": "Dumbell",
-        "startDate": "2026-10-30",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Dumbell",
-        "startDate": "2026-09-30",
-        "totalDays": 14,
-        "status": "active"
-      }
-    },
-    {
-      "id": "BX026Q-02JC-XYZ",
-      "oldRecord": {
-        "appName": "Falaas",
-        "startDate": "2026-10-30",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Falaas",
-        "startDate": "2026-09-30",
-        "totalDays": 14,
-        "status": "active"
-      }
+      "id": "BX026Q-04JB-XYZ",
+      "appName": "SuperCalc Pro",
+      "startDate": "2026-10-04",
+      "totalDays": 14,
+      "status": "active"
     }
-  ]
+  ],
+  "changedApps": []
 }
