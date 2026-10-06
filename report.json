@@ -3,16 +3,16 @@
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-03JB-XYZ",
-      "appName": "Diavolo del Capello",
-      "startDate": "2026-10-03",
+      "id": "BX026Q-07JA-XYZ",
+      "appName": "Toran",
+      "startDate": "2026-10-05",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-04JB-XYZ",
-      "appName": "SuperCalc Pro",
-      "startDate": "2026-10-04",
+      "id": "BX026Q-10JC-XYZ",
+      "appName": "Focus Four",
+      "startDate": "2026-10-05",
       "totalDays": 14,
       "status": "active"
     }
