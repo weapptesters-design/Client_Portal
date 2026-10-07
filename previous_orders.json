@@ -137,6 +137,24 @@
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-08JA-XYZ": {
+    "appName": "Arrow Arrival",
+    "startDate": "2026-10-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-09JA-XYZ": {
+    "appName": "Thymi",
+    "startDate": "2026-10-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-11JC-XYZ": {
+    "appName": "Garden View",
+    "startDate": "2026-10-05",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-18IC-XYZ": {
     "appName": "Ecommerce PDF Editor",
     "startDate": "2026-09-09",

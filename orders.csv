@@ -22,9 +22,9 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 04jB,SuperCalc Pro,4,10,2026,BX026Q,04JB,XYZ,14,active
 07jA,Toran,5,10,2026,BX026Q,07JA,XYZ,14,active 
 10jC,Focus Four,5,10,2026,BX026Q,10JC,XYZ,14,active
-,,,10,2026,BX026Q,,XYZ,14,active 
-,,,10,2026,BX026Q,,XYZ,14,active
-,,,10,2026,BX026Q,,XYZ,14,active 
+08jA ,Arrow Arrival ,6,10,2026,BX026Q,08JA ,XYZ,14,active 
+09jA,Thymi,6,10,2026,BX026Q,09JA,XYZ,14,active
+11jC,Garden View ,5,10,2026,BX026Q,11JC,XYZ,14,active 
 ,,,10,2026,BX026Q,,XYZ,14,active
 ,,,10,2026,BX026Q,,XYZ,14,active 
 ,,,10,2026,BX026Q,,XYZ,14,active

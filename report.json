@@ -1,17 +1,24 @@
 {
-  "newCount": 2,
+  "newCount": 3,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-07JA-XYZ",
-      "appName": "Toran",
-      "startDate": "2026-10-05",
+      "id": "BX026Q-08JA-XYZ",
+      "appName": "Arrow Arrival",
+      "startDate": "2026-10-06",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-10JC-XYZ",
-      "appName": "Focus Four",
+      "id": "BX026Q-09JA-XYZ",
+      "appName": "Thymi",
+      "startDate": "2026-10-06",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-11JC-XYZ",
+      "appName": "Garden View",
       "startDate": "2026-10-05",
       "totalDays": 14,
       "status": "active"
