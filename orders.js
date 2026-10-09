@@ -156,8 +156,8 @@ window.ORDERS = {
     "status": "active"
   },
   "BX026Q-10JA-XYZ": {
-    "appName": "PCLoadHub",
-    "startDate": "2026-10-06",
+    "appName": "Loan Eligibility Calculator",
+    "startDate": "2026-10-08",
     "totalDays": 14,
     "status": "active"
   },
@@ -194,6 +194,42 @@ window.ORDERS = {
   "BX026Q-13JA-XYZ": {
     "appName": "Somna",
     "startDate": "2026-10-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-14JA-XYZ": {
+    "appName": "Spiritify",
+    "startDate": "2026-10-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-15JA-XYZ": {
+    "appName": "TechSode",
+    "startDate": "2026-10-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-14JC-XYZ": {
+    "appName": "Nova",
+    "startDate": "2026-10-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-06JB-XYZ": {
+    "appName": "Mega Indi Sale",
+    "startDate": "2026-10-08",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-15JC-XYZ": {
+    "appName": "App Lock",
+    "startDate": "2026-10-08",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-16JA-XYZ": {
+    "appName": "Calculator Lock",
+    "startDate": "2026-10-08",
     "totalDays": 14,
     "status": "active"
   },
