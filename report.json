@@ -1,65 +1,70 @@
 {
-  "newCount": 6,
-  "changedCount": 1,
+  "newCount": 9,
+  "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-14JA-XYZ",
-      "appName": "Spiritify",
-      "startDate": "2026-10-07",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-15JA-XYZ",
-      "appName": "TechSode",
-      "startDate": "2026-10-07",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-14JC-XYZ",
-      "appName": "Nova",
-      "startDate": "2026-10-07",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-06JB-XYZ",
-      "appName": "Mega Indi Sale",
+      "id": "BX026Q-16JC-XYZ",
+      "appName": "Sudoku 12",
       "startDate": "2026-10-08",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-15JC-XYZ",
-      "appName": "App Lock",
+      "id": "BX026Q-17JC-XYZ",
+      "appName": "Erbil Highway 120",
       "startDate": "2026-10-08",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-16JA-XYZ",
-      "appName": "Calculator Lock",
+      "id": "BX026Q-18JC-XYZ",
+      "appName": "Mboka Connect",
+      "startDate": "2026-10-09",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-19JC-XYZ",
+      "appName": "Soile",
+      "startDate": "2026-10-09",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-07JB-XYZ",
+      "appName": "Arrows  Puzzle Game",
+      "startDate": "2026-10-08",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-08JB-XYZ",
+      "appName": "Crossword  Word Puzzles",
+      "startDate": "2026-10-08",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-09JB-XYZ",
+      "appName": "Shikaku",
+      "startDate": "2026-10-08",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-10JB-XYZ",
+      "appName": "DharmrajAi",
+      "startDate": "2026-10-08",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-11JB-XYZ",
+      "appName": "Catching Rush",
       "startDate": "2026-10-08",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": [
-    {
-      "id": "BX026Q-10JA-XYZ",
-      "oldRecord": {
-        "appName": "PCLoadHub",
-        "startDate": "2026-10-06",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Loan Eligibility Calculator",
-        "startDate": "2026-10-08",
-        "totalDays": 14,
-        "status": "active"
-      }
-    }
-  ]
+  "changedApps": []
 }
