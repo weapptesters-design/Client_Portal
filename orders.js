@@ -66,8 +66,8 @@ window.ORDERS = {
     "status": "active"
   },
   "BX026Q-06JC-XYZ": {
-    "appName": "Mativo Salons Partner",
-    "startDate": "2026-10-02",
+    "appName": "Memory Calendar",
+    "startDate": "2026-10-11",
     "totalDays": 14,
     "status": "active"
   },
@@ -168,8 +168,8 @@ window.ORDERS = {
     "status": "active"
   },
   "BX026Q-12JA-XYZ": {
-    "appName": "Vibe",
-    "startDate": "2026-10-07",
+    "appName": "Stylestic",
+    "startDate": "2026-10-10",
     "totalDays": 14,
     "status": "active"
   },

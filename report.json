@@ -1,69 +1,49 @@
 {
-  "newCount": 7,
-  "changedCount": 1,
-  "newApps": [
-    {
-      "id": "BX026Q-20JC-XYZ",
-      "appName": "AI Hairstyle",
-      "startDate": "2026-10-10",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-17JA-XYZ",
-      "appName": "Tomatoes Animes",
-      "startDate": "2026-10-09",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-18JA-XYZ",
-      "appName": "Guruji Satsang Mart",
-      "startDate": "2026-10-10",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-19JA-XYZ",
-      "appName": "AI Cloth Changer",
-      "startDate": "2026-10-10",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-20JA-XYZ",
-      "appName": "Rotate Rings",
-      "startDate": "2026-10-10",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-21JA-XYZ",
-      "appName": "Stixy",
-      "startDate": "2026-10-10",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-22JA-XYZ",
-      "appName": "Phone Enhancer",
-      "startDate": "2026-10-10",
-      "totalDays": 14,
-      "status": "active"
-    }
-  ],
+  "newCount": 0,
+  "changedCount": 3,
+  "newApps": [],
   "changedApps": [
     {
       "id": "BX026Q-05JC-XYZ",
       "oldRecord": {
+        "appName": "Compass",
+        "startDate": "2026-10-10",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
         "appName": "Mativo Salons User",
+        "startDate": "2026-10-02",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-12JA-XYZ",
+      "oldRecord": {
+        "appName": "Vibe",
+        "startDate": "2026-10-07",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Stylestic",
+        "startDate": "2026-10-10",
+        "totalDays": 14,
+        "status": "active"
+      }
+    },
+    {
+      "id": "BX026Q-06JC-XYZ",
+      "oldRecord": {
+        "appName": "Mativo Salons Partner",
         "startDate": "2026-10-02",
         "totalDays": 14,
         "status": "active"
       },
       "newRecord": {
-        "appName": "Compass",
-        "startDate": "2026-10-10",
+        "appName": "Memory Calendar",
+        "startDate": "2026-10-11",
         "totalDays": 14,
         "status": "active"
       }
