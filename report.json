@@ -1,49 +1,27 @@
 {
-  "newCount": 0,
-  "changedCount": 3,
-  "newApps": [],
-  "changedApps": [
+  "newCount": 1,
+  "changedCount": 1,
+  "newApps": [
     {
-      "id": "BX026Q-05JC-XYZ",
-      "oldRecord": {
-        "appName": "Compass",
-        "startDate": "2026-10-10",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Mativo Salons User",
-        "startDate": "2026-10-02",
-        "totalDays": 14,
-        "status": "active"
-      }
-    },
+      "id": "BX026Q-12JB-XYZ",
+      "appName": "Stylestic",
+      "startDate": "2026-10-10",
+      "totalDays": 14,
+      "status": "active"
+    }
+  ],
+  "changedApps": [
     {
       "id": "BX026Q-12JA-XYZ",
       "oldRecord": {
-        "appName": "Vibe",
-        "startDate": "2026-10-07",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
         "appName": "Stylestic",
         "startDate": "2026-10-10",
         "totalDays": 14,
         "status": "active"
-      }
-    },
-    {
-      "id": "BX026Q-06JC-XYZ",
-      "oldRecord": {
-        "appName": "Mativo Salons Partner",
-        "startDate": "2026-10-02",
-        "totalDays": 14,
-        "status": "active"
       },
       "newRecord": {
-        "appName": "Memory Calendar",
-        "startDate": "2026-10-11",
+        "appName": "Vibe",
+        "startDate": "2026-10-07",
         "totalDays": 14,
         "status": "active"
       }

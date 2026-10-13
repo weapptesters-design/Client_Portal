@@ -59,18 +59,6 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-05JC-XYZ": {
-    "appName": "Compass",
-    "startDate": "2026-10-10",
-    "totalDays": 14,
-    "status": "active"
-  },
-  "BX026Q-06JC-XYZ": {
-    "appName": "Memory Calendar",
-    "startDate": "2026-10-11",
-    "totalDays": 14,
-    "status": "active"
-  },
   "BX026Q-05JA-XYZ": {
     "appName": "FontCraft",
     "startDate": "2026-10-02",
@@ -168,8 +156,8 @@ window.ORDERS = {
     "status": "active"
   },
   "BX026Q-12JA-XYZ": {
-    "appName": "Stylestic",
-    "startDate": "2026-10-10",
+    "appName": "Vibe",
+    "startDate": "2026-10-07",
     "totalDays": 14,
     "status": "active"
   },
@@ -287,6 +275,12 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-05JC-XYZ": {
+    "appName": "Compass",
+    "startDate": "2026-10-10",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-20JC-XYZ": {
     "appName": "AI Hairstyle",
     "startDate": "2026-10-10",
@@ -326,6 +320,18 @@ window.ORDERS = {
   "BX026Q-22JA-XYZ": {
     "appName": "Phone Enhancer",
     "startDate": "2026-10-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-12JB-XYZ": {
+    "appName": "Stylestic",
+    "startDate": "2026-10-10",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-06JC-XYZ": {
+    "appName": "Memory Calendar",
+    "startDate": "2026-10-11",
     "totalDays": 14,
     "status": "active"
   },
