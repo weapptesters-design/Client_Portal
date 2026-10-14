@@ -1,30 +1,28 @@
 {
-  "newCount": 1,
-  "changedCount": 1,
+  "newCount": 3,
+  "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-12JB-XYZ",
-      "appName": "Stylestic",
-      "startDate": "2026-10-10",
+      "id": "BX026Q-13JB-XYZ",
+      "appName": "Saadi",
+      "startDate": "2026-10-12",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-14JB-XYZ",
+      "appName": "Juno",
+      "startDate": "2026-10-13",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-15JB-XYZ",
+      "appName": "Nut Pattern Sort",
+      "startDate": "2026-10-13",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": [
-    {
-      "id": "BX026Q-12JA-XYZ",
-      "oldRecord": {
-        "appName": "Stylestic",
-        "startDate": "2026-10-10",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Vibe",
-        "startDate": "2026-10-07",
-        "totalDays": 14,
-        "status": "active"
-      }
-    }
-  ]
+  "changedApps": []
 }
