@@ -1,38 +1,31 @@
 {
-  "newCount": 5,
+  "newCount": 4,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-16JB-XYZ",
-      "appName": "Jak Polak",
-      "startDate": "2026-10-13",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-23JA-XYZ",
-      "appName": "Vishwas Farms",
-      "startDate": "2026-10-13",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-17JB-XYZ",
-      "appName": "Congojobsite",
+      "id": "BX026Q-20JB-XYZ",
+      "appName": "Marathi Kids App",
       "startDate": "2026-10-14",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-18JB-XYZ",
-      "appName": "ESP Study Centrer",
+      "id": "BX026Q-21JB-XYZ",
+      "appName": "Star CRM",
       "startDate": "2026-10-14",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-19JB-XYZ",
-      "appName": "SURTAL",
+      "id": "BX026Q-24JA-XYZ",
+      "appName": "Zorvexl Guardian",
+      "startDate": "2026-10-15",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-21JC-XYZ",
+      "appName": "Arrow Escape 2D",
       "startDate": "2026-10-14",
       "totalDays": 14,
       "status": "active"

@@ -383,6 +383,30 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-20JB-XYZ": {
+    "appName": "Marathi Kids App",
+    "startDate": "2026-10-14",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-21JB-XYZ": {
+    "appName": "Star CRM",
+    "startDate": "2026-10-14",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-24JA-XYZ": {
+    "appName": "Zorvexl Guardian",
+    "startDate": "2026-10-15",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-21JC-XYZ": {
+    "appName": "Arrow Escape 2D",
+    "startDate": "2026-10-14",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-18IC-XYZ": {
     "appName": "Ecommerce PDF Editor",
     "startDate": "2026-09-09",
