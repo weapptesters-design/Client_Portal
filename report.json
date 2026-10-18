@@ -1,53 +1,39 @@
 {
-  "newCount": 7,
+  "newCount": 5,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-25JA-XYZ",
-      "appName": "Voshme",
-      "startDate": "2026-10-15",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-26JA-XYZ",
-      "appName": "Emoji Battery Icon Bar Widgets",
-      "startDate": "2026-10-15",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-27JA-XYZ",
-      "appName": "EnsaiaJa",
-      "startDate": "2026-10-15",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-28JA-XYZ",
-      "appName": "Drift Pursuit",
-      "startDate": "2026-10-15",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-29JA-XYZ",
-      "appName": "GamifyURL",
+      "id": "BX026Q-30JA-XYZ",
+      "appName": "Ninja Arrow",
       "startDate": "2026-10-16",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-22JB-XYZ",
-      "appName": "LedgerH",
+      "id": "BX026Q-31JA-XYZ",
+      "appName": "Editor PDF",
       "startDate": "2026-10-16",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-22JC-XYZ",
-      "appName": "Memorize Quran",
+      "id": "BX026Q-23JC-XYZ",
+      "appName": "Clariffo",
       "startDate": "2026-10-16",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-32JA COLOR ASMR-XYZ",
+      "appName": "",
+      "startDate": "2026-10-17",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-33JA-XYZ",
+      "appName": "Jyoti Yatra",
+      "startDate": "2026-10-17",
       "totalDays": 14,
       "status": "active"
     }
