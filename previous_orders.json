@@ -479,6 +479,24 @@
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-23JB-XYZ": {
+    "appName": "Interplanetary",
+    "startDate": "2026-10-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-24JB-XYZ": {
+    "appName": "Interplanetary TV App",
+    "startDate": "2026-10-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-24JC-XYZ": {
+    "appName": "Cosmic Take Astrology",
+    "startDate": "2026-10-17",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-18IC-XYZ": {
     "appName": "Ecommerce PDF Editor",
     "startDate": "2026-09-09",
