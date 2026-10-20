@@ -1,14 +1,6 @@
 {
-  "newCount": 1,
+  "newCount": 0,
   "changedCount": 0,
-  "newApps": [
-    {
-      "id": "BX026Q-32JA-XYZ",
-      "appName": "color ASMR",
-      "startDate": "2026-10-17",
-      "totalDays": 14,
-      "status": "active"
-    }
-  ],
+  "newApps": [],
   "changedApps": []
 }
