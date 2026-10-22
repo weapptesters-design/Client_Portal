@@ -1,6 +1,35 @@
 {
-  "newCount": 0,
+  "newCount": 4,
   "changedCount": 0,
-  "newApps": [],
+  "newApps": [
+    {
+      "id": "BX026Q-25JC-XYZ",
+      "appName": "PadhPlay",
+      "startDate": "2026-10-20",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-26JC-XYZ",
+      "appName": "Shivtara Travels",
+      "startDate": "2026-10-21",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-25JB-XYZ",
+      "appName": "XNX All Hd Downloader",
+      "startDate": "2026-10-20",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-26JB-XYZ",
+      "appName": "CR Saarthi",
+      "startDate": "2026-10-20",
+      "totalDays": 14,
+      "status": "active"
+    }
+  ],
   "changedApps": []
 }
