@@ -521,6 +521,36 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-27JB-XYZ": {
+    "appName": "BookMySalon Wala",
+    "startDate": "2026-10-21",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-28JB-XYZ": {
+    "appName": "PlaceProof  GPS Camera",
+    "startDate": "2026-10-22",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-29JB-XYZ": {
+    "appName": "Ricochet Balls  Brick Breaker",
+    "startDate": "2026-10-22",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-30JB-XYZ": {
+    "appName": "Mediknown",
+    "startDate": "2026-10-22",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-34JA-XYZ": {
+    "appName": "AI Baby Podcast",
+    "startDate": "2026-10-22",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-18IC-XYZ": {
     "appName": "Ecommerce PDF Editor",
     "startDate": "2026-09-09",
