@@ -587,6 +587,30 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-38JA-XYZ": {
+    "appName": "DocsBuzz",
+    "startDate": "2026-10-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-32JB-XYZ": {
+    "appName": "Aqua Pocket",
+    "startDate": "2026-10-26",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-39JA-XYZ": {
+    "appName": "GRABIT",
+    "startDate": "2026-10-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-40JA-XYZ": {
+    "appName": "D Hole",
+    "startDate": "2026-10-26",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-18IC-XYZ": {
     "appName": "Ecommerce PDF Editor",
     "startDate": "2026-09-09",

@@ -1,11 +1,32 @@
 {
-  "newCount": 1,
+  "newCount": 4,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-31JB-XYZ",
-      "appName": "Fruit Fussion",
-      "startDate": "2026-10-24",
+      "id": "BX026Q-38JA-XYZ",
+      "appName": "DocsBuzz",
+      "startDate": "2026-10-25",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-32JB-XYZ",
+      "appName": "Aqua Pocket",
+      "startDate": "2026-10-26",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-39JA-XYZ",
+      "appName": "GRABIT",
+      "startDate": "2026-10-25",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-40JA-XYZ",
+      "appName": "D Hole",
+      "startDate": "2026-10-26",
       "totalDays": 14,
       "status": "active"
     }
