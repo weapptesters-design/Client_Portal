@@ -1,31 +1,45 @@
 {
-  "newCount": 4,
+  "newCount": 6,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-38JA-XYZ",
-      "appName": "DocsBuzz",
-      "startDate": "2026-10-25",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-32JB-XYZ",
-      "appName": "Aqua Pocket",
+      "id": "BX026Q-33JB-XYZ",
+      "appName": "Diaspora RDC",
       "startDate": "2026-10-26",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-39JA-XYZ",
-      "appName": "GRABIT",
-      "startDate": "2026-10-25",
+      "id": "BX026Q-34JB-XYZ",
+      "appName": "JKV ONE",
+      "startDate": "2026-10-26",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-40JA-XYZ",
-      "appName": "D Hole",
+      "id": "BX026Q-35JB-XYZ",
+      "appName": "Lumo Player",
+      "startDate": "2026-10-27",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-36JB-XYZ",
+      "appName": "Vilko",
+      "startDate": "2026-10-27",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-37JB-XYZ",
+      "appName": "Frog Vocab  English Vocabulary",
+      "startDate": "2026-10-27",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-29JC-XYZ",
+      "appName": "Invito",
       "startDate": "2026-10-26",
       "totalDays": 14,
       "status": "active"
