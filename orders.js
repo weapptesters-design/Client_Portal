@@ -647,6 +647,36 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-38JB-XYZ": {
+    "appName": "Prompt Maker",
+    "startDate": "2026-10-27",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-39JB-XYZ": {
+    "appName": "Novo Store",
+    "startDate": "2026-10-27",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-40JB-XYZ": {
+    "appName": "Earn By Captcha Typing Free",
+    "startDate": "2026-10-27",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-41JA-XYZ": {
+    "appName": "Nepali Voice Keyboard",
+    "startDate": "2026-10-27",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-41JB-XYZ": {
+    "appName": "Control Center",
+    "startDate": "2026-10-28",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-18IC-XYZ": {
     "appName": "Ecommerce PDF Editor",
     "startDate": "2026-09-09",
