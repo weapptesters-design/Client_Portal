@@ -1,38 +1,17 @@
 {
-  "newCount": 5,
+  "newCount": 2,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-38JB-XYZ",
-      "appName": "Prompt Maker",
-      "startDate": "2026-10-27",
+      "id": "BX026Q-42JA-XYZ",
+      "appName": "KrishiMotto",
+      "startDate": "2026-10-28",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-39JB-XYZ",
-      "appName": "Novo Store",
-      "startDate": "2026-10-27",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-40JB-XYZ",
-      "appName": "Earn By Captcha Typing Free",
-      "startDate": "2026-10-27",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-41JA-XYZ",
-      "appName": "Nepali Voice Keyboard",
-      "startDate": "2026-10-27",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-41JB-XYZ",
-      "appName": "Control Center",
+      "id": "BX026Q-42JB-XYZ",
+      "appName": "Road Dial Vendor",
       "startDate": "2026-10-28",
       "totalDays": 14,
       "status": "active"
