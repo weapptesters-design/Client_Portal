@@ -689,6 +689,42 @@
     "totalDays": 14,
     "status": "active"
   },
+  "BX026Q-43JA-XYZ": {
+    "appName": "Circle",
+    "startDate": "2026-10-29",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-43JB-XYZ": {
+    "appName": "SVM Staff",
+    "startDate": "2026-10-29",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-44JB-XYZ": {
+    "appName": "Vedhanga Gurukula",
+    "startDate": "2026-10-29",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-30JC-XYZ": {
+    "appName": "Nourvilo",
+    "startDate": "2026-10-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-31JC-XYZ": {
+    "appName": "Road Dial",
+    "startDate": "2026-10-28",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-32JC-XYZ": {
+    "appName": "RelaxFlix",
+    "startDate": "2026-10-28",
+    "totalDays": 14,
+    "status": "active"
+  },
   "BX026Q-18IC-XYZ": {
     "appName": "Ecommerce PDF Editor",
     "startDate": "2026-09-09",
