@@ -1,46 +1,11 @@
 {
-  "newCount": 6,
+  "newCount": 1,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-43JA-XYZ",
-      "appName": "Circle",
-      "startDate": "2026-10-29",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-43JB-XYZ",
-      "appName": "SVM Staff",
-      "startDate": "2026-10-29",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-44JB-XYZ",
-      "appName": "Vedhanga Gurukula",
-      "startDate": "2026-10-29",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-30JC-XYZ",
-      "appName": "Nourvilo",
-      "startDate": "2026-10-28",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-31JC-XYZ",
-      "appName": "Road Dial",
-      "startDate": "2026-10-28",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-32JC-XYZ",
-      "appName": "RelaxFlix",
-      "startDate": "2026-10-28",
+      "id": "BX026Q-45JB-XYZ",
+      "appName": "Juvaina Cocoa Flavours",
+      "startDate": "2026-10-30",
       "totalDays": 14,
       "status": "active"
     }
