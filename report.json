@@ -1,11 +1,39 @@
 {
-  "newCount": 1,
+  "newCount": 5,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-45JB-XYZ",
-      "appName": "Juvaina Cocoa Flavours",
-      "startDate": "2026-10-30",
+      "id": "BX026Q-44JA-XYZ",
+      "appName": "Play and Color",
+      "startDate": "2026-10-31",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-45JA-XYZ",
+      "appName": "Destiny",
+      "startDate": "2026-10-31",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-01KA-XYZ",
+      "appName": "Save Files Set Reminders",
+      "startDate": "2026-10-01",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-01KC-XYZ",
+      "appName": "SSK Bhajan",
+      "startDate": "2026-10-31",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-02KC-XYZ",
+      "appName": "PDF Scanner",
+      "startDate": "2026-10-31",
       "totalDays": 14,
       "status": "active"
     }
