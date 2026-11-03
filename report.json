@@ -1,42 +1,51 @@
 {
-  "newCount": 5,
-  "changedCount": 0,
+  "newCount": 4,
+  "changedCount": 1,
   "newApps": [
     {
-      "id": "BX026Q-44JA-XYZ",
-      "appName": "Play and Color",
-      "startDate": "2026-10-31",
+      "id": "BX026Q-01KB-XYZ",
+      "appName": "Fortun0",
+      "startDate": "2026-11-01",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-45JA-XYZ",
-      "appName": "Destiny",
-      "startDate": "2026-10-31",
+      "id": "BX026Q-02KB-XYZ",
+      "appName": "Renma",
+      "startDate": "2026-11-01",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-01KA-XYZ",
-      "appName": "Save Files Set Reminders",
-      "startDate": "2026-10-01",
+      "id": "BX026Q-03KB-XYZ",
+      "appName": "SonicDry",
+      "startDate": "2026-11-01",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-01KC-XYZ",
-      "appName": "SSK Bhajan",
-      "startDate": "2026-10-31",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-02KC-XYZ",
-      "appName": "PDF Scanner",
-      "startDate": "2026-10-31",
+      "id": "BX026Q-04KB-XYZ",
+      "appName": "PandaConverter",
+      "startDate": "2026-11-02",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": []
+  "changedApps": [
+    {
+      "id": "BX026Q-01KA-XYZ",
+      "oldRecord": {
+        "appName": "Save Files Set Reminders",
+        "startDate": "2026-10-01",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Save Files Set Reminders",
+        "startDate": "2026-11-01",
+        "totalDays": 14,
+        "status": "active"
+      }
+    }
+  ]
 }

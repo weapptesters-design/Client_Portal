@@ -125,22 +125,49 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 45jB,Juvaina Cocoa Flavours,30,10,2026,BX026Q,45JB,XYZ,14,active
 44jA,Play and Color,31,10,2026,BX026Q,44JA,XYZ,14,active 
 45jA,Destiny ,31,10,2026,BX026Q,45JA,XYZ,14,active 
-01KA,Save Files Set Reminders ,1,10,2026,BX026Q,01KA,XYZ,14,active
+01KA,Save Files Set Reminders ,1,11,2026,BX026Q,01KA,XYZ,14,active
 01KC,SSK Bhajan ,31,10,2026,BX026Q,01KC,XYZ,14,active 
 02KC,PDF Scanner ,31,10,2026,BX026Q,02KC,XYZ,14,active
-,,,10,2026,BX026Q,,XYZ,14,active 
-,,,10,2026,BX026Q,,XYZ,14,active
-,,,10,2026,BX026Q,,XYZ,14,active 
-,,,10,2026,BX026Q,,XYZ,14,active 
-,,,10,2026,BX026Q,,XYZ,14,active
-,,,10,2026,BX026Q,,XYZ,14,active 
-,,,10,2026,BX026Q,,XYZ,14,active
-,,,10,2026,BX026Q,,XYZ,14,active 
-,,,10,2026,BX026Q,,XYZ,14,active
-,,,10,2026,BX026Q,,XYZ,14,active 
-,,,10,2026,BX026Q,,XYZ,14,active 
-,,,10,2026,BX026Q,,XYZ,14,active
-,,,10,2026,BX026Q,,XYZ,14,active 
+01KB,Fortun0,1,11,2026,BX026Q,01KB,XYZ,14,active 
+02KB,Renma,1,11,2026,BX026Q,02KB,XYZ,14,active
+03KB,SonicDry,1,11,2026,BX026Q,03KB,XYZ,14,active 
+04KB,PandaConverter,2,11,2026,BX026Q,04KB,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
 ,,,,2026,BX026Q,,XYZ,14,active
 ,,,,2026,BX026Q,,XYZ,14,active 
 ,,,,2026,BX026Q,,XYZ,14,active
@@ -171,99 +198,72 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 ,,,,2026,BX026Q,,XYZ,14,active
 ,,,,2026,BX026Q,,XYZ,14,active 
 ,,,,2026,BX026Q,,XYZ,14,active
-18iC,Ecommerce PDF Editor ,9,9,2026,BX026Q,18IC,XYZ,14,active
-19iC,PDF Sign ,10,9,2026,BX026Q,19IC,XYZ,14,active 
-17iA,Fitmate,10,9,2026,BX026Q,17IA,XYZ,14,active
-18iA,Dloklz,10,9,2026,BX026Q,18IA,XYZ,14,active
-20iC,Truck wala,10,9,2026,BX026Q,20IC,XYZ,14,active 
-11iB,Smart Med Tracker ,10,9,2026,BX026Q,11IB,XYZ,14,active
-12iB,Wasl,10,9,2026,BX026Q,12IB,XYZ,14,active
-13iB,Wasl Pro,10,9,2026,BX026Q,13IB,XYZ,14,active 
-14iB,Monkey VS Bugs Jungle Climb,11,9,2026,BX026Q,14IB,XYZ,14,active
-15iB,Picsbary,11,9,2026,BX026Q,15IB,XYZ,14,active
-16iB,AK Management ,11,9,2026,BX026Q,16IB,XYZ,14,active 
-17iB,Water sort Puzzle ,12,9,2026,BX026Q,17IB,XYZ,14,active
-19iA,AyyanGo Carpool,11,9,2026,BX026Q,19IA,XYZ,14,active
-20iA,Suncor India,11,9,2026,BX026Q,20IA,XYZ,14,active 
-21iA ,GoodsCount ,12,9,2026,BX026Q,21IA ,XYZ,14,active
-22iA,75P 75 Parables of Christ ,13,9,2026,BX026Q,22IA,XYZ,14,active
-23iA,DG Academy ,13,9,2026,BX026Q,23IA,XYZ,14,active 
-24iA,FlowSequences ,13,9,2026,BX026Q,24IA,XYZ,14,active
-21iC,MoodLens,13,9,2026,BX026Q,21IC,XYZ,14,active
-22iC,1000,13,9,2026,BX026Q,22IC,XYZ,14,active 
-23iC,Vidnux  ,13,9,2026,BX026Q,23IC,XYZ,14,active
-24iC,VCB Vinod ,14,9,2026,BX026Q,24IC,XYZ,14,active
-25iC,Formbhro,14,9,2026,BX026Q,25IC,XYZ,14,active 
-25iA, P Camera ,14,9,2026,BX026Q,25IA,XYZ,14,active
-26iA,Palavi Library ,14,9,2026,BX026Q,26IA,XYZ,14,active
-27iA,GroomAra,14,9,2026,BX026Q,27IA,XYZ,14,active 
-18iB,StorageScope,14,9,2026,BX026Q,18IB,XYZ,14,active
-19iB,Zoyyle ,14,9,2026,BX026Q,19IB,XYZ,14,active
-20iB,Rewardly Offers  Rewards ,15,9,2026,BX026Q,20IB,XYZ,14,active
-21iB,ION Cleaner ,15,9,2026,BX026Q,21IB,XYZ,14,active 
-22iB,GroomAra,15,9,2026,BX026Q,22IB,XYZ,14,active
-23iB,TE  MOI,16,9,2026,BX026Q,23IB,XYZ,14,active 
-28iA,Widgetik,15,9,2026,BX026Q,28IA,XYZ,14,active
-24iB,SmilePluse ERP,16,9,2026,BX026Q,24IB,XYZ,14,active
-29iA,Gramsevak Bharti ,17,9,2026,BX026Q,29IA,XYZ,14,active
-27iC ,Blink Puzzle Game ,17,9,2026,BX026Q,27IC ,XYZ,14,active 
-26iC,Fitofly,15,9,2026,BX026Q,26IC,XYZ,14,active
-25iB,Video Converter ,17,9,2026,BX026Q,25IB,XYZ,14,active
-28iC,SafeAura ,17,9,2026,BX026Q,28IC,XYZ,14,active 
-30iA ,Trend Catcher Blueprint ,18,9,2026,BX026Q,30IA ,XYZ,14,active
-31iA ,GV MART,18,9,2026,BX026Q,31IA ,XYZ,14,active
-32iA,Roj Rast,18,9,2026,BX026Q,32IA,XYZ,14,active
-29iB,New Yummy Wheels ,21,9,2026,BX026Q,29IB,XYZ,14,active 
-26iB,Ludo Pool Fun Unlimited Games ,18,9,2026,BX026Q,26IB,XYZ,14,active
-29iC,Driver TE,18,9,2026,BX026Q,29IC,XYZ,14,active
-30iC,JT Zone ,19,9,2026,BX026Q,30IC,XYZ,14,active 
-31iC,Arrow Line ,19,9,2026,BX026Q,31IC,XYZ,14,active
-33iA,HoneyHive,20,9,2026,BX026Q,33IA,XYZ,14,active
-34IA,GV MART Vendor App,20,9,2026,BX026Q,34IA,XYZ,14,active
-27iB,2048 Pro Number Puzzle Game ,19,9,2026,BX026Q,27IB,XYZ,14,active 
-28iB,Hostwise,19,9,2026,BX026Q,28IB,XYZ,14,active
-35iA,ETH Cloud Mining ,20,9,2026,BX026Q,35IA,XYZ,14,active
-32iC,Box Calculator ,20,9,2026,BX026Q,32IC,XYZ,14,active 
-36iA,Marathi Ukhane,22,9,2026,BX026Q,36IA,XYZ,14,active
-30iB,Afea Agent ,21,9,2026,BX026Q,30IB,XYZ,14,active
-33iC,Proofit,22,9,2026,BX026Q,33IC,XYZ,14,active 
-34iC,The Train Station ,22,9,2026,BX026Q,34IC,XYZ,14,active
-32iB,Paralux 3D wallpapers ,23,9,2026,BX026Q,32IB,XYZ,14,active
-37iA,Squishy World ,23,9,2026,BX026Q,37IA,XYZ,14,active 
-33iB,TanantSnap,23,9,2026,BX026Q,33IB,XYZ,14,active
-34iB,Chilli Bus Traffic Jam,23,9,2026,BX026Q,34IB,XYZ,14,active
-35iC,CinTV ,23,9,2026,BX026Q,35IC,XYZ,14,active
-36iC,Localdrop Delivery ,23,9,2026,BX026Q,36IC,XYZ,14,active 
-35iB,Lumawalls 4K Depth wallpaper ,24,9,2026,BX026Q,35IB,XYZ,14,active
-36iB,FP Player,24,9,2026,BX026Q,36IB,XYZ,14,active
-38iA ,IT Clinic,24,9,2026,BX026Q,38IA ,XYZ,14,active 
-39iA,P Book Notes,25,9,2026,BX026Q,39IA,XYZ,14,active
-40iA ,GlowRift,25,9,2026,BX026Q,40IA ,XYZ,14,active
-37iB,Mega Shopping App,25,9,2026,BX026Q,37IB,XYZ,14,active
-41iA,WAkaGood Rider,25,9,2026,BX026Q,41IA,XYZ,14,active 
-38iB,WAkaGood Passenger ,25,9,2026,BX026Q,38IB,XYZ,14,active
-42iA ,MyBepar,25,9,2026,BX026Q,42IA ,XYZ,14,active
-43iA ,Remix Ludo Royale ,25,9,2026,BX026Q,43IA ,XYZ,14,active 
-39iB,Apno Event,25,9,2026,BX026Q,39IB,XYZ,14,active
-44iA ,Family Ledger ,25,9,2026,BX026Q,44IA ,XYZ,14,active
-45iA ,GlitchCam,26,9,2026,BX026Q,45IA ,XYZ,14,active
-46iA,KnotSolve,26,9,2026,BX026Q,46IA,XYZ,14,active 
-47iA,KIRZ Store ,26,9,2026,BX026Q,47IA,XYZ,14,active
-40iB,Pinterest Video Downloader,26,9,2026,BX026Q,40IB,XYZ,14,active
-41iB,Zorvexl Staff,26,9,2026,BX026Q,41IB,XYZ,14,active
-48iA,Update All Apps Phone Software,27,9,2026,BX026Q,48IA,XYZ,14,active 
-42iB,Book Apno Event Scanner ,27,9,2026,BX026Q,42IB,XYZ,14,active
-43iB,A Drive,27,9,2026,BX026Q,43IB,XYZ,14,active
-44iB,Ride,27,9,2026,BX026Q,44IB,XYZ,14,active
-49iA ,Noise Remover ,27,9,2026,BX026Q,49IA ,XYZ,14,active 
-31iB,iManager,27,9,2026,BX026Q,31IB,XYZ,14,active
-45iB,Brioq  Kide IQ Development ,28,9,2026,BX026Q,45IB,XYZ,14,active
-46iB,Homura Animes ,28,9,2026,BX026Q,46IB,XYZ,14,active
-47iB,Cupple,28,9,2026,BX026Q,47IB,XYZ,14,active
-50iA,AI Photo Talk ,28,9,2026,BX026Q,50IA,XYZ,14,active
-48iB,V,28,9,2026,BX026Q,48IB,XYZ,14,active 
-49iB,Bulkwise,29,9,2026,BX026Q,49IB,XYZ,14,active
-50iB,1001DM,29,9,2026,BX026Q,50IB,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active 
+,,,,2026,BX026Q,,XYZ,14,active
+,,,,2026,BX026Q,,XYZ,14,active
 ,,,,2026,BX026Q,,XYZ,14,active 
 ,,,,2026,BX026Q,,XYZ,14,active
 ,,,,2026,BX026Q,,XYZ,14,active
