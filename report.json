@@ -1,51 +1,14 @@
 {
-  "newCount": 4,
-  "changedCount": 1,
+  "newCount": 1,
+  "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-01KB-XYZ",
-      "appName": "Fortun0",
-      "startDate": "2026-11-01",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-02KB-XYZ",
-      "appName": "Renma",
-      "startDate": "2026-11-01",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-03KB-XYZ",
-      "appName": "SonicDry",
-      "startDate": "2026-11-01",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-04KB-XYZ",
-      "appName": "PandaConverter",
+      "id": "BX026Q-05KB-XYZ",
+      "appName": "Nanu Zombie Road",
       "startDate": "2026-11-02",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": [
-    {
-      "id": "BX026Q-01KA-XYZ",
-      "oldRecord": {
-        "appName": "Save Files Set Reminders",
-        "startDate": "2026-10-01",
-        "totalDays": 14,
-        "status": "active"
-      },
-      "newRecord": {
-        "appName": "Save Files Set Reminders",
-        "startDate": "2026-11-01",
-        "totalDays": 14,
-        "status": "active"
-      }
-    }
-  ]
+  "changedApps": []
 }
