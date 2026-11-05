@@ -790,5 +790,41 @@ window.ORDERS = {
     "startDate": "2026-11-02",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-06KB-XYZ": {
+    "appName": "Wobble Chef Burger Stack",
+    "startDate": "2026-11-03",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-07KB-XYZ": {
+    "appName": "Puzzle Crate",
+    "startDate": "2026-11-03",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-08KB-XYZ": {
+    "appName": "Car Jam Downtown Parking",
+    "startDate": "2026-11-03",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-03KC-XYZ": {
+    "appName": "BoreHole",
+    "startDate": "2026-11-03",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-04KC-XYZ": {
+    "appName": "Rally Frontier",
+    "startDate": "2026-11-03",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-05KC-XYZ": {
+    "appName": "Philia",
+    "startDate": "2026-11-04",
+    "totalDays": 14,
+    "status": "active"
   }
 }
