@@ -1,46 +1,32 @@
 {
-  "newCount": 6,
+  "newCount": 4,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-06KB-XYZ",
-      "appName": "Wobble Chef Burger Stack",
-      "startDate": "2026-11-03",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-07KB-XYZ",
-      "appName": "Puzzle Crate",
-      "startDate": "2026-11-03",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-08KB-XYZ",
-      "appName": "Car Jam Downtown Parking",
-      "startDate": "2026-11-03",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-03KC-XYZ",
-      "appName": "BoreHole",
-      "startDate": "2026-11-03",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-04KC-XYZ",
-      "appName": "Rally Frontier",
-      "startDate": "2026-11-03",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-05KC-XYZ",
-      "appName": "Philia",
+      "id": "BX026Q-02KA-XYZ",
+      "appName": "Reframio",
       "startDate": "2026-11-04",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-03KA-XYZ",
+      "appName": "Radar Rider",
+      "startDate": "2026-11-04",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-06KC-XYZ",
+      "appName": "Wai Player",
+      "startDate": "2026-11-04",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-07KC-XYZ",
+      "appName": "StayLineSSH",
+      "startDate": "2026-11-05",
       "totalDays": 14,
       "status": "active"
     }

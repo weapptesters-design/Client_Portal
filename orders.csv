@@ -139,10 +139,10 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 03KC,BoreHole ,3,11,2026,BX026Q,03KC,XYZ,14,active
 04KC,Rally Frontier ,3,11,2026,BX026Q,04KC,XYZ,14,active 
 05KC,Philia ,4,11,2026,BX026Q,05KC,XYZ,14,active 
-,,,11,2026,BX026Q,,XYZ,14,active
-,,,11,2026,BX026Q,,XYZ,14,active 
-,,,11,2026,BX026Q,,XYZ,14,active
-,,,11,2026,BX026Q,,XYZ,14,active 
+02KA,Reframio,4,11,2026,BX026Q,02KA,XYZ,14,active
+03KA,Radar Rider,4,11,2026,BX026Q,03KA,XYZ,14,active 
+06KC,Wai Player,4,11,2026,BX026Q,06KC,XYZ,14,active
+07KC,StayLineSSH,5,11,2026,BX026Q,07KC,XYZ,14,active 
 ,,,11,2026,BX026Q,,XYZ,14,active
 ,,,11,2026,BX026Q,,XYZ,14,active
 ,,,11,2026,BX026Q,,XYZ,14,active 
