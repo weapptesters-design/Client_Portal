@@ -3,44 +3,44 @@
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-04KA-XYZ",
-      "appName": "Youto Browser",
-      "startDate": "2026-11-05",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-05KA-XYZ",
-      "appName": "IPO Metric",
-      "startDate": "2026-11-05",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-06KA-XYZ",
-      "appName": "Neon Dash",
+      "id": "BX026Q-07KA-XYZ",
+      "appName": "Stack Cascade 3D",
       "startDate": "2026-11-06",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-09KB-XYZ",
-      "appName": "Bygo Live Know before you go",
+      "id": "BX026Q-08KA-XYZ",
+      "appName": "Strong Password Generator",
       "startDate": "2026-11-06",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-10KB-XYZ",
-      "appName": "Pixora Mosaic Coloring",
+      "id": "BX026Q-09KA-XYZ",
+      "appName": "HRMS Anusaya",
+      "startDate": "2026-11-07",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-10KA-XYZ",
+      "appName": "Ganso Chaco",
+      "startDate": "2026-11-07",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-08KC-XYZ",
+      "appName": "Carrom King Elite",
       "startDate": "2026-11-06",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-11KB-XYZ",
-      "appName": "NOCTURNE piano Symphony",
-      "startDate": "2026-11-06",
+      "id": "BX026Q-09KC-XYZ",
+      "appName": "Menbold",
+      "startDate": "2026-11-07",
       "totalDays": 14,
       "status": "active"
     }

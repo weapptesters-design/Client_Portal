@@ -886,5 +886,41 @@ window.ORDERS = {
     "startDate": "2026-11-06",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-07KA-XYZ": {
+    "appName": "Stack Cascade 3D",
+    "startDate": "2026-11-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-08KA-XYZ": {
+    "appName": "Strong Password Generator",
+    "startDate": "2026-11-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-09KA-XYZ": {
+    "appName": "HRMS Anusaya",
+    "startDate": "2026-11-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-10KA-XYZ": {
+    "appName": "Ganso Chaco",
+    "startDate": "2026-11-07",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-08KC-XYZ": {
+    "appName": "Carrom King Elite",
+    "startDate": "2026-11-06",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-09KC-XYZ": {
+    "appName": "Menbold",
+    "startDate": "2026-11-07",
+    "totalDays": 14,
+    "status": "active"
   }
 }
