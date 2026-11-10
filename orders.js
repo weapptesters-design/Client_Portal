@@ -928,5 +928,41 @@ window.ORDERS = {
     "startDate": "2026-11-07",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-13KB-XYZ": {
+    "appName": "Facecam Screen Recorder",
+    "startDate": "2026-11-08",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-14KB-XYZ": {
+    "appName": "Sandhix AI",
+    "startDate": "2026-11-08",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-15KB-XYZ": {
+    "appName": "PPTify",
+    "startDate": "2026-11-09",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-11KA-XYZ": {
+    "appName": "Naavlekh",
+    "startDate": "2026-11-09",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-12KA-XYZ": {
+    "appName": "GhostCall",
+    "startDate": "2026-11-09",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-13KA-XYZ": {
+    "appName": "Animal Escape",
+    "startDate": "2026-11-09",
+    "totalDays": 14,
+    "status": "active"
   }
 }
