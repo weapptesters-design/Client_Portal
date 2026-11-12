@@ -162,6 +162,21 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 11KA,Naavlekh,9,11,2026,BX026Q,11KA,XYZ,14,active
 12KA,GhostCall,9,11,2026,BX026Q,12KA,XYZ,14,active 
 13KA,Animal Escape ,9,11,2026,BX026Q,13KA,XYZ,14,active
+14KA,Grandma Rose,9,11,2026,BX026Q,14KA,XYZ,14,active
+15KA,Remo Authentic Home Foods,10,11,2026,BX026Q,15KA,XYZ,14,active 
+16KB,Vexora Words,9,11,2026,BX026Q,16KB,XYZ,14,active
+17KB,AI Smart Kids Learn AI Games ,9,11,2026,BX026Q,17KB,XYZ,14,active
+10KC,Up Task ,9,11,2026,BX026Q,10KC,XYZ,14,active 
+11KC,PaperScan ,9,11,2026,BX026Q,11KC,XYZ,14,active
+12KC,App Store Shortcuts,10,11,2026,BX026Q,12KC,XYZ,14,active
+16KA,GoGets Live ,10,11,2026,BX026Q,16KA,XYZ,14,active 
+18KB,FFF Sticker  WAStickersApp,10,11,2026,BX026Q,18KB,XYZ,14,active
+19KB,KiraQR QR Maker  Scanner ,10,11,2026,BX026Q,19KB,XYZ,14,active
+20KB,Pixie Graf,11,11,2026,BX026Q,20KB,XYZ,14,active 
+13KC,School Of Carnatic Music,10,11,2026,BX026Q,13KC,XYZ,14,active
+14KC,Phone Cleaner ,11,11,2026,BX026Q,14KC,XYZ,14,active
+17KA,Calendrax,11,11,2026,BX026Q,17KA,XYZ,14,active 
+18KA,Alarmora ,11,11,2026,BX026Q,18KA,XYZ,14,active
 ,,,11,2026,BX026Q,,XYZ,14,active
 ,,,11,2026,BX026Q,,XYZ,14,active 
 ,,,11,2026,BX026Q,,XYZ,14,active
@@ -177,34 +192,19 @@ test code,App Name,Start Date,Month ,Year,Prefix,App Code,Suffix ,Total Days,Sta
 ,,,11,2026,BX026Q,,XYZ,14,active
 ,,,11,2026,BX026Q,,XYZ,14,active 
 ,,,11,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active 
-,,,,2026,BX026Q,,XYZ,14,active
-,,,,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active 
+,,,11,2026,BX026Q,,XYZ,14,active
+,,,11,2026,BX026Q,,XYZ,14,active
 ,,,,2026,BX026Q,,XYZ,14,active
 ,,,,2026,BX026Q,,XYZ,14,active 
 ,,,,2026,BX026Q,,XYZ,14,active
