@@ -1054,5 +1054,17 @@ window.ORDERS = {
     "startDate": "2026-11-11",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-19KA-XYZ": {
+    "appName": "Pok Player",
+    "startDate": "2026-11-12",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-20KA-XYZ": {
+    "appName": "Batwara",
+    "startDate": "2026-11-12",
+    "totalDays": 14,
+    "status": "active"
   }
 }

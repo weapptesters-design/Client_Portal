@@ -1,109 +1,18 @@
 {
-  "newCount": 15,
+  "newCount": 2,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-14KA-XYZ",
-      "appName": "Grandma Rose",
-      "startDate": "2026-11-09",
+      "id": "BX026Q-19KA-XYZ",
+      "appName": "Pok Player",
+      "startDate": "2026-11-12",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-15KA-XYZ",
-      "appName": "Remo Authentic Home Foods",
-      "startDate": "2026-11-10",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-16KB-XYZ",
-      "appName": "Vexora Words",
-      "startDate": "2026-11-09",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-17KB-XYZ",
-      "appName": "AI Smart Kids Learn AI Games",
-      "startDate": "2026-11-09",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-10KC-XYZ",
-      "appName": "Up Task",
-      "startDate": "2026-11-09",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-11KC-XYZ",
-      "appName": "PaperScan",
-      "startDate": "2026-11-09",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-12KC-XYZ",
-      "appName": "App Store Shortcuts",
-      "startDate": "2026-11-10",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-16KA-XYZ",
-      "appName": "GoGets Live",
-      "startDate": "2026-11-10",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-18KB-XYZ",
-      "appName": "FFF Sticker  WAStickersApp",
-      "startDate": "2026-11-10",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-19KB-XYZ",
-      "appName": "KiraQR QR Maker  Scanner",
-      "startDate": "2026-11-10",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-20KB-XYZ",
-      "appName": "Pixie Graf",
-      "startDate": "2026-11-11",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-13KC-XYZ",
-      "appName": "School Of Carnatic Music",
-      "startDate": "2026-11-10",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-14KC-XYZ",
-      "appName": "Phone Cleaner",
-      "startDate": "2026-11-11",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-17KA-XYZ",
-      "appName": "Calendrax",
-      "startDate": "2026-11-11",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-18KA-XYZ",
-      "appName": "Alarmora",
-      "startDate": "2026-11-11",
+      "id": "BX026Q-20KA-XYZ",
+      "appName": "Batwara",
+      "startDate": "2026-11-12",
       "totalDays": 14,
       "status": "active"
     }
