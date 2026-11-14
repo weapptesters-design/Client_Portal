@@ -3,16 +3,16 @@
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-19KA-XYZ",
-      "appName": "Pok Player",
-      "startDate": "2026-11-12",
+      "id": "BX026Q-21KA-XYZ",
+      "appName": "Cequal Kwh Unit Calculator",
+      "startDate": "2026-11-13",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-20KA-XYZ",
-      "appName": "Batwara",
-      "startDate": "2026-11-12",
+      "id": "BX026Q-21KB-XYZ",
+      "appName": "Vaidyog JobSeeker",
+      "startDate": "2026-11-13",
       "totalDays": 14,
       "status": "active"
     }

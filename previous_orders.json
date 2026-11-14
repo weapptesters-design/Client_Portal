@@ -1066,5 +1066,17 @@
     "startDate": "2026-11-12",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-21KA-XYZ": {
+    "appName": "Cequal Kwh Unit Calculator",
+    "startDate": "2026-11-13",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-21KB-XYZ": {
+    "appName": "Vaidyog JobSeeker",
+    "startDate": "2026-11-13",
+    "totalDays": 14,
+    "status": "active"
   }
 }
