@@ -1,63 +1,6 @@
 {
-  "newCount": 8,
+  "newCount": 0,
   "changedCount": 0,
-  "newApps": [
-    {
-      "id": "BX026Q-22KB-XYZ",
-      "appName": "Calc Flow Smart Calc  Tools",
-      "startDate": "2026-11-13",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-23KB-XYZ",
-      "appName": "Short Color Hive",
-      "startDate": "2026-11-13",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-24KB-XYZ",
-      "appName": "Zanshin Chess",
-      "startDate": "2026-11-13",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-22KA-XYZ",
-      "appName": "Buffet Lounge",
-      "startDate": "2026-11-14",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-23KA-XYZ",
-      "appName": "Medoman",
-      "startDate": "2026-11-14",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-24KA-XYZ",
-      "appName": "Shah Stationery Mart",
-      "startDate": "2026-11-14",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-15KC-XYZ",
-      "appName": "Status Bar",
-      "startDate": "2026-11-13",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-16KC-XYZ",
-      "appName": "Tilebloom",
-      "startDate": "2026-11-13",
-      "totalDays": 14,
-      "status": "active"
-    }
-  ],
+  "newApps": [],
   "changedApps": []
 }
