@@ -1180,5 +1180,29 @@ window.ORDERS = {
     "startDate": "2026-11-17",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-20KC-XYZ": {
+    "appName": "Bringal",
+    "startDate": "2026-11-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-21KC-XYZ": {
+    "appName": "Dukan AI",
+    "startDate": "2026-11-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-30KA-XYZ": {
+    "appName": "Ghar Ghar Influencer AI Reels",
+    "startDate": "2026-11-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-31KA-XYZ": {
+    "appName": "Z Zone Micro Gold Jewellery",
+    "startDate": "2026-11-17",
+    "totalDays": 14,
+    "status": "active"
   }
 }

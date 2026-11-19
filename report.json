@@ -1,66 +1,31 @@
 {
-  "newCount": 9,
+  "newCount": 4,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-25KA-XYZ",
-      "appName": "Watch Ads  Earn",
-      "startDate": "2026-11-15",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-25KB-XYZ",
-      "appName": "Cloud Pathshala Mock Tests",
-      "startDate": "2026-11-14",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-26KB-XYZ",
-      "appName": "AI Photo Editor Insta",
-      "startDate": "2026-11-15",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-27KB-XYZ",
-      "appName": "Gurgaon Foodies",
-      "startDate": "2026-11-16",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-28KB-XYZ",
-      "appName": "Calcora Mortgage  Loan Calc",
-      "startDate": "2026-11-16",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-29KB-XYZ",
-      "appName": "Calibreta Calorie  Food Log",
-      "startDate": "2026-11-16",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-17KC-XYZ",
-      "appName": "Cureify",
+      "id": "BX026Q-20KC-XYZ",
+      "appName": "Bringal",
       "startDate": "2026-11-17",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-18KC-XYZ",
-      "appName": "Futsal Mastermind",
-      "startDate": "2026-11-14",
+      "id": "BX026Q-21KC-XYZ",
+      "appName": "Dukan AI",
+      "startDate": "2026-11-17",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-19KC-XYZ",
-      "appName": "KhattCraft",
+      "id": "BX026Q-30KA-XYZ",
+      "appName": "Ghar Ghar Influencer AI Reels",
+      "startDate": "2026-11-17",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-31KA-XYZ",
+      "appName": "Z Zone Micro Gold Jewellery",
       "startDate": "2026-11-17",
       "totalDays": 14,
       "status": "active"
