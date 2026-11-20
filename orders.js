@@ -1193,15 +1193,45 @@ window.ORDERS = {
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-30KA-XYZ": {
+  "BX026Q-30KB-XYZ": {
     "appName": "Ghar Ghar Influencer AI Reels",
     "startDate": "2026-11-17",
     "totalDays": 14,
     "status": "active"
   },
-  "BX026Q-31KA-XYZ": {
+  "BX026Q-31KB-XYZ": {
     "appName": "Z Zone Micro Gold Jewellery",
     "startDate": "2026-11-17",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-26KA-XYZ": {
+    "appName": "Astha Library",
+    "startDate": "2026-11-18",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-27KA-XYZ": {
+    "appName": "Panchangam Astrology",
+    "startDate": "2026-11-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-28KA-XYZ": {
+    "appName": "Secret Grid",
+    "startDate": "2026-11-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-29KA-XYZ": {
+    "appName": "FoodQ  Deals",
+    "startDate": "2026-11-19",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-22KC-XYZ": {
+    "appName": "Soda Flip 3D",
+    "startDate": "2026-11-18",
     "totalDays": 14,
     "status": "active"
   }
