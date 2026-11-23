@@ -1246,5 +1246,41 @@ window.ORDERS = {
     "startDate": "2026-11-19",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-31KA-XYZ": {
+    "appName": "ClueVerse",
+    "startDate": "2026-11-20",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-33KB-XYZ": {
+    "appName": "MPBOARD AI",
+    "startDate": "2026-11-21",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-23KC-XYZ": {
+    "appName": "Angaadi App",
+    "startDate": "2026-11-20",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-24KC-XYZ": {
+    "appName": "Vi4K Player",
+    "startDate": "2026-11-20",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-25KC-XYZ": {
+    "appName": "Nanu Kitchen",
+    "startDate": "2026-11-20",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-26KC-XYZ": {
+    "appName": "Edge Rush",
+    "startDate": "2026-11-20",
+    "totalDays": 14,
+    "status": "active"
   }
 }
