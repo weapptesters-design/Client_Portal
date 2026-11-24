@@ -1,46 +1,53 @@
 {
-  "newCount": 6,
+  "newCount": 7,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-31KA-XYZ",
-      "appName": "ClueVerse",
-      "startDate": "2026-11-20",
+      "id": "BX026Q-27KC-XYZ",
+      "appName": "Jyotish Studio",
+      "startDate": "2026-11-22",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-33KB-XYZ",
-      "appName": "MPBOARD AI",
-      "startDate": "2026-11-21",
+      "id": "BX026Q-28KC-XYZ",
+      "appName": "Bloom  Stack",
+      "startDate": "2026-11-23",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-23KC-XYZ",
-      "appName": "Angaadi App",
-      "startDate": "2026-11-20",
+      "id": "BX026Q-32KA-XYZ",
+      "appName": "MotarGaadi",
+      "startDate": "2026-11-22",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-24KC-XYZ",
-      "appName": "Vi4K Player",
-      "startDate": "2026-11-20",
+      "id": "BX026Q-33KA-XYZ",
+      "appName": "Les Deuceurs d eve",
+      "startDate": "2026-11-23",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-25KC-XYZ",
-      "appName": "Nanu Kitchen",
-      "startDate": "2026-11-20",
+      "id": "BX026Q-34KA-XYZ",
+      "appName": "Mere Points",
+      "startDate": "2026-11-23",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-26KC-XYZ",
-      "appName": "Edge Rush",
-      "startDate": "2026-11-20",
+      "id": "BX026Q-34KB-XYZ",
+      "appName": "Savbaxe Photo PDF MediaTools",
+      "startDate": "2026-11-22",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-35KB-XYZ",
+      "appName": "RuiMeter  Sound Meter",
+      "startDate": "2026-11-22",
       "totalDays": 14,
       "status": "active"
     }

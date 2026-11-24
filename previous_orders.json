@@ -1282,5 +1282,47 @@
     "startDate": "2026-11-20",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-27KC-XYZ": {
+    "appName": "Jyotish Studio",
+    "startDate": "2026-11-22",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-28KC-XYZ": {
+    "appName": "Bloom  Stack",
+    "startDate": "2026-11-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-32KA-XYZ": {
+    "appName": "MotarGaadi",
+    "startDate": "2026-11-22",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-33KA-XYZ": {
+    "appName": "Les Deuceurs d eve",
+    "startDate": "2026-11-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-34KA-XYZ": {
+    "appName": "Mere Points",
+    "startDate": "2026-11-23",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-34KB-XYZ": {
+    "appName": "Savbaxe Photo PDF MediaTools",
+    "startDate": "2026-11-22",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-35KB-XYZ": {
+    "appName": "RuiMeter  Sound Meter",
+    "startDate": "2026-11-22",
+    "totalDays": 14,
+    "status": "active"
   }
 }
