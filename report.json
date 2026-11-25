@@ -1,53 +1,60 @@
 {
-  "newCount": 7,
+  "newCount": 8,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-27KC-XYZ",
-      "appName": "Jyotish Studio",
-      "startDate": "2026-11-22",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-28KC-XYZ",
-      "appName": "Bloom  Stack",
+      "id": "BX026Q-36KB-XYZ",
+      "appName": "Kibox",
       "startDate": "2026-11-23",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-32KA-XYZ",
-      "appName": "MotarGaadi",
-      "startDate": "2026-11-22",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-33KA-XYZ",
-      "appName": "Les Deuceurs d eve",
+      "id": "BX026Q-35KA-XYZ",
+      "appName": "Bubble Sort Puzzle",
       "startDate": "2026-11-23",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-34KA-XYZ",
-      "appName": "Mere Points",
+      "id": "BX026Q-36KA-XYZ",
+      "appName": "mLauncher",
+      "startDate": "2026-11-24",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-29KC-XYZ",
+      "appName": "Kolam Master",
       "startDate": "2026-11-23",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-34KB-XYZ",
-      "appName": "Savbaxe Photo PDF MediaTools",
-      "startDate": "2026-11-22",
+      "id": "BX026Q-30KC-XYZ",
+      "appName": "Eventgalio",
+      "startDate": "2026-11-24",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-35KB-XYZ",
-      "appName": "RuiMeter  Sound Meter",
-      "startDate": "2026-11-22",
+      "id": "BX026Q-37KA-XYZ",
+      "appName": "KoPee",
+      "startDate": "2026-11-24",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-38KA-XYZ",
+      "appName": "Fogrio Vendor",
+      "startDate": "2026-11-24",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-39KA-XYZ",
+      "appName": "Fogrio Food Grocery store",
+      "startDate": "2026-11-24",
       "totalDays": 14,
       "status": "active"
     }
