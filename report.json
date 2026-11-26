@@ -3,58 +3,58 @@
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-36KB-XYZ",
-      "appName": "Kibox",
-      "startDate": "2026-11-23",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-35KA-XYZ",
-      "appName": "Bubble Sort Puzzle",
-      "startDate": "2026-11-23",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-36KA-XYZ",
-      "appName": "mLauncher",
+      "id": "BX026Q-40KA-XYZ",
+      "appName": "Status Saver",
       "startDate": "2026-11-24",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-29KC-XYZ",
-      "appName": "Kolam Master",
-      "startDate": "2026-11-23",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-30KC-XYZ",
-      "appName": "Eventgalio",
+      "id": "BX026Q-41KA-XYZ",
+      "appName": "Radielox",
       "startDate": "2026-11-24",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-37KA-XYZ",
-      "appName": "KoPee",
+      "id": "BX026Q-42KA-XYZ",
+      "appName": "FoxSMS",
       "startDate": "2026-11-24",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-38KA-XYZ",
-      "appName": "Fogrio Vendor",
+      "id": "BX026Q-31KC-XYZ",
+      "appName": "Zaxpluma IPTV",
       "startDate": "2026-11-24",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-39KA-XYZ",
-      "appName": "Fogrio Food Grocery store",
+      "id": "BX026Q-32KC-XYZ",
+      "appName": "RahBar",
       "startDate": "2026-11-24",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-37KB-XYZ",
+      "appName": "NexCal Directory",
+      "startDate": "2026-11-24",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-38KB-XYZ",
+      "appName": "ScoreXLive",
+      "startDate": "2026-11-24",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-39KB-XYZ",
+      "appName": "Aira Properties",
+      "startDate": "2026-11-25",
       "totalDays": 14,
       "status": "active"
     }

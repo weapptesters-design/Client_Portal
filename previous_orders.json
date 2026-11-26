@@ -1372,5 +1372,53 @@
     "startDate": "2026-11-24",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-40KA-XYZ": {
+    "appName": "Status Saver",
+    "startDate": "2026-11-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-41KA-XYZ": {
+    "appName": "Radielox",
+    "startDate": "2026-11-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-42KA-XYZ": {
+    "appName": "FoxSMS",
+    "startDate": "2026-11-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-31KC-XYZ": {
+    "appName": "Zaxpluma IPTV",
+    "startDate": "2026-11-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-32KC-XYZ": {
+    "appName": "RahBar",
+    "startDate": "2026-11-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-37KB-XYZ": {
+    "appName": "NexCal Directory",
+    "startDate": "2026-11-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-38KB-XYZ": {
+    "appName": "ScoreXLive",
+    "startDate": "2026-11-24",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-39KB-XYZ": {
+    "appName": "Aira Properties",
+    "startDate": "2026-11-25",
+    "totalDays": 14,
+    "status": "active"
   }
 }
