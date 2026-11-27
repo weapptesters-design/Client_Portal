@@ -1420,5 +1420,65 @@ window.ORDERS = {
     "startDate": "2026-11-25",
     "totalDays": 14,
     "status": "active"
+  },
+  "BX026Q-40KB-XYZ": {
+    "appName": "Thijar ERP Sales Man",
+    "startDate": "2026-11-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-41KB-XYZ": {
+    "appName": "EarnKart Shap Share  Earn",
+    "startDate": "2026-11-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-42KB-XYZ": {
+    "appName": "TeliPKG",
+    "startDate": "2026-11-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-43KB-XYZ": {
+    "appName": "GaoninGo",
+    "startDate": "2026-11-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-44KB-XYZ": {
+    "appName": "Bibbli",
+    "startDate": "2026-11-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-45KB-XYZ": {
+    "appName": "Onebark",
+    "startDate": "2026-11-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-46KB-XYZ": {
+    "appName": "HPS Academy",
+    "startDate": "2026-11-26",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-43KA-XYZ": {
+    "appName": "Virell",
+    "startDate": "2026-11-25",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-44KA-XYZ": {
+    "appName": "INAT HABIT",
+    "startDate": "2026-11-26",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-45KA-XYZ": {
+    "appName": "Mahlzeit Go",
+    "startDate": "2026-11-26",
+    "totalDays": 14,
+    "status": "active"
   }
 }

@@ -1,60 +1,74 @@
 {
-  "newCount": 8,
+  "newCount": 10,
   "changedCount": 0,
   "newApps": [
     {
-      "id": "BX026Q-40KA-XYZ",
-      "appName": "Status Saver",
-      "startDate": "2026-11-24",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-41KA-XYZ",
-      "appName": "Radielox",
-      "startDate": "2026-11-24",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-42KA-XYZ",
-      "appName": "FoxSMS",
-      "startDate": "2026-11-24",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-31KC-XYZ",
-      "appName": "Zaxpluma IPTV",
-      "startDate": "2026-11-24",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-32KC-XYZ",
-      "appName": "RahBar",
-      "startDate": "2026-11-24",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-37KB-XYZ",
-      "appName": "NexCal Directory",
-      "startDate": "2026-11-24",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-38KB-XYZ",
-      "appName": "ScoreXLive",
-      "startDate": "2026-11-24",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-39KB-XYZ",
-      "appName": "Aira Properties",
+      "id": "BX026Q-40KB-XYZ",
+      "appName": "Thijar ERP Sales Man",
       "startDate": "2026-11-25",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-41KB-XYZ",
+      "appName": "EarnKart Shap Share  Earn",
+      "startDate": "2026-11-25",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-42KB-XYZ",
+      "appName": "TeliPKG",
+      "startDate": "2026-11-25",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-43KB-XYZ",
+      "appName": "GaoninGo",
+      "startDate": "2026-11-25",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-44KB-XYZ",
+      "appName": "Bibbli",
+      "startDate": "2026-11-25",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-45KB-XYZ",
+      "appName": "Onebark",
+      "startDate": "2026-11-25",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-46KB-XYZ",
+      "appName": "HPS Academy",
+      "startDate": "2026-11-26",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-43KA-XYZ",
+      "appName": "Virell",
+      "startDate": "2026-11-25",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-44KA-XYZ",
+      "appName": "INAT HABIT",
+      "startDate": "2026-11-26",
+      "totalDays": 14,
+      "status": "active"
+    },
+    {
+      "id": "BX026Q-45KA-XYZ",
+      "appName": "Mahlzeit Go",
+      "startDate": "2026-11-26",
       "totalDays": 14,
       "status": "active"
     }
