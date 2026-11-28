@@ -1,77 +1,44 @@
 {
-  "newCount": 10,
-  "changedCount": 0,
+  "newCount": 3,
+  "changedCount": 1,
   "newApps": [
     {
-      "id": "BX026Q-40KB-XYZ",
-      "appName": "Thijar ERP Sales Man",
-      "startDate": "2026-11-25",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-41KB-XYZ",
-      "appName": "EarnKart Shap Share  Earn",
-      "startDate": "2026-11-25",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-42KB-XYZ",
-      "appName": "TeliPKG",
-      "startDate": "2026-11-25",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-43KB-XYZ",
-      "appName": "GaoninGo",
-      "startDate": "2026-11-25",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-44KB-XYZ",
-      "appName": "Bibbli",
-      "startDate": "2026-11-25",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-45KB-XYZ",
-      "appName": "Onebark",
-      "startDate": "2026-11-25",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-46KB-XYZ",
-      "appName": "HPS Academy",
+      "id": "BX026Q-46KA-XYZ",
+      "appName": "Fogrio Delivery",
       "startDate": "2026-11-26",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-43KA-XYZ",
-      "appName": "Virell",
-      "startDate": "2026-11-25",
+      "id": "BX026Q-47KA-XYZ",
+      "appName": "Glimbit",
+      "startDate": "2026-11-27",
       "totalDays": 14,
       "status": "active"
     },
     {
-      "id": "BX026Q-44KA-XYZ",
-      "appName": "INAT HABIT",
-      "startDate": "2026-11-26",
-      "totalDays": 14,
-      "status": "active"
-    },
-    {
-      "id": "BX026Q-45KA-XYZ",
-      "appName": "Mahlzeit Go",
-      "startDate": "2026-11-26",
+      "id": "BX026Q-48KA-XYZ",
+      "appName": "Skandhavel Connect",
+      "startDate": "2026-11-27",
       "totalDays": 14,
       "status": "active"
     }
   ],
-  "changedApps": []
+  "changedApps": [
+    {
+      "id": "BX026Q-43KB-XYZ",
+      "oldRecord": {
+        "appName": "GaoninGo",
+        "startDate": "2026-11-25",
+        "totalDays": 14,
+        "status": "active"
+      },
+      "newRecord": {
+        "appName": "Civil Engineering Master",
+        "startDate": "2026-11-27",
+        "totalDays": 14,
+        "status": "active"
+      }
+    }
+  ]
 }

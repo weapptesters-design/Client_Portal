@@ -1440,8 +1440,8 @@
     "status": "active"
   },
   "BX026Q-43KB-XYZ": {
-    "appName": "GaoninGo",
-    "startDate": "2026-11-25",
+    "appName": "Civil Engineering Master",
+    "startDate": "2026-11-27",
     "totalDays": 14,
     "status": "active"
   },
@@ -1478,6 +1478,24 @@
   "BX026Q-45KA-XYZ": {
     "appName": "Mahlzeit Go",
     "startDate": "2026-11-26",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-46KA-XYZ": {
+    "appName": "Fogrio Delivery",
+    "startDate": "2026-11-26",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-47KA-XYZ": {
+    "appName": "Glimbit",
+    "startDate": "2026-11-27",
+    "totalDays": 14,
+    "status": "active"
+  },
+  "BX026Q-48KA-XYZ": {
+    "appName": "Skandhavel Connect",
+    "startDate": "2026-11-27",
     "totalDays": 14,
     "status": "active"
   }
